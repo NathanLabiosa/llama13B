@@ -41,8 +41,8 @@ ulimit -l >> $benchmark_logs
 
 ## Select python File to run
 source activate llava
-#python generate_rationales.py
-python test_generate.py
+python generate_rationales.py
+#python test_generate.py
 
 sleep 3
 
