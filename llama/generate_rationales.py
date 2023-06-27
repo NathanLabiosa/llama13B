@@ -1,4 +1,5 @@
 import json
+import jsonlines
 import torch
 from transformers import LlamaForCausalLM, LlamaTokenizer
 
@@ -8,35 +9,43 @@ model_name = "llama-13b-hf" # replace with the path to your model
 tokenizer = LlamaTokenizer.from_pretrained(model_name)
 model = LlamaForCausalLM.from_pretrained(model_name)
 
+# Label mapping
+label_mapping = {
+    'e': "entailment",
+    'n': "neutral",
+    'c': "contradiction"
+}
 
-# Load ANLI dataset
-with open('anli/data/anli_v1.0/R1/test.jsonl', 'r') as f:
-    anli_dataset = [json.loads(line) for line in f]
 
-rationales = []
-# Iterate over the dataset
-for i, entry in enumerate(anli_dataset):
-    hypothesis = entry['hypothesis']
-    context = entry['context']
+# Open the JSONL file
+with jsonlines.open('anli/data/anli_v1.0/R1/train.jsonl', mode='r') as reader, open('rationales2.jsonl', 'a') as writer:
+    # Iterate over each example in the dataset
+    for i, example in enumerate(reader):
+        context = example['context']
+        hypothesis = example['hypothesis']
+        answer = label_mapping[example['label']]  # Convert the label to its corresponding relation
 
-    # Prepare the prompt for the model
-    prompt = context + " " + hypothesis
 
-    # Encode the prompt
-    inputs = tokenizer(prompt, return_tensors='pt')
+        # Combine the context, hypothesis, and answer in a question-answer format
+        #prompt = f"Given the context: '{context}', the hypothesis: '{hypothesis}', why is the answer: '{answer}'"
+        prompt = f"Given the context: '{context}', is the hypothesis: '{hypothesis}' correct? Why or why not?"
 
-    # Generate a rationale
-    with torch.no_grad():
-        generated_ids = model.generate(inputs.input_ids, max_length=200)  # you may need to adjust max_length based on your use case
+        # Tokenize the prompt
+        inputs = tokenizer.encode(prompt, return_tensors='pt')
 
-    # Decode the generated ids to get the rationale
-    rationale = tokenizer.batch_decode(generated_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
+        # Generate a response
+        outputs = model.generate(inputs, max_length=200)
 
-    # Add the rationale to the entry and append it to rationales list
-    entry["rationale"] = rationale
-    rationales.append(entry)
+        # Decode the output tokens to text
+        rationale = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-# Save rationales to a new jsonl file
-with open('rationales.jsonl', 'w') as f:
-    for rationale in rationales:
-        f.write(json.dumps(rationale) + '\n')
+        # Add the rationale to the example
+        example['rationale'] = rationale
+
+        with open('rationales.jsonl', 'a') as writer:
+            writer.write(json.dumps(example) + '\n')
+        # Print a status update
+        if (i + 1) % 100 == 0:
+            print(f"Processed {i + 1} examples")
+
+print("Processing complete!")
