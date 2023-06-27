@@ -27,5 +27,4 @@
   - adjust "prompt" variable accordingly
 - rationales.slurm
   - change constraint, log_dir, modules loaded, any other changes to run slurm files on your system
- 
-It will output in the "rationales.jsonl"
+  - Once you sbatch this slurm file, it will output in the "rationales.jsonl"
