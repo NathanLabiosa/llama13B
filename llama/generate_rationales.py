@@ -18,7 +18,7 @@ label_mapping = {
 
 
 # Open the JSONL file
-with jsonlines.open('anli/data/anli_v1.0/R1/train.jsonl', mode='r') as reader, open('rationales2.jsonl', 'a') as writer:
+with jsonlines.open('anli/data/anli_v1.0/R1/train.jsonl', mode='r') as reader, open('rationales.jsonl', 'a') as writer:
     # Iterate over each example in the dataset
     for i, example in enumerate(reader):
         context = example['context']
