@@ -1,0 +1,6 @@
+Currently Loaded Modulefiles:
+ 1) cuda/11.0   2) anaconda3/2022.05  
+Traceback (most recent call last):
+  File "/home/nlabiosa/llama/generate_rationales.py", line 6, in <module>
+    tokenizer = LLamaTokenizer.from_pretrained(model_name)
+NameError: name 'LLamaTokenizer' is not defined. Did you mean: 'AutoTokenizer'?

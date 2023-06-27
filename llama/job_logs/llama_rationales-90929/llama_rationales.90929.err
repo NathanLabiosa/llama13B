@@ -1,0 +1,8 @@
+Currently Loaded Modulefiles:
+ 1) cuda/11.0   2) anaconda3/2022.05  
+Traceback (most recent call last):
+  File "/home/nlabiosa/llama/generate_rationales.py", line 6, in <module>
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+  File "/home/nlabiosa/.conda/envs/llava/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 679, in from_pretrained
+    raise ValueError(
+ValueError: Tokenizer class LLaMATokenizer does not exist or is not currently imported.

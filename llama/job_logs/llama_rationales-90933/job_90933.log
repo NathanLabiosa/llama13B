@@ -1,0 +1,14 @@
+Slurm working directory: /home/nlabiosa/llama
+JobID: 90933
+Running on c1-8
+Running on 1 nodes.
+Running on 2 processors.
+Current working directory is /home/nlabiosa/llama
+Modules loaded:
+mpirun location: /share/apps/anaconda3-2022.05/bin/mpirun
+Starting time: Tue 27 Jun 2023 08:43:23 AM EDT
+ulimit -l: 
+unlimited
+Ending time: Tue 27 Jun 2023 08:46:22 AM EDT
+ulimit -l: 
+unlimited

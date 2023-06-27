@@ -1,0 +1,6 @@
+Currently Loaded Modulefiles:
+ 1) cuda/11.0   2) anaconda3/2022.05  
+Traceback (most recent call last):
+  File "/home/nlabiosa/llama/test_generate.py", line 2, in <module>
+    import jsonlines
+ModuleNotFoundError: No module named 'jsonlines'
