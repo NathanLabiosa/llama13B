@@ -23,7 +23,7 @@
 - Environment
   - set up the conda environment using the environment.yml file
 -generate_rationales.py
-  - change model_name to reflect your file path
+  - change model_name to reflect your file path, the data path should be alright.
   - adjust "prompt" variable accordingly
 - rationales.slurm
   - change constraint, log_dir, modules loaded, any other changes to run slurm files on your system
