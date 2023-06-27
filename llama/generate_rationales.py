@@ -27,14 +27,14 @@ with jsonlines.open('anli/data/anli_v1.0/R1/train.jsonl', mode='r') as reader, o
 
 
         # Combine the context, hypothesis, and answer in a question-answer format
-        #prompt = f"Given the context: '{context}', the hypothesis: '{hypothesis}', why is the answer: '{answer}'"
-        prompt = f"Given the context: '{context}', is the hypothesis: '{hypothesis}' correct? Why or why not?"
+        prompt = f"Given the context: '{context}', the hypothesis: '{hypothesis}', why is the answer: '{answer}'"
+        #prompt = f"Given the context: '{context}', is the hypothesis: '{hypothesis}' correct? Why or why not?"
 
         # Tokenize the prompt
         inputs = tokenizer.encode(prompt, return_tensors='pt')
 
         # Generate a response
-        outputs = model.generate(inputs, max_length=200)
+        outputs = model.generate(inputs, max_length=400)
 
         # Decode the output tokens to text
         rationale = tokenizer.decode(outputs[0], skip_special_tokens=True)
