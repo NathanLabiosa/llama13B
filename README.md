@@ -19,6 +19,14 @@
 - job_logs
   - This is where my previous jobs are located
 
+##Getting anli dataset
+- Activate virtual environment
+- Command: "git lfs install"
+- Command: "git clone https://github.com/facebookresearch/anli"
+- Navigate to "anli/scripts"
+- Command: "bash download_data.sh"
+- This will put the data in "anli/data/". We are looking at "anli/data/anli_v1.0/R1/train.jsonl" for this rationale generation
+
 ## Running
 - Environment
   - set up the conda environment using the environment.yml file
