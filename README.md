@@ -19,7 +19,7 @@
 - job_logs
   - This is where my previous jobs are located
 
-##Getting anli dataset
+## Getting anli dataset
 - Activate virtual environment
 - Command: "git lfs install"
 - Command: "git clone https://github.com/facebookresearch/anli"
