@@ -21,11 +21,12 @@
 
 ## Getting anli dataset
 - Activate virtual environment
+- Navigate to "llama13B/llama"
 - Command: "git lfs install"
 - Command: "git clone https://github.com/facebookresearch/anli"
 - Navigate to "anli/scripts"
 - Command: "bash download_data.sh"
-- This will put the data in "anli/data/". We are looking at "anli/data/anli_v1.0/R1/train.jsonl" for this rationale generation
+- This will put the data in "anli/data/". The dataset should be good to go. (Note Wwe are looking at "anli/data/anli_v1.0/R1/train.jsonl" for this rationale generation)
 
 ## Running
 - Environment
