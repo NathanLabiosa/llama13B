@@ -11,6 +11,25 @@ model = LlamaForCausalLM.from_pretrained(model_name)
 # Read the CSV file
 df = pd.read_csv('e-SNLI/dataset/esnli_train.csv')
 
+# List of hardcoded examples
+examples = [
+    {
+        'Sentence1': 'Two women are embracing while holding to go packages.',
+        'Sentence2': 'The sisters are hugging goodbye while holding to go packages after just eating lunch.',
+        'gold_label': 'neutral',
+        'Explanation_1': 'The to go packages may not be from lunch.'
+    },
+    {
+        'Sentence1': 'Two women are embracing while holding to go packages.',
+        'Sentence2': 'Two woman are holding packages.',
+        'gold_label': 'entailment',
+        'Explanation_1': 'Saying the two women are holding packages is a way to paraphrase that the packages they are holding are to go packages.'
+    }
+]
+
+
+
+
 # Open the output file
 with open('e-snli_rationales.jsonl', 'w') as file:
 
@@ -23,15 +42,27 @@ with open('e-snli_rationales.jsonl', 'w') as file:
         # Combine the premise, hypothesis, and label in a question-answer format
         prompt = f"Given the two sentences: '{Sentence1}' '{Sentence2}', why can the relation between the two sentences be described as: '{label}'?"
 
+        # Prepend the prompt with a few examples
+        for ex in examples:
+            ex_Sentence1 = ex['Sentence1']
+            ex_Sentence2 = ex['Sentence2']
+            ex_label = ex['gold_label']
+            ex_Explanation_1 = ex['Explanation_1']
+
+            prompt = (f"Given the two sentences: '{ex_Sentence1}' '{ex_Sentence2}', "
+                      f"why can the relation between the two sentences be described as: '{ex_label}'?\n"
+                      f"Explanation: '{ex_Explanation_1}'\n") + prompt
+
         # Tokenize the prompt
         inputs = tokenizer.encode(prompt, return_tensors='pt')
 
         # Generate a response
-        outputs = model.generate(inputs, max_length=200)
+        outputs = model.generate(inputs, max_length=300)
 
         # Decode the output tokens to text
         rationale = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
+        
         # Convert the example to a dictionary and add the rationale
         example_dict = example.to_dict()
         example_dict['rationale'] = rationale

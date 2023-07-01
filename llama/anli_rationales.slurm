@@ -3,9 +3,9 @@
 ##SBATCH --nodes=1
 #SBATCH --cpus-per-task=4
 #SBATCH --ntasks-per-node=2
-#SBATCH --gres=gpu:2
+##SBATCH --gres=gpu:2
 #SBATCH --time=30:00:00
-#SBATCH --constraint=gmem48
+##SBATCH --constraint=gmem48
 #SBATCH --job-name=llama_rationales
 
 #SBATCH --error=llama_rationales.%J.err
