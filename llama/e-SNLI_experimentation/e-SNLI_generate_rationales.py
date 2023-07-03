@@ -9,7 +9,7 @@ model = LlamaForCausalLM.from_pretrained(model_name)
 
 
 # Read the CSV file
-df = pd.read_csv('e-SNLI/dataset/esnli_train.csv')
+df = pd.read_csv('/home/nlabiosa/llama13B/llama/e-SNLI/dataset/esnli_train.csv')
 
 # List of hardcoded examples
 examples = [

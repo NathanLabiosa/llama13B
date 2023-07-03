@@ -40,7 +40,7 @@ few_shot_prompt = "\n\n".join([
 
 
 # Open the JSONL file
-with jsonlines.open('anli/data/anli_v1.0/R1/train.jsonl', mode='r') as reader, open('anli_rationales.jsonl', 'a') as writer:
+with jsonlines.open('anli/data/anli_v1.0/R1/minitest.jsonl', mode='r') as reader, open('anli_rationales.jsonl', 'a') as writer:
     # Iterate over each example in the dataset
     for i, example in enumerate(reader):
         context = example['context']

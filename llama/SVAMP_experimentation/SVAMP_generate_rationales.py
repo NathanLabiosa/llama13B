@@ -8,7 +8,7 @@ tokenizer = LlamaTokenizer.from_pretrained(model_name)
 model = LlamaForCausalLM.from_pretrained(model_name)
 
 # Read the CSV file
-df = pd.read_csv('SVAMP/data/cv_asdiv-a/fold0/train.csv')  # replace with the path to your CSV file
+df = pd.read_csv('/home/nlabiosa/llama13B/llama/SVAMP/data/cv_asdiv-a/fold0/train.csv')  # replace with the path to your CSV file
 
 # Open the output file
 with open('SVAMP_rationales.jsonl', 'w') as file:

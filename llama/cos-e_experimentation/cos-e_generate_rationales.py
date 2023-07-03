@@ -8,7 +8,7 @@ tokenizer = LlamaTokenizer.from_pretrained(model_name)
 model = LlamaForCausalLM.from_pretrained(model_name)
 
 # Open the JSONL file
-with jsonlines.open('cos-e/data/v1.0/train_rand_split.jsonl', mode='r') as reader, jsonlines.open('cos-e_rationales.jsonl', mode='a') as writer:
+with jsonlines.open('/home/nlabiosa/llama13B/llama/cos-e/data/v1.0/train_rand_split.jsonl', mode='r') as reader, jsonlines.open('cos-e_rationales.jsonl', mode='a') as writer:
     # Iterate over each example in the dataset
     for i, example in enumerate(reader):
         stem = example['question']['stem']
