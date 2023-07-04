@@ -1,32 +1,30 @@
 # llama13B
 
-## All Files
+## All Directories and Important Files
 - environment.yml
   - This contains my conda environment "llava" which has all the necessary packages installed
-- anli_generate_rationales.py
-  - Generates rationales on the anli dataset
-- anli_rationales.slurm
-  - Slurm file for running anli_generate_rationales
-  - The constraint, log_dir, and modules loaded are most likely the places to cause issues.
-- e-SNLI_generate_rationales.py
-  - Generates rationales on the e-SNLI dataset
-- e-SNLI_rationales.slurm
-  - Slurm file for running e-SNLI_generate_rationales
-  - The constraint, log_dir, and modules loaded are most likely the places to cause issues.
-- cos-e_generate_rationales.py
-  - Generates rationales on the cos-e dataset
-- cos-e_rationales.slurm
-  - Slurm file for running cos-e_generate_rationales
-  - The constraint, log_dir, and modules loaded are most likely the places to cause issues.
-- SVAMP_generate_rationales.py
-  - Generates rationales on the SVAMP dataset
-- SVAMP_rationales.slurm
-  - Slurm file for running SVAMP_generate_rationales
-  - The constraint, log_dir, and modules loaded are most likely the places to cause issues.
-- test_generate.py
-  - Essentially the same as any generate_rationales.py file, just a place for me to run other experiments.
+- anli
+  - The anli dataset
+- anli_experimentation
+  - All my code and results for running tests on the anli dataset
+- cos-e
+  - The cos-e dataset
+- cos-e_experimentation
+  - All my code and results for running tests on the cos-e dataset
+- e-SNLI
+  - The e-SNLI dataset
+- e-SNLI_experimentation
+  - All my code and results for running tests on the e-SNLI dataset
+- SVAMP
+  - the SVAMP dataset
+- SVAMP_experimentation
+  - All my code and results for running tests on the SVAMP dataset
+- generated_answers
+  - For holding more extensive experiment data temporarily before moving to their respective _experimentation folder
 - llama-13b-hf
   - This is the 13B llama model I am using.
+- llama-7b-hf
+  - This is the 7B llama model I am using.
 - job_logs
   - This is where my previous jobs are located
 
