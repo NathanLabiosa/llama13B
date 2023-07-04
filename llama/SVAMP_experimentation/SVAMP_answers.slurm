@@ -6,12 +6,12 @@
 #SBATCH --ntasks-per-node=2
 #SBATCH --gres=gpu:1
 #SBATCH --constraint=gmem48
-#SBATCH --job-name=llama_anli
+#SBATCH --job-name=llama_rationales
 
-#SBATCH --error=llama_anli.%J.err
-#SBATCH --output=llama_anli.%J.out
+#SBATCH --error=llama_rationales.%J.err
+#SBATCH --output=llama_rationales.%J.out
 
-export job_name="llama_anli"
+export job_name="llama_rationales"
 export log_dir="/home/nlabiosa/llama13B/llama/job_logs/$job_name-$SLURM_JOB_ID"
 mkdir -p $log_dir
 export debug_logs="$log_dir/job_$SLURM_JOB_ID.log"
@@ -40,8 +40,8 @@ ulimit -l >> $benchmark_logs
 ### Running the program ###
 
 ## Select python File to run
-source llava
-python llama_anli_generate.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/llama13B/llama/anli/data/anli_v1.0/R1/test.jsonl" --output_path "anli_rationales.jsonl"
+source activate llava
+python SVAMP_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/llama13B/llama/SVAMP/data/cv_asdiv-a/fold0/train.csv" --output_path "SVAMP_rationales_fulltest.jsonl"
 
 
 sleep 3

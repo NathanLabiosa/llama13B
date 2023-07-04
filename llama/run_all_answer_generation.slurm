@@ -4,7 +4,7 @@
 #SBATCH -p gpu
 #SBATCH --cpus-per-task=4
 #SBATCH --ntasks-per-node=2
-#SBATCH --gres=gpu:1
+#SBATCH --gres=gpu:2
 #SBATCH --constraint=gmem48
 #SBATCH --job-name=llama_anli
 
@@ -40,8 +40,11 @@ ulimit -l >> $benchmark_logs
 ### Running the program ###
 
 ## Select python File to run
-source llava
-python llama_anli_generate.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/llama13B/llama/anli/data/anli_v1.0/R1/test.jsonl" --output_path "anli_rationales.jsonl"
+source activate /home/nlabiosa/.conda/envs/llava
+#python anli_experimentation/llama_anli_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/llama13B/llama/anli/data/anli_v1.0/R1/minitest.jsonl" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/anli.jsonl"
+python cos-e_experimentation/cos-e_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/llama13B/llama/cos-e/data/v1.0/train_rand_split.jsonl" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/cos-e.jsonl"
+python e-SNLI_experimentation/e-SNLI_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/llama13B/llama/e-SNLI/dataset/esnli_test.csv" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/e-snli.jsonl"
+python SVAMP_experimentation/SVAMP_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/llama13B/llama/SVAMP/data/cv_asdiv-a/fold0/train.csv" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/SVAMP.jsonl"
 
 
 sleep 3
