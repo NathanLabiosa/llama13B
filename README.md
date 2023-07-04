@@ -78,7 +78,7 @@
 ### Updated 07/04/2023
 - Once the datasets and environment are set up, only changes to the "run_all_answer_generation.slurm" must be made.
   - These changes include your model path, data path, and output path. If you can change the output name to reflect the model you are using, aka llama65B, that would be great. Any other changes to the slurm file will be for compatibility on your network.
-- After doing this, the job should run through all four datasets smoothly, putting all outputs in your output path.
+- After doing this, the job should run through all four datasets smoothly, putting all outputs in your output path. I would suggest keeping it as the generated_answers directory so it's all in once place.
 
 ### Anli
 - anli_generate_rationales.py
