@@ -1,31 +1,33 @@
 # llama13B
 
 ## All Directories and Important Files
-- environment.yml
+- __environment.yml__
   - This contains my conda environment "llava" which has all the necessary packages installed
-- anli
+- __anli__
   - The anli dataset
-- anli_experimentation
+- __anli_experimentation__
   - All my code and results for running tests on the anli dataset
-- cos-e
+- __cos-e__
   - The cos-e dataset
-- cos-e_experimentation
+- __cos-e_experimentation__
   - All my code and results for running tests on the cos-e dataset
-- e-SNLI
+- __e-SNLI__
   - The e-SNLI dataset
-- e-SNLI_experimentation
+- __e-SNLI_experimentation__
   - All my code and results for running tests on the e-SNLI dataset
-- SVAMP
+- __SVAMP__
   - the SVAMP dataset
-- SVAMP_experimentation
+- __SVAMP_experimentation__
   - All my code and results for running tests on the SVAMP dataset
-- generated_answers
+- __generated_answers__
   - For holding more extensive experiment data temporarily before moving to their respective _experimentation folder
-- llama-13b-hf
+- __run_all_answer_generation.slurm__
+  - Made for mass experiments. Runs all data through a specified model to get output
+- __llama-13b-hf__
   - This is the 13B llama model I am using.
-- llama-7b-hf
+- __llama-7b-hf__
   - This is the 7B llama model I am using.
-- job_logs
+- __job_logs__
   - This is where my previous jobs are located
 
 ## Getting anli dataset
