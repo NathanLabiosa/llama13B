@@ -3,3 +3,7 @@ llama/anli/
 llama/cos-e/
 llama/e-SNLI/
 llama/SVAMP/
+llama-7b-hf/
+llama-13b-hf/
+cos-e_experimentation/core
+

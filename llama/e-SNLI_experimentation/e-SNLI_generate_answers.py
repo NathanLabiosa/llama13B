@@ -61,7 +61,8 @@ with open(args.output_path, 'w') as file:
         label = example['gold_label']  # Convert the label to its corresponding relation
 
         # Combine the premise, hypothesis, and label in a question-answer format
-        prompt = f"Given the two sentences: '{Sentence1}' '{Sentence2}', their relationship is"
+        #prompt = f"Given the two sentences: '{Sentence1}' '{Sentence2}', their relationship is"
+        prompt = "Write me two more unique examples following the previous format"
         few_shot_prompt = ""
         # Prepend the prompt with a few examples
         for ex in examples:
@@ -77,7 +78,7 @@ with open(args.output_path, 'w') as file:
         inputs = inputs.to(device)
         
         # Generate a response
-        outputs = model.generate(inputs, max_length=250)
+        outputs = model.generate(inputs, max_length=350, temperature=5.0)
 
         # Decode the output tokens to text
         model_answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
