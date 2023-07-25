@@ -1,0 +1,1507 @@
+[
+  {
+    "id": "1",
+    "image": "1/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which of these states is farthest north?\nContext: N/A\nOptions: (A) West Virginia (B) Louisiana (C) Arizona (D) Oklahoma\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Maps have four cardinal directions, or main directions. Those directions are north, south, east, and west.\nA compass rose is a set of arrows that point to the cardinal directions. A compass rose usually shows only the first letter of each cardinal direction.\nThe north arrow points to the North Pole. On most maps, north is at the top of the map.\nSOLUTION: To find the answer, look at the compass rose. Look at which way the north arrow is pointing. West Virginia is farthest north.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "image": "2/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Identify the question that Tom and Justin's experiment can best answer.\nContext: The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nTom placed a ping pong ball in a catapult, pulled the catapult's arm back to a 45\u00b0 angle, and launched the ball. Then, Tom launched another ping pong ball, this time pulling the catapult's arm back to a 30\u00b0 angle. With each launch, his friend Justin measured the distance between the catapult and the place where the ball hit the ground. Tom and Justin repeated the launches with ping pong balls in four more identical catapults. They compared the distances the balls traveled when launched from a 45\u00b0 angle to the distances the balls traveled when launched from a 30\u00b0 angle.\nFigure: a catapult for launching ping pong balls.\nOptions: (A) Do ping pong balls stop rolling along the ground sooner after being launched from a 30\u00b0 angle or a 45\u00b0 angle? (B) Do ping pong balls travel farther when launched from a 30\u00b0 angle compared to a 45\u00b0 angle?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Experiments can be designed to answer specific questions. How can you identify the questions that a certain experiment can answer? In order to do this, you need to figure out what was tested and what was measured during the experiment.\nImagine an experiment with two groups of daffodil plants. One group of plants was grown in sandy soil, and the other was grown in clay soil. Then, the height of each plant was measured.\nFirst, identify the part of the experiment that was tested. The part of an experiment that is tested usually involves the part of the experimental setup that is different or changed. In the experiment described above, each group of plants was grown in a different type of soil. So, the effect of growing plants in different soil types was tested.\nThen, identify the part of the experiment that was measured. The part of the experiment that is measured may include measurements and calculations. In the experiment described above, the heights of the plants in each group were measured.\nExperiments can answer questions about how the part of the experiment that is tested affects the part that is measured. So, the experiment described above can answer questions about how soil type affects plant height.\nExamples of questions that this experiment can answer include:\nDoes soil type affect the height of daffodil plants?\nDo daffodil plants in sandy soil grow taller than daffodil plants in clay soil?\nAre daffodil plants grown in sandy soil shorter than daffodil plants grown in clay soil?\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "image": "3/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Identify the question that Kathleen and Bryant's experiment can best answer.\nContext: The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nKathleen applied a thin layer of wax to the underside of her snowboard and rode the board straight down a hill. Then, she removed the wax and rode the snowboard straight down the hill again. She repeated the rides four more times, alternating whether she rode with a thin layer of wax on the board or not. Her friend Bryant timed each ride. Kathleen and Bryant calculated the average time it took to slide straight down the hill on the snowboard with wax compared to the average time on the snowboard without wax.\nFigure: snowboarding down a hill.\nOptions: (A) Does Kathleen's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax? (B) Does Kathleen's snowboard slide down a hill in less time when it has a thin layer of wax or a thick layer of wax?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Experiments can be designed to answer specific questions. How can you identify the questions that a certain experiment can answer? In order to do this, you need to figure out what was tested and what was measured during the experiment.\nImagine an experiment with two groups of daffodil plants. One group of plants was grown in sandy soil, and the other was grown in clay soil. Then, the height of each plant was measured.\nFirst, identify the part of the experiment that was tested. The part of an experiment that is tested usually involves the part of the experimental setup that is different or changed. In the experiment described above, each group of plants was grown in a different type of soil. So, the effect of growing plants in different soil types was tested.\nThen, identify the part of the experiment that was measured. The part of the experiment that is measured may include measurements and calculations. In the experiment described above, the heights of the plants in each group were measured.\nExperiments can answer questions about how the part of the experiment that is tested affects the part that is measured. So, the experiment described above can answer questions about how soil type affects plant height.\nExamples of questions that this experiment can answer include:\nDoes soil type affect the height of daffodil plants?\nDo daffodil plants in sandy soil grow taller than daffodil plants in clay soil?\nAre daffodil plants grown in sandy soil shorter than daffodil plants grown in clay soil?\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which tense does the sentence use?\nMona will print her name with care.\nContext: N/A\nOptions: (A) present tense (B) future tense (C) past tense"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Present tense verbs tell you about something that is happening now.\nMost present-tense verbs are regular. They have no ending, or they end in -s or -es.\nTwo verbs are irregular in the present tense, to be and to have. You must remember their forms.\nPast tense verbs tell you about something that has already happened.\nMost past-tense verbs are regular. They end in -ed.\nSome verbs are irregular in the past tense. You must remember their past-tense forms.\nFuture tense verbs tell you about something that is going to happen.\nAll future-tense verbs use the word will.\nPresent | Past | Future\nwalk, walks | walked | will walk\ngo, goes | went | will go\nSOLUTION: The sentence is in future tense. You can tell because it uses will before the main verb, print. The verb tells you about something that is going to happen.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Complete the sentence.\nSewing an apron is a ().\nContext: N/A\nOptions: (A) chemical change (B) physical change"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Chemical changes and physical changes are two common ways matter can change.\nIn a chemical change, the type of matter changes. The types of matter before and after a chemical change are always different.\nBurning a piece of paper is a chemical change. When paper gets hot enough, it reacts with oxygen in the air and burns. The paper and oxygen change into ash and smoke.\nIn a physical change, the type of matter stays the same. The types of matter before and after a physical change are always the same.\nCutting a piece of paper is a physical change. The cut pieces are still made of paper.\nA change of state is a type of physical change. For example, ice melting is a physical change. Ice and liquid water are made of the same type of matter: water.\nSOLUTION: Sewing an apron is a physical change. The fabric and thread that make up the apron get a new shape, but the type of matter in each of them does not change.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which of the following contains a vague pronoun reference?\nContext: N/A\nOptions: (A) Steven's brother Jim wondered whether he ran fast enough to qualify for the Boston Marathon. (B) Steven's brother Jim wondered whether Steven ran fast enough to qualify for the Boston Marathon."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: When writing, make sure to avoid vague pronoun references. A vague pronoun reference occurs when a pronoun could refer to more than one possible antecedent.\nWhen Lisa and Kim finally landed, she breathed a sigh of relief.\nThe pronoun she could refer to either Lisa or Kim, so the meaning of the sentence is unclear.\nVague pronoun references can be corrected in one of two ways:\n1. Replace the pronoun with its correct antecedent:\nWhen Lisa and Kim finally landed, Lisa breathed a sigh of relief.\n2. Rewrite the sentence:\nLisa breathed a sigh of relief when she and Kim finally landed.\nA vague pronoun reference also occurs when they, them, their, theirs, it, or its is used without its antecedent.\nThey say that this nail polish dries in less than five minutes.\nThe pronoun they is used without its antecedent, so the meaning of the sentence is unclear.\nThis problem can be fixed by replacing the pronoun with its missing antecedent.\nThe advertisements say that this nail polish dries in less than five minutes.\nSOLUTION: The first answer choice contains a vague pronoun reference. The pronoun he could refer to Steven or Jim.\nThe second answer choice shows a possible correction for the vague pronoun reference. He has been replaced with Steven.\nSteven's brother Jim wondered whether Steven ran fast enough to qualify for the Boston Marathon.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "image": "17/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What is the probability that a goat produced by this cross will be homozygous dominant for the myotonia congenita gene?\nContext: This passage describes the myotonia congenita trait in goats:\nMyotonia congenita is a condition that causes temporary muscle stiffness. When goats with myotonia congenita attempt to run from a resting position, their leg muscles often stiffen, causing them to fall over. Because of this behavior, these goats are referred to as fainting goats. Myotonia congenita is also found in other mammals, including horses, cats, and humans.\nIn a group of goats, some individuals have myotonia congenita and others do not. In this group, the gene for the myotonia congenita trait has two alleles. The allele for having myotonia congenita (M) is dominant over the allele for not having myotonia congenita (m).\nThis Punnett square shows a cross between two goats.\nOptions: (A) 1/4 (B) 0/4 (C) 4/4 (D) 2/4 (E) 3/4\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Offspring genotypes: homozygous or heterozygous?\nHow do you determine whether an organism is homozygous or heterozygous for a gene? Look at the alleles in the organism's genotype for that gene.\nAn organism with two identical alleles for a gene is homozygous for that gene.\nIf both alleles are dominant, the organism is homozygous dominant for the gene.\nIf both alleles are recessive, the organism is homozygous recessive for the gene.\nAn organism with two different alleles for a gene is heterozygous for that gene.\nIn a Punnett square, each box represents a different outcome, or result. Each of the four outcomes is equally likely to happen. Each box represents one way the parents' alleles can combine to form an offspring's genotype. \nBecause there are four boxes in the Punnett square, there are four possible outcomes.\nAn event is a set of one or more outcomes. The probability of an event is a measure of how likely the event is to happen. This probability is a number between 0 and 1, and it can be written as a fraction:\nprobability of an event = number of ways the event can happen / number of equally likely outcomes\nYou can use a Punnett square to calculate the probability that a cross will produce certain offspring. For example, the Punnett square below has two boxes with the genotype Ff. It has one box with the genotype FF and one box with the genotype ff. This means there are two ways the parents' alleles can combine to form Ff. There is one way they can combine to form FF and one way they can combine to form ff.\n | F | f\nF | FF | Ff\nf | Ff | ff\nConsider an event in which this cross produces an offspring with the genotype ff. The probability of this event is given by the following fraction:\nnumber of ways the event can happen / number of equally likely outcomes = number of boxes with the genotype ff / total number of boxes = 1 / 4\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "image": "19/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Compare the average kinetic energies of the particles in each sample. Which sample has the higher temperature?\nContext: The diagrams below show two pure samples of gas in identical closed, rigid containers. Each colored ball represents one gas particle. Both samples have the same number of particles.\nOptions: (A) neither; the samples have the same temperature (B) sample A (C) sample B\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: The temperature of a substance depends on the average kinetic energy of the particles in the substance. The higher the average kinetic energy of the particles, the higher the temperature of the substance.\nThe kinetic energy of a particle is determined by its mass and speed. For a pure substance, the greater the mass of each particle in the substance and the higher the average speed of the particles, the higher their average kinetic energy.\nSOLUTION: The particles in both samples have the same average speed, but each particle in sample B has more mass than each particle in sample A. So, the particles in sample B have a higher average kinetic energy than the particles in sample A.\nBecause the particles in sample B have the higher average kinetic energy, sample B must have the higher temperature.\n###\nANSWER: C."
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What do these two changes have in common?\ntearing a piece of paper\nbreaking a piece of glass\nContext: N/A\nOptions: (A) Both are only physical changes. (B) Both are chemical changes. (C) Both are caused by cooling. (D) Both are caused by heating."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Chemical changes and physical changes are two common ways matter can change.\nIn a chemical change, the type of matter changes. The types of matter before and after a chemical change are always different.\nSome chemical changes are caused by heating or cooling. For example, burning a piece of paper is a chemical change caused by heating. When paper gets hot enough, it re\u00adacts with oxygen in the air and burns. The paper and oxygen change into ash and smoke.\nIn a physical change, the type of matter stays the same. The types of matter before and after a physical change are always the same.\nA change of state is a type of physical change. Changes of state can be caused by heating or cooling. For example, ice melting is a physical change that can be caused by heating. Ice and liquid water are made of the same type of matter: water.\nThe law of conservation of mass says that all physical and chemical changes conserve mass. Conserve means to keep the same. So, the total mass before a physical or chemical change is equal to the total mass after the change.\nSOLUTION: Step 1: Think about each change.\nTearing a piece of paper is a physical change. The paper tears into pieces. But each piece is still made of paper.\nBreaking a piece of glass is a physical change. The glass gets broken into pieces. But each piece is still made of the same type of matter.\nStep 2: Look at each answer choice.\nBoth are only physical changes.\nBoth changes are physical changes. No new matter is created.\nBoth are chemical changes.\nBoth changes are physical changes. They are not chemical changes.\nBoth are caused by heating.\nNeither change is caused by heating.\nBoth are caused by cooling.\nNeither change is caused by cooling.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "image": "21/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which of these organisms contains matter that was once part of the phytoplankton?\nContext: Below is a food web from an ocean ecosystem in Monterey Bay, off the coast of California.\nA food web models how the matter eaten by organisms moves through an ecosystem. The arrows in a food web represent how matter moves between organisms in an ecosystem.\nOptions: (A) black rockfish (B) sea otter\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A food web is a model.\nA food web shows where organisms in an ecosystem get their food. Models can make things in nature easier to understand because models can represent complex things in a simpler way. If a food web showed every organism in an ecosystem, the food web would be hard to understand. So, each food web shows how some organisms in an ecosystem can get their food.\nArrows show how matter moves.\nA food web has arrows that point from one organism to another. Each arrow shows the direction that matter moves when one organism eats another organism. An arrow starts from the organism that is eaten. The arrow points to the organism that is doing the eating.\nAn organism in a food web can have more than one arrow pointing from it. This shows that the organism is eaten by more than one other organism in the food web.\nAn organism in a food web can also have more than one arrow pointing to it. This shows that the organism eats more than one other organism in the food web.\nSOLUTION: Use the arrows to follow how matter moves through this food web. For each answer choice, try to find a path of arrows that starts from the phytoplankton.\nThe only arrow pointing to the sea otter starts from the sea urchin. The only arrow pointing to the sea urchin starts from the kelp. No arrow points to the kelp. So, in this food web, matter does not move from the phytoplankton to the sea otter.There are two paths matter can take from the phytoplankton to the plainfin midshipman: phytoplankton->plainfin midshipman. phytoplankton->zooplankton->plainfin midshipman. There is one path matter can take from the phytoplankton to the black rockfish: phytoplankton->zooplankton->black rockfish. There is one path matter can take from the phytoplankton to the zooplankton: phytoplankton->zooplankton.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "image": "24/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which solution has a higher concentration of blue particles?\nContext: The diagram below is a model of two solutions. Each blue ball represents one particle of solute.\nOptions: (A) neither; their concentrations are the same (B) Solution B (C) Solution A\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A solution is made up of two or more substances that are completely mixed. In a solution, solute particles are mixed into a solvent. The solute cannot be separated from the solvent by a filter. For example, if you stir a spoonful of salt into a cup of water, the salt will mix into the water to make a saltwater solution. In this case, the salt is the solute. The water is the solvent.\nThe concentration of a solute in a solution is a measure of the ratio of solute to solvent. Concentration can be described in terms of particles of solute per volume of solvent.\nconcentration = particles of solute / volume of solvent\nSOLUTION: In Solution A and Solution B, the blue particles represent the solute. To figure out which solution has a higher concentration of blue particles, look at both the number of blue particles and the volume of the solvent in each container.\nUse the concentration formula to find the number of blue particles per milliliter.\nSolution A and Solution B have the same number of blue particles per milliliter. So, their concentrations are the same.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "image": "25/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material.\nOptions: (A) The strength of the magnetic force is the same in both pairs. (B) The magnetic force is stronger in Pair 2. (C) The magnetic force is stronger in Pair 1.\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Magnets can pull or push on each other without touching. When magnets attract, they pull together. When magnets repel, they push apart.\nThese pulls and pushes between magnets are called magnetic forces. The stronger the magnetic force between two magnets, the more strongly the magnets attract or repel each other.\nYou can change the strength of a magnetic force between two magnets by changing the distance between them. The magnetic force is stronger when the magnets are closer together.\nSOLUTION: Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 1 are closer together than the magnets in Pair 2. So, the magnetic force is stronger in Pair 1 than in Pair 2.\n###\nANSWER: C."
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What is the volume of a large soup pot?\nContext: Select the better estimate.\nOptions: (A) 7 liters (B) 7 milliliters"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Measurements are written with both a number and a unit. The unit comes after the number. The unit shows what the number means.\nVolume is a measurement of how much space something takes up.\nThere are many different units of volume. When you are using metric units, volume may be written in units of milliliters or liters.\nThere are 1,000 milliliters in 1 liter. So, 1 milliliter is much less than 1 liter.\nA raindrop has a volume of about 20 milliliters, while a large soda bottle has a volume of 2 liters. The flask shown here measures volumes up to 500 milliliters.\nSOLUTION: The better estimate for the volume of a large soup pot is 7 liters.\n7 milliliters is too little.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "31",
+    "image": "31/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What does pollen help a plant do?\nContext: The male part of a flower makes pollen.\nOptions: (A) make seeds (B) grow bigger (C) grow new leaves\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Many plants have flowers. These plants can use their flowers to reproduce, or make new plants like themselves. How do plants use their flowers to reproduce?\nFirst, the male part of the flower makes pollen, and the female part makes eggs. Animals, wind, or water can move pollen. Pollination is what happens when pollen is moved to the female part of the flower.\nAfter pollination, sperm from the pollen can combine with the eggs. This is called fertilization. The fertilized eggs grow into seeds. The fruit grows around the seeds. Later, a seed can fall out of the fruit. It can germinate, or start to grow into a new plant.\nSOLUTION: Pollen helps the flower make seeds. After pollination, sperm cells from the pollen can combine with the eggs. These fertilized eggs can grow into seeds.\nPollen does not help a plant grow bigger or grow leaves.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Read the following excerpt from a student essay. How can the writer best improve his or her word choice?\nWhen I said that I wanted to take a cooking class, I didn't know what I was getting into. I love cooking, but I'm very shy and hate being in the spotlight. The first time the teacher asked me to do a culinary technique, my hands were sweating profusely. As I held the heavy utility knife in my sweaty hand, it fell to the floor. The class had just started, and I had already made a terrible first impression! My face was red, but I got the knife, put it in the sink, took a clean one, and cut the slab of raw bluefin tuna into paper-thin pieces. Everyone in the class\u2014even the instructor\u2014gave me a round of applause.\nContext: N/A\nOptions: (A) by adding technical terms (B) by using more precise verbs (C) by using words with more appropriate connotations"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: During peer review, you read and respond to a fellow student's writing. While there are many methods and strategies that you can use for reviewing a text, it is generally helpful to frame your suggestions in concrete and constructive ways and to consider the following areas for revision:\nIdeas and development: Does the writer express a clear idea and develop it with evidence, examples, or analysis?\nOrganization: Does the writer order ideas in a clear, logical way so that they build on one another and are easy to follow?\nVoice: Does the writer maintain an appropriate voice, such as a formal and objective voice in an academic essay or an engaging and expressive voice in a narrative essay?\nSentence fluency: Does the writer use sentences that vary in structure and length to create a sense of rhythm and flow within and between sentences, or does the writing sound choppy, rambling, or repetitive?\nWord choice: Does the writer use words accurately and precisely to create clear, effective, and engaging writing?\nGrammar and mechanics: Does the writer follow appropriate conventions, using accurate spelling, punctuation, and grammar to create writing that is correct and easy to read?\nSOLUTION: The writer could best improve his or her word choice by using more precise verbs.\nFor example, the writer could replace the underlined words with verbs such as announced, realize, adore, abhor, demonstrate, gripped, clanged, retrieved, deposited, selected, and sliced.\nWhen I said that I wanted to take a cooking class, I didn't know what I was getting into. I love cooking, but I'm very shy and hate being in the spotlight. The first time the teacher asked me to do a culinary technique, my hands were sweating profusely. As I held the heavy utility knife in my sweaty hand, it fell to the floor. The class had just started, and I had already made a terrible first impression! My face was red, but I got the knife, put it in the sink, took a clean one, and cut the slab of raw bluefin tuna into paper-thin pieces. Everyone in the class\u2014even the instructor\u2014gave me a round of applause.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What information supports the conclusion that Logan inherited this trait?\nContext: Read the description of a trait.\nLogan has blue eyes.\nOptions: (A) Logan's mother has blue eyes. She passed this trait down to Logan. (B) Logan likes to wear a blue sweater to match his blue eyes."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Organisms, including people, have both inherited and acquired traits. Inherited and acquired traits are gained in different ways.\nInherited traits are passed down through families. Children gain these traits from their parents. Inherited traits do not need to be learned.\nAcquired traits are gained during a person's life. Some acquired traits, such as riding a bicycle, are gained by learning. Other acquired traits, such as scars, are caused by the environment.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "34",
+    "image": "34/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which property matches this object?\nContext: Select the better answer.\nOptions: (A) flexible (B) sticky\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: An object has different properties. A property of an object can tell you how it looks, feels, tastes, or smells. Properties can also tell you how an object will behave when something happens to it.\nSOLUTION: Look at the object.\nThink about each property.\nA flexible object can be folded or bent without breaking easily. The helium balloons are flexible.\nA sticky object can attach or stick to other things. The helium balloons are not sticky.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "35",
+    "image": "35/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What is the capital of South Carolina?\nContext: N/A\nOptions: (A) Columbia (B) Montgomery (C) Charleston (D) Harrisburg\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "SOLUTION: Columbia is the capital of South Carolina.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Is the following trait inherited or acquired?\nKaty plays soccer.\nContext: Hint: Playing soccer takes practice.\nOptions: (A) inherited (B) acquired"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Organisms, including people, have both inherited and acquired traits. Inherited and acquired traits are gained in different ways.\nInherited traits are passed down through families. Children gain these traits from their parents. Inherited traits do not need to be learned.\nAcquired traits are gained during a person's life. Some acquired traits, such as riding a bicycle, are gained by learning. Other acquired traits, such as scars, are caused by the environment. Children do not inherit their parents' acquired traits.\nSOLUTION: People are not born knowing how to play soccer. Instead, some people learn how to play soccer. Playing the sport takes practice. So, playing soccer is an acquired trait.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on this information, what is Holly's phenotype for the whisker type trait?\nContext: In a group of Syrian hamsters, some individuals have straight whiskers and others have curved whiskers. In this group, the gene for the whisker type trait has two alleles. The allele for curved whiskers (h) is recessive to the allele for straight whiskers (H).\nHolly is a Syrian hamster from this group. Holly has the heterozygous genotype Hh for the whisker type gene.\nOptions: (A) straight whiskers (B) curved whiskers"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: All organisms have pieces of hereditary material called genes, which are passed from parents to offspring. Genes contain instructions for building the parts of an organism. An organism's genes affect its observable traits, including its appearance, its behavior, and which diseases it may have. Genes may have different alleles, or forms, that can cause different versions of a trait.\nFor example, flower color is a trait in pea plants. The gene for this trait has two possible alleles. Each allele is represented by an uppercase or lowercase letter. The allele F is for purple flowers, and the allele f is for white flowers. Each pea plant has two alleles for the flower color gene\u2014one allele inherited from each parent.\nAn organism's genotype for a gene is its combination of alleles for that gene. So, a pea plant may have a genotype of FF, Ff, or ff for the flower color gene.\nAn organism's phenotype for a trait is its observable version of that trait, which depends on the organism's combination of alleles. A pea plant may have a phenotype of purple flowers or white flowers for the flower color trait.\nSome traits, like flower color in pea plants, are controlled by a single gene. Most plants and animals have a genotype made up of two alleles for these traits. These two alleles determine whether an organism is homozygous or heterozygous for the gene.\nAn organism with two identical alleles for a gene is homozygous for that gene. A pea plant with the genotype FF or ff is homozygous for the flower color gene.\nAn organism with two different alleles for a gene is heterozygous for that gene. A pea plant with the genotype Ff is heterozygous for the flower color gene.\nThe types of alleles in an organism's genotype determine the organism's phenotype. Some alleles have types called dominant and recessive. These two types can cause different versions of a trait to appear as the organism's phenotype.\nA dominant allele causes its version of the trait to appear even when the organism also has a recessive allele for the gene. In pea plants, the F allele, which causes purple flowers, is dominant over the f allele. A pea plant with at least one F allele will have the F allele's version of the flower color trait. So, a plant with the genotype FF or Ff will have purple flowers.\nA recessive allele causes its version of the trait to appear only when the organism does not have any dominant alleles for the gene. In pea plants, the f allele, which causes white flowers, is recessive to the F allele. A pea plant with only f alleles will have the f allele's version of the flower color trait. So, a plant with the genotype ff will have white flowers.\nSOLUTION: You need to determine Holly's phenotype for the whisker type trait. First, consider the alleles in Holly's genotype for the whisker type gene. Then, decide whether these alleles are dominant or recessive.\nThe allele for curved whiskers (h) is recessive to the allele for straight whiskers (H). This means H is a dominant allele, and h is a recessive allele.\nHolly's genotype of Hh has one dominant allele and one recessive allele. An organism with at least one dominant allele for a gene will have the dominant allele's version of the trait. So, Holly's phenotype for the whisker type trait must be straight whiskers.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Select the solid.\nContext: N/A\nOptions: (A) rain (B) water in a fishbowl (C) hammer"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Solid and liquid are states of matter. Matter is anything that takes up space. Matter can come in different states, or forms.\nWhen matter is a solid, it has a shape of its own.\nSome solids can be bent or broken easily. Others are hard to bend or break.\nA glass cup is a solid. A sock is also a solid.\nWhen matter is a liquid, it takes the shape of its container.\nThink about pouring a liquid from a cup into a bottle. The shape of the liquid is different in the cup than in the bottle. But the liquid still takes up the same amount of space.\nJuice is a liquid. Honey is also a liquid.\n###\nANSWER: C."
+      }
+    ]
+  },
+  {
+    "id": "40",
+    "image": "40/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What is the probability that a koi fish produced by this cross will have black eyes?\nContext: In a group of koi fish, some individuals have red eyes and others have black eyes. In this group, the gene for the eye color trait has two alleles. The allele for red eyes (E) is dominant over the allele for black eyes (e).\nThis Punnett square shows a cross between two koi fish.\nOptions: (A) 0/4 (B) 1/4 (C) 4/4 (D) 3/4 (E) 2/4\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Offspring phenotypes: dominant or recessive?\nHow do you determine an organism's phenotype for a trait? Look at the combination of alleles in the organism's genotype for the gene that affects that trait. Some alleles have types called dominant and recessive. These two types can cause different versions of the trait to appear as the organism's phenotype.\nIf an organism's genotype has at least one dominant allele for a gene, the organism's phenotype will be the dominant allele's version of the gene's trait.\nIf an organism's genotype has only recessive alleles for a gene, the organism's phenotype will be the recessive allele's version of the gene's trait.\nIn a Punnett square, each box represents a different outcome, or result. Each of the four outcomes is equally likely to happen. Each box represents one way the parents' alleles can combine to form an offspring's genotype. Because there are four boxes in the Punnett square, there are four possible outcomes.\nAn event is a set of one or more outcomes. The probability of an event is a measure of how likely the event is to happen. This probability is a number between 0 and 1, and it can be written as a fraction:\nprobability of an event = number of ways the event can happen / number of equally likely outcomes\nYou can use a Punnett square to calculate the probability that a cross will produce certain offspring. For example, the Punnett square below has two boxes with the genotype Ff. It has one box with the genotype FF and one box with the genotype ff. This means there are two ways the parents' alleles can combine to form Ff. There is one way they can combine to form FF and one way they can combine to form ff.\n | F | f\nF | FF | Ff\nf | Ff | ff\nConsider an event in which this cross produces an offspring with the genotype ff. The probability of this event is given by the following fraction:\nnumber of ways the event can happen / number of equally likely outcomes = number of boxes with the genotype ff / total number of boxes = 1 / 4.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "41",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which figure of speech is used in this text?\nHunter remarked that the new book on anti-gravity was impossible to put down.\nContext: N/A\nOptions: (A) alliteration (B) pun"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Figures of speech are words or phrases that use language in a nonliteral or unusual way. They can make writing more expressive.\nAlliteration is the repetition of sounds at the beginning of nearby words.\nWhat a lucky little lady you are!\nAn allusion is a brief reference to something or someone well known, often from history or literature.\n\"I'd better get home before I turn into a pumpkin!\" Lila remarked.\nAn idiom is an expression that cannot be understood literally. Its meaning must be learned.\nThe assignment was a piece of cake.\nA simile uses like or as to compare two things that are not actually alike.\nThe cat's fur was as dark as the night.\nA metaphor compares two things that are not actually alike without using like or as.\nThe snow formed a blanket over the town.\nOnomatopoeia involves using a word that expresses a sound.\nThe scrambled eggs hit the floor with a splat.\nPersonification is giving human characteristics to nonhuman things.\nThe trees danced in the wind.\nA pun involves using a word or phrase in a humorous way that suggests more than one meaning.\nA great new broom is sweeping the nation.\nVerbal irony involves saying one thing but implying something very different. People often use verbal irony when they are being sarcastic.\nOlivia seems thrilled that her car keeps breaking down.\nEach breakdown is as enjoyable as a punch to the face.\nSOLUTION: The text uses a pun, a word or phrase that humorously suggests more than one meaning.\nImpossible to put down means that the book is so good that it is hard to stop reading. The phrase impossible to put down is also a joke about anti-gravity: if gravity pulls things down, perhaps anti-gravity does the opposite and makes them impossible to put down.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "43",
+    "image": "43/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which property do these three objects have in common?\nContext: Select the best answer.\nOptions: (A) hard (B) soft (C) yellow\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: An object has different properties. A property of an object can tell you how it looks, feels, tastes, or smells. Properties can also tell you how an object will behave when something happens to it.\nDifferent objects can have properties in common. You can use these properties to put objects into groups. Grouping objects by their properties is called classification.\nSOLUTION: Look at each object.\nFor each object, decide if it has that property.\nA hard object does not change shape when pressed or squeezed. None of the objects are hard.\nYellow is a color.\nThis color is yellow. None of the objects are yellow.\nA soft object changes shape when pressed or squeezed. All three objects are soft.\nThe property that all three objects have in common is soft.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "44",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What information supports the conclusion that Aaron acquired this trait?\nContext: Read the description of a trait.\nAaron knows a lot about biology.\nOptions: (A) Aaron is most interested in plant biology. (B) Aaron learned biology by doing experiments."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Organisms, including people, have both inherited and acquired traits. Inherited and acquired traits are gained in different ways.\nInherited traits are passed down through families. Children gain these traits from their parents. Inherited traits do not need to be learned.\nAcquired traits are gained during a person's life. Some acquired traits, such as riding a bicycle, are gained by learning. Other acquired traits, such as scars, are caused by the environment.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "48",
+    "image": "48/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What is the capital of Colorado?\nContext: N/A\nOptions: (A) Baton Rouge (B) Denver (C) Sacramento (D) Spokane\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "SOLUTION: Denver is the capital of Colorado.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "49",
+    "image": "49/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Select the fish below.\nContext: Fish live underwater. They have fins, not limbs. A tiger shark is an example of a fish.\nOptions: (A) black howler (B) cardinalfish\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Birds, mammals, fish, reptiles, and amphibians are groups of animals. The animals in each group have traits in common.\nScientists sort animals into groups based on traits they have in common. This process is called classification.\nSOLUTION: A cardinalfish is a fish. It lives underwater. It has fins, not limbs.\nCardinalfish often live near coral reefs. They are nocturnal, which means that they are active mostly at night.\nA black howler is a mammal. It has hair and feeds its young milk.\nHowler monkeys have loud calls, or howls. Their calls can be heard over three miles away!\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "53",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "How long is a guitar?\nContext: Select the best estimate.\nOptions: (A) 1 centimeter (B) 1 meter (C) 1 kilometer (D) 1 millimeter"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Measurements are written with both a number and a unit. The unit comes after the number. The unit shows what the number means.\nWhen you are using metric units, length can be written with units of millimeters, centimeters, meters, or kilometers. One meter contains 100 centimeters or 1,000 millimeters. So, 1 meter is larger than 1 centimeter, and 1 centimeter is larger than 1 millimeter.\nThe tip of the pencil shown here is only 1 millimeter wide, but the pencil is about 16 centimeters long.\nA red fox is about 1 meter long. The Sydney Harbour Bridge in Australia is about 1,000 meters, or 1 kilometer, in length.\nSOLUTION: The best estimate for the length of a guitar is 1 meter.\n1 millimeter and 1 centimeter are too short. 1 kilometer is too long.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "54",
+    "image": "54/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Complete the statement.\nTungsten carbide is ().\nContext: The model below represents tungsten carbide. Tungsten carbide can be used to make the tips of ballpoint pens.\nOptions: (A) an elementary substance (B) a compound\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: There are more than 100 different chemical elements, or types of atoms. Chemical elements make up all of the substances around you.\nA substance may be composed of one chemical element or multiple chemical elements. Substances that are composed of only one chemical element are elementary substances. Substances that are composed of multiple chemical elements bonded together are compounds.\nEvery chemical element is represented by its own atomic symbol. An atomic symbol may consist of one capital letter, or it may consist of a capital letter followed by a lowercase letter. For example, the atomic symbol for the chemical element fluorine is F, and the atomic symbol for the chemical element beryllium is Be.\nScientists use different types of models to represent substances whose atoms are bonded in different ways. One type of model is a ball-and-stick model. The ball-and-stick model below represents the compound pyrite.\nIn a ball-and-stick model, the balls represent atoms, and the sticks represent bonds. Notice that the balls in the model above are not all the same color. Each color represents a different chemical element. The legend shows the color and the atomic symbol for each chemical element in the substance.\nSOLUTION: Use the model to determine whether tungsten carbide is an elementary substance or a compound.\nStep 1: Interpret the model.\n.\nUse the legend to determine the chemical element represented by each color. The colors and atomic symbols from the legend are shown in the table below. The table also includes the names of the chemical elements represented in the model.\nYou can see from the model that tungsten carbide is composed of carbon atoms and tungsten atoms bonded together.\nStep 2: Determine whether the substance is an elementary substance or a compound.\nYou know from Step 1 that tungsten carbide is composed of two chemical elements: carbon and tungsten. Since tungsten carbide is composed of multiple chemical elements bonded together, tungsten carbide is a compound.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "56",
+    "image": "56/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What can Maureen and Kendrick trade to each get what they want?\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nMaureen and Kendrick open their lunch boxes in the school cafeteria. Neither Maureen nor Kendrick got everything that they wanted. The table below shows which items they each wanted:\n\nLook at the images of their lunches. Then answer the question below.\nMaureen's lunch Kendrick's lunch\nOptions: (A) Kendrick can trade his broccoli for Maureen's oranges. (B) Kendrick can trade his almonds for Maureen's tomatoes. (C) Maureen can trade her tomatoes for Kendrick's broccoli. (D) Maureen can trade her tomatoes for Kendrick's carrots.\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "SOLUTION: Look at the table and images.\nMaureen wants broccoli. Kendrick wants tomatoes. They can trade tomatoes for broccoli to both get what they want. Trading other things would not help both people get more items they want.\n###\nANSWER: C."
+      }
+    ]
+  },
+  {
+    "id": "57",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Select the living thing.\nContext: N/A\nOptions: (A) teddy bear (B) amoebae (C) van (D) kite"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: All living things are made up of cells. Plants, animals, and some fungi have many cells. Other living things are made up of just one cell.\nAll living things need food and water. Water helps living things break down food and remove waste. Food gives living things energy. They use energy from food to grow and change.\nAll living things sense changes in their environment. Living things might sense changes by seeing, smelling, hearing, or feeling. Living things can respond to the changes they sense.\nSOLUTION: A teddy bear is not a living thing.\nTeddy bears do not have all of the traits of living things. They do not grow or respond to their environment. They do not need food or water.\nA kite is not a living thing.\nA kite does not have all the traits of a living thing. It moves fast in the wind, but it does not grow. It does not need food or water.\nA van is not a living thing.\nA van does not have all the traits of a living thing. Vans need energy, but they do not eat food. They get energy from gasoline or electricity. Vans do not grow.\nAmoebae are living things.\nAmoebae grow and respond to their environment. They need food and water.\nAmoebae are made up of just one cell. Amoebae live in fresh water, in salt water, and in the soil.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "58",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which organ controls the function of other body organs?\nContext: N/A\nOptions: (A) skeleton (B) lungs (C) heart (D) brain"
+      },
+      {
+        "from": "gpt",
+        "value": "###\nANSWER: D."
+      }
+    ]
+  },
+  {
+    "id": "59",
+    "image": "59/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What is the expected ratio of offspring with a hairy body to offspring with a hairless body? Choose the most likely ratio.\nContext: In a group of deer mice, some individuals have a hairy body and others have a hairless body. In this group, the gene for the body hair trait has two alleles. The allele for a hairy body (B) is dominant over the allele for a hairless body (b).\nThis Punnett square shows a cross between two deer mice.\nOptions: (A) 3:1 (B) 4:0 (C) 2:2 (D) 0:4 (E) 1:3\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Offspring phenotypes: dominant or recessive?\nHow do you determine an organism's phenotype for a trait? Look at the combination of alleles in the organism's genotype for the gene that affects that trait. Some alleles have types called dominant and recessive. These two types can cause different versions of the trait to appear as the organism's phenotype.\nIf an organism's genotype has at least one dominant allele for a gene, the organism's phenotype will be the dominant allele's version of the gene's trait.\nIf an organism's genotype has only recessive alleles for a gene, the organism's phenotype will be the recessive allele's version of the gene's trait.\nA Punnett square shows what types of offspring a cross can produce. The expected ratio of offspring types compares how often the cross produces each type of offspring, on average. To write this ratio, count the number of boxes in the Punnett square representing each type.\nFor example, consider the Punnett square below.\n | F | f\nF | FF | Ff\nf | Ff | ff\nThere is 1 box with the genotype FF and 2 boxes with the genotype Ff. So, the expected ratio of offspring with the genotype FF to those with Ff is 1:2.\n\nSOLUTION: To determine how many boxes in the Punnett square represent offspring with a hairy body or a hairless body, consider whether each phenotype is the dominant or recessive allele's version of the body hair trait. The question tells you that the B allele, which is for a hairy body, is dominant over the b allele, which is for a hairless body.\nA hairy body is the dominant allele's version of the body hair trait. A deer mouse with the dominant version of the body hair trait must have at least one dominant allele for the body hair gene. So, offspring with a hairy body must have the genotype BB or Bb.\nAll 4 boxes in the Punnett square have the genotype BB or Bb.\nA hairless body is the recessive allele's version of the body hair trait. A deer mouse with the recessive version of the body hair trait must have only recessive alleles for the body hair gene. So, offspring with a hairless body must have the genotype bb.\nThere are 0 boxes in the Punnett square with the genotype bb.\nSo, the expected ratio of offspring with a hairy body to offspring with a hairless body is 4:0. This means that, based on the Punnett square, this cross will always produce offspring with a hairy body. This cross is expected to never produce offspring with a hairless body.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "63",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which object has more thermal energy?\nContext: The objects are identical except for their temperatures.\nOptions: (A) a cherry pie at a temperature of 90\u00b0F (B) a cherry pie at a temperature of 85\u00b0F"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: All solids, liquids, and gases are made of matter. Matter is made up of tiny particles that are always moving. The energy from the motion of these particles is called thermal energy.\nTemperature measures how hot or cold matter is. If the particles in matter move faster, the temperature goes up. The matter now has both more thermal energy and a higher temperature.\nSOLUTION: The two cherry pies have the same mass but different temperatures. Since the 90\u00b0F pie is hotter than the 85\u00b0F pie, it has more thermal energy.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "64",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Is the following trait inherited or acquired?\nBobby has a scar on his left leg.\nContext: Hint: Most scars are caused by accidents during a person's life.\nOptions: (A) inherited (B) acquired"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Organisms, including people, have both inherited and acquired traits. Inherited and acquired traits are gained in different ways.\nInherited traits are passed down through families. Children gain these traits from their parents. Inherited traits do not need to be learned.\nAcquired traits are gained during a person's life. Some acquired traits, such as riding a bicycle, are gained by learning. Other acquired traits, such as scars, are caused by the environment. Children do not inherit their parents' acquired traits.\nSOLUTION: Children do not inherit their parent's scars. Instead, scars are caused by the environment. People can get scars after they get hurt. So, having a scar is an acquired trait.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "65",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which word would you find on a dictionary page with the following guide words?\nfile - four\nContext: N/A\nOptions: (A) flea (B) fatigue"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Guide words appear on each page of a dictionary. They tell you the first word and last word on the page. The other words on the page come between the guide words in alphabetical order.\nTo put words in alphabetical order, put them in order by their first letters. If the first letters are the same, look at the second letters. If the second letters are the same, look at the third letters, and so on.\nIf one word is shorter, and there are no more letters to compare, then the shorter word comes first in alphabetical order. For example, be comes before bed.\nSOLUTION: Put the words in alphabetical order.\nSince flea is between the guide words file - four, it would be found on that page.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "68",
+    "image": "68/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Identify the question that Gabe's experiment can best answer.\nContext: The passage below describes an experiment. Read the passage and then follow the instructions below.\n\nGabe mixed bacteria into a nutrient-rich liquid where the bacteria could grow. He poured four ounces of the mixture into each of ten glass flasks. In five of the ten flasks, he also added one teaspoon of cinnamon. He allowed the bacteria in the flasks to grow overnight in a 37\u00b0C room. Then, Gabe used a microscope to count the number of bacteria in a small sample from each flask. He compared the amount of bacteria in the liquid with cinnamon to the amount of bacteria in the liquid without cinnamon.\nFigure: flasks of liquid for growing bacteria.\nOptions: (A) Do more bacteria grow in liquid with cinnamon than in liquid without cinnamon? (B) Does temperature affect how much bacteria can grow in liquid?\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Experiments can be designed to answer specific questions. How can you identify the questions that a certain experiment can answer? In order to do this, you need to figure out what was tested and what was measured during the experiment.\nImagine an experiment with two groups of daffodil plants. One group of plants was grown in sandy soil, and the other was grown in clay soil. Then, the height of each plant was measured.\nFirst, identify the part of the experiment that was tested. The part of an experiment that is tested usually involves the part of the experimental setup that is different or changed. In the experiment described above, each group of plants was grown in a different type of soil. So, the effect of growing plants in different soil types was tested.\nThen, identify the part of the experiment that was measured. The part of the experiment that is measured may include measurements and calculations. In the experiment described above, the heights of the plants in each group were measured.\nExperiments can answer questions about how the part of the experiment that is tested affects the part that is measured. So, the experiment described above can answer questions about how soil type affects plant height.\nExamples of questions that this experiment can answer include:\nDoes soil type affect the height of daffodil plants?\nDo daffodil plants in sandy soil grow taller than daffodil plants in clay soil?\nAre daffodil plants grown in sandy soil shorter than daffodil plants grown in clay soil?\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "69",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Using only these supplies, which question can Jeremiah investigate with an experiment?\nContext: Jeremiah has a pet lizard. Jeremiah notices that on some days, the lizard is active and runs around the tank. On other days, the lizard hardly moves at all. Jeremiah wonders what factors affect how active his lizard is. So, he decides to design an experiment. He has the following supplies available:\none pet lizard\nlive crickets\nlive mealworms\none heating lamp\nOptions: (A) Is the pet lizard more active when its tank is heated with one heating lamp or with two heating lamps? (B) Is the pet lizard more active when it is fed insects or lettuce? (C) Is the pet lizard more active when it is fed crickets or mealworms?"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Experiments can be designed to answer specific questions. When designing an experiment, you must identify the supplies that are necessary to answer your question. In order to do this, you need to figure out what will be tested and what will be measured during the experiment.\nImagine that you are wondering if plants grow to different heights when planted in different types of soil. How might you decide what supplies are necessary to conduct this experiment?\nFirst, you need to identify the part of the experiment that will be tested, which is the independent variable. This is usually the part of the experiment that is different or changed. In this case, you would like to know how plants grow in different types of soil. So, you must have different types of soil available.\nNext, you need to identify the part of the experiment that will be measured or observed, which is the dependent variable. In this experiment, you would like to know if some plants grow taller than others. So, you must be able to compare the plants' heights. To do this, you can observe which plants are taller by looking at them, or you can measure their exact heights with a meterstick.\nSo, if you have different types of soil and can observe or measure the heights of your plants, then you have the supplies you need to investigate your question with an experiment!\n###\nANSWER: C."
+      }
+    ]
+  },
+  {
+    "id": "70",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on this information, what is Bambi's genotype for the coat color gene?\nContext: In a group of cows, some individuals have a black coat and others have a red coat. In this group, the gene for the coat color trait has two alleles. The allele L is for a black coat, and the allele l is for a red coat.\nBambi, a cow from this group, has a black coat. Bambi has two alleles for a black coat.\nOptions: (A) a black coat (B) LL"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: All organisms have pieces of hereditary material called genes, which are passed from parents to offspring. Genes contain instructions for building the parts of an organism. An organism's genes affect its observable traits, including its appearance, its behavior, and which diseases it may have. Genes may have different alleles, or forms, that can cause different versions of a trait.\nFor example, flower color is a trait in pea plants. The gene for this trait has two possible alleles. Each allele is represented by an uppercase or lowercase letter. The allele F is for purple flowers, and the allele f is for white flowers. Each pea plant has two alleles for the flower color gene\u2014one allele inherited from each parent.\nAn organism's genotype for a gene is its combination of alleles for that gene. So, a pea plant may have a genotype of FF, Ff, or ff for the flower color gene.\nAn organism's phenotype for a trait is its observable version of that trait, which depends on the organism's combination of alleles. A pea plant may have a phenotype of purple flowers or white flowers for the flower color trait.\nSOLUTION: An organism's genotype for a gene is its combination of alleles for that gene. Bambi has two alleles for a black coat (L). So, Bambi's genotype for the coat color gene is LL.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "73",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Would you find the word oasis on a dictionary page with the following guide words?\norange - ought\nContext: N/A\nOptions: (A) no (B) yes"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Guide words appear on each page of a dictionary. They tell you the first word and last word on the page. The other words on the page come between the guide words in alphabetical order.\nTo put words in alphabetical order, put them in order by their first letters. If the first letters are the same, look at the second letters. If the second letters are the same, look at the third letters, and so on.\nSOLUTION: Put the words in alphabetical order.\nSince oasis is not between the guide words orange - ought, it would not be found on that page.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "75",
+    "image": "75/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Is a scarf a solid or a liquid?\nContext: N/A\nOptions: (A) a solid (B) a liquid\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Solid and liquid are states of matter. Matter is anything that takes up space. Matter can come in different states, or forms.\nWhen matter is a solid, it has a shape of its own.\nSome solids can be bent or broken easily. Others are hard to bend or break.\nA glass cup is a solid. A sock is also a solid.\nWhen matter is a liquid, it takes the shape of its container.\nThink about pouring a liquid from a cup into a bottle. The shape of the liquid is different in the cup than in the bottle. But the liquid still takes up the same amount of space.\nJuice is a liquid. Honey is also a liquid.\nSOLUTION: A scarf is a solid. You can fold a scarf. But it will still have a size and shape of its own.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "76",
+    "image": "76/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which animal is also adapted for climbing trees?\nContext: s live in rain forests on the island of Sumatra in Asia. They climb trees to find food and shelter. The orangutan's hands and feet are adapted for climbing trees.\nFigure: Sumatran orangutan.\nOptions: (A) takin (B) red-handed tamarin\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: An adaptation is an inherited trait that helps an organism survive or reproduce. Adaptations can include both body parts and behaviors.\nThe shape of an animal's feet is one example of an adaptation. Animals' feet can be adapted in different ways. For example, webbed feet might help an animal swim. Feet with thick fur might help an animal walk on cold, snowy ground.\nSOLUTION: Look at the picture of the Sumatran orangutan.\nThe Sumatran orangutan has long fingers and toes. It is adapted for climbing trees. The Sumatran orangutan uses its long fingers and toes to hold on to branches while climbing.\nNow look at each animal. Figure out which animal has a similar adaptation.\nThe red-handed tamarin has long fingers and toes. It is adapted for climbing trees.\nThe takin has four hoofed feet. It is not adapted for climbing trees. The takin uses its feet to walk and run.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "80",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which word does not rhyme?\nContext: N/A\nOptions: (A) bike (B) hike (C) fine"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Rhyming words are words that end with the same sound.\nThe words tip and slip rhyme. They both end with the same sound.\nThe words meet and treat also rhyme. They both end with the same sound, even though the sound has two different spellings.\nThe words tip and meet don't rhyme. They end with different sounds.\nSOLUTION: The words hike and bike rhyme. They both end with the ike sound.\nThe word fine does not rhyme. It ends with a different sound.\n###\nANSWER: C."
+      }
+    ]
+  },
+  {
+    "id": "83",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which is a compound sentence?\nContext: N/A\nOptions: (A) Last night we heard an owl outside in the oak tree. (B) I ate all of my dinner, so I can have some pie."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A simple sentence is a sentence with only one subject and predicate.\nThe pitcher threw the ball to first base.\nA compound sentence is two simple sentences joined by a comma and a conjunction such as and, but, or, or so.\nThe pitcher threw the ball, and the batter hit it.\nSome simple sentences have a compound subject or a compound predicate, but they are not compound sentences.\nAnna and James will watch the fireworks tonight.\nThis simple sentence has a compound subject, Anna and James.\nThe singers bowed and walked off the stage.\nThis simple sentence has a compound predicate, bowed and walked off the stage.\nSome simple sentences have introductory phrases, but they are not compound sentences. The introductory phrase is part of the predicate.\nIn the winter, Farmer Ben wears his heavy coat.\nThis is a simple sentence. There is one subject, Farmer Ben, and one predicate, wears his heavy coat in the winter.\nSOLUTION: The first sentence is the compound sentence. It is made up of two simple sentences joined by a comma and the conjunction so.\nI ate all of my dinner, so I can have some pie.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "84",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Is this a run-on sentence?\nIf you have a hankering for a delicious bowl of soup, you should try Mr. Montoya's smoked French onion soup made with Vidalia onions, smoked Gruy\u00e8re cheese, and fresh thyme.\nContext: N/A\nOptions: (A) no (B) yes"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A sentence is a group of words that expresses a complete thought.\nThe band I'm in has been rehearsing daily because we have a concert in two weeks.\nA run-on sentence is formed when two sentences are run together, joined by just a comma or by no punctuation at all. If only a comma is used, the run-on is called a comma splice.\nThe band I'm in has been rehearsing daily, we have a concert in two weeks.\nThe band I'm in has been rehearsing daily we have a concert in two weeks.\nThere are several ways to fix a run-on sentence:\nUse stronger punctuation, such as a period or a semicolon.\nThe band I'm in has been rehearsing daily. We have a concert in two weeks.\nThe band I'm in has been rehearsing daily; we have a concert in two weeks.\nUse a comma and a coordinating conjunction to create a compound sentence. Coordinating conjunctions include and, but, or, and so.\nThe band I'm in has been rehearsing daily, and we have a concert in two weeks.\nUse a subordinating conjunction or a relative pronoun to create a complex sentence. Subordinating conjunctions include after, although, as, because, before, if, since, unless, until, when, and while. Relative pronouns include that, which, who, whom, and whose.\nThe band I'm in has been rehearsing daily since we have a concert in two weeks.\nSOLUTION: This is not a run-on sentence. It is not formed from two sentences that have been run together without appropriate punctuation.\nIf you have a hankering for a delicious bowl of soup, you should try Mr. Montoya's smoked French onion soup made with Vidalia onions, smoked Gruy\u00e8re cheese, and fresh thyme.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "88",
+    "image": "88/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which of the following was a dependent variable in this experiment?\nContext: The passage below describes an experiment. Read the passage and think about the variables that are described.\n\nPam was using steel to make rusted sculptures. After building each sculpture, she caused the steel in the sculpture to rust by placing it into a tub filled with salt water for eight hours. Pam wondered if steel would rust faster submerged in vinegar instead of salt water.\nTo find out, Pam cut ten squares of steel sheet metal and split them into two equal groups. She put one group of squares into a tub filled with salt water and the other group of squares into a tub filled with vinegar. Once an hour for eight hours, Pam counted the number of rusted steel squares in each group.\nHint: An independent variable is a variable whose effect you are investigating. A dependent variable is a variable that you measure.\nFigure: a sculpture made from rusted steel.\nOptions: (A) the type of liquid used (B) the number of rusted steel squares\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Experiments have variables, or parts that change. You can design an experiment to find out how one variable affects another variable. For example, imagine that you want to find out if fertilizer affects the number of tomatoes a tomato plant grows. To answer this question, you decide to set up two equal groups of tomato plants. Then, you add fertilizer to the soil of the plants in one group but not in the other group. Later, you measure the effect of the fertilizer by counting the number of tomatoes on each plant.\nIn this experiment, the amount of fertilizer added to the soil and the number of tomatoes were both variables.\nThe amount of fertilizer added to the soil was an independent variable because it was the variable whose effect you were investigating. This type of variable is called independent because its value does not depend on what happens after the experiment begins. Instead, you decided to give fertilizer to some plants and not to others.\nThe number of tomatoes was a dependent variable because it was the variable you were measuring. This type of variable is called dependent because its value can depend on what happens in the experiment.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "90",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Last year, there were seven men's clothing stores on Main Street in Springtown. This year, there are only three. What probably happened to the overall supply of men's shirts in Springtown?\nContext: N/A\nOptions: (A) The supply probably went up. (B) The supply probably went down."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Overall supply is the total amount of a good or service that producers make and sell. There are several things that can make overall supply go up or down. The table below shows how changes to these things might affect overall supply.\n | Resources | Number of producers or suppliers | Expected change in demand\nSupply goes up | when resources cost less or are easier to get | when there are more producers or suppliers | when demand is expected to go up\nSupply goes down | when resources cost more or are harder to get | when there are fewer producers or suppliers | when demand is expected to go down\nProducers are people or companies that make goods or provide services. Suppliers are people or companies that sell goods or services. New inventions or technologies can also help workers produce goods and services more quickly. As a result of these changes, the supply of a good or service will often go up.\nSOLUTION: When four men's clothing stores closed on Main Street, the number of suppliers went down. There were fewer stores selling men's shirts. So, the supply of men's shirts probably went down.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "91",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Would you find the word forgot on a dictionary page with the following guide words?\nfalse - fro\nContext: N/A\nOptions: (A) yes (B) no"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Guide words appear on each page of a dictionary. They tell you the first word and last word on the page. The other words on the page come between the guide words in alphabetical order.\nTo put words in alphabetical order, put them in order by their first letters. If the first letters are the same, look at the second letters. If the second letters are the same, look at the third letters, and so on.\nIf one word is shorter, and there are no more letters to compare, then the shorter word comes first in alphabetical order. For example, be comes before bed.\nSOLUTION: Put the words in alphabetical order.\nSince forgot is between the guide words false - fro, it would be found on that page.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "94",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which sentence states a fact?\nContext: N/A\nOptions: (A) The prettiest parts of the Rocky Mountains are in the state of Wyoming. (B) In the United States, the Rocky Mountains stretch from New Mexico to Montana."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A fact is something that can be proved to be true.\nThe month of July has more days than the month of June.\nThis is a fact. It can be proved by looking at a calendar and counting the number of days in each month.\nAn opinion is something that a person believes, thinks, or feels. An opinion cannot be proved true.\nJuly is a better month than June for camping.\nThis is an opinion. People may have different opinions about which month is \"better\" for camping.\nSOLUTION: The second sentence states a fact.\nIn the United States, the Rocky Mountains stretch from New Mexico to Montana.\nIt can be proved by checking a map of the United States.\nThe first sentence states an opinion.\nThe prettiest parts of the Rocky Mountains are in the state of Wyoming.\nPrettiest shows what a person believes, thinks, or feels. Another person might have a different opinion about where the prettiest parts of the Rocky Mountains are.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "97",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "How long is a walk across Central Park in New York City?\nContext: Select the best estimate.\nOptions: (A) 3 centimeters (B) 3 millimeters (C) 3 kilometers (D) 3 meters"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Measurements are written with both a number and a unit. The unit comes after the number. The unit shows what the number means.\nWhen you are using metric units, length can be written with units of millimeters, centimeters, meters, or kilometers. One meter contains 100 centimeters or 1,000 millimeters. So, 1 meter is larger than 1 centimeter, and 1 centimeter is larger than 1 millimeter.\nThe tip of the pencil shown here is only 1 millimeter wide, but the pencil is about 16 centimeters long.\nA red fox is about 1 meter long. The Sydney Harbour Bridge in Australia is about 1,000 meters, or 1 kilometer, in length.\nSOLUTION: The best estimate for the length of a walk across Central Park in New York City is 3 kilometers.\n3 millimeters, 3 centimeters, and 3 meters are all too short.\n###\nANSWER: C."
+      }
+    ]
+  },
+  {
+    "id": "98",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Does this passage describe the weather or the climate?\nThere was rain and sleet in Sioux Falls, South Dakota, last weekend.\nContext: N/A\nOptions: (A) weather (B) climate"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: The atmosphere is the layer of air that surrounds Earth. Both weather and climate tell you about the atmosphere.\nWeather is what the atmosphere is like at a certain place and time. Weather can change quickly. For example, the temperature outside your house might get higher throughout the day.\nClimate is the pattern of weather in a certain place. For example, summer temperatures in New York are usually higher than winter temperatures.\nSOLUTION: Read the text carefully.\nThere was rain and sleet in Sioux Falls, South Dakota, last weekend.\nThis passage tells you about the precipitation in Sioux Falls last weekend. It describes the atmosphere at a certain place and time. So, this passage describes the weather.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "99",
+    "image": "99/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material, but some of them are different shapes.\nOptions: (A) The magnitude of the magnetic force is smaller in Pair 2. (B) The magnitude of the magnetic force is smaller in Pair 1. (C) The magnitude of the magnetic force is the same in both pairs.\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Magnets can pull or push on each other without touching. When magnets attract, they pull together. When magnets repel, they push apart. These pulls and pushes between magnets are called magnetic forces.\nThe strength of a force is called its magnitude. The greater the magnitude of the magnetic force between two magnets, the more strongly the magnets attract or repel each other.\nYou can change the magnitude of a magnetic force between two magnets by changing the distance between them. The magnitude of the magnetic force is smaller when there is a greater distance between the magnets.\nSOLUTION: The magnets in Pair 2 attract. The magnets in Pair 1 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic force.\nDistance affects the magnitude of the magnetic force. When there is a greater distance between magnets, the magnitude of the magnetic force between them is smaller.\nThere is a greater distance between the magnets in Pair 2 than in Pair 1. So, the magnitude of the magnetic force is smaller in Pair 2 than in Pair 1.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "100",
+    "image": "100/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Is chalk a solid, a liquid, or a gas?\nContext: N/A\nOptions: (A) a liquid (B) a solid (C) a gas\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Solid, liquid, and gas are states of matter. Matter is anything that takes up space. Matter can come in different states, or forms.\nWhen matter is a solid, it has a definite volume and a definite shape. So, a solid has a size and shape of its own.\nSome solids can be easily folded, bent, or broken. A piece of paper is a solid. Also, some solids are very small. A grain of sand is a solid.\nWhen matter is a liquid, it has a definite volume but not a definite shape. So, a liquid has a size of its own, but it does not have a shape of its own. Think about pouring juice from a bottle into a cup. The juice still takes up the same amount of space, but it takes the shape of the bottle.\nSome liquids do not pour as easily as others. Honey and milk are both liquids. But pouring honey takes more time than pouring milk.\nWhen matter is a gas, it does not have a definite volume or a definite shape. A gas expands, or gets bigger, until it completely fills a space. A gas can also get smaller if it is squeezed into a smaller space.\nMany gases are invisible. Air is a gas.\nSOLUTION: Chalk is a solid. You can easily break chalk into pieces. But each piece will still have a size and shape of its own.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "102",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Select the temperature shown by this thermometer.\nContext: N/A\nOptions: (A) 45\u00b0F (B) 30\u00b0F (C) 80\u00b0F"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A thermometer is a tool that measures temperature. Temperature can be measured in degrees. The symbol for degrees is \u00b0.\nSome thermometers measure temperature in degrees Fahrenheit (\u00b0F). Fahrenheit is one scale used to measure temperature.\nThis is a tube thermometer. It has a tube filled with a red liquid.\nThere is a Fahrenheit scale along the right side of the tube. The top of the red liquid lines up with the number 80 on the scale. So, the temperature shown by this thermometer is 80\u00b0F.\nSOLUTION: Find the top of the red liquid.\nNow look at the scale to the right. The top of the red liquid is halfway between 40 and 50. So, the temperature is 45\u00b0F.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "103",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which is a compound sentence?\nContext: N/A\nOptions: (A) Mr. Smith peeled the tangerine and divided it into sections. (B) Before the performance, Maura tied a satin sash around her waist, and Kimberly braided her hair."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A clause is a group of words that contains both a subject and a predicate.\nAn independent clause is a complete thought. It can stand alone as a sentence. A dependent clause is not a complete thought. It cannot stand alone as a sentence.\nthe oranges on our tree are ripe\nThe clause can stand alone. It is independent.\nafter we pick up Kevin from work\nThe clause cannot stand alone. It is dependent.\nA simple sentence is made up of a single independent clause.\nBen and I spent all day relaxing by the pool.\nSome simple sentences have introductory phrases, but the introductory phrase is part of the predicate.\nIn the winter, Ben usually wears his heavy coat.\nBen usually wears his heavy coat in the winter.\nA compound sentence is made up of two independent clauses joined by a coordinating conjunction such as and, but, or, or so.\nWe saw a flash of lightning, and seconds later we heard the rumble of thunder.\nA complex sentence is made up of an independent clause and a dependent clause. The dependent clause usually begins with a subordinating conjunction such as after, although, as, because, before, if, since, unless, until, when, or while.\nIf she ever gets the chance, Terri would love to visit the Egyptian pyramids.\nSOLUTION: The first sentence is the compound sentence. It is made up of two independent clauses joined by the coordinating conjunction and.\nBefore the performance, Maura tied a satin sash around her waist, and Kimberly braided her hair.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "104",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on this information, what is Squirt's phenotype for the tail spots trait?\nContext: In a group of guppies, some individuals have a spotted tail and others have an unspotted tail. In this group, the gene for the tail spots trait has two alleles. The allele for a spotted tail (I) is dominant over the allele for an unspotted tail (i).\nSquirt is a guppy from this group. Squirt has the heterozygous genotype Ii for the tail spots gene.\nOptions: (A) a spotted tail (B) an unspotted tail"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: All organisms have pieces of hereditary material called genes, which are passed from parents to offspring. Genes contain instructions for building the parts of an organism. An organism's genes affect its observable traits, including its appearance, its behavior, and which diseases it may have. Genes may have different alleles, or forms, that can cause different versions of a trait.\nFor example, flower color is a trait in pea plants. The gene for this trait has two possible alleles. Each allele is represented by an uppercase or lowercase letter. The allele F is for purple flowers, and the allele f is for white flowers. Each pea plant has two alleles for the flower color gene\u2014one allele inherited from each parent.\nAn organism's genotype for a gene is its combination of alleles for that gene. So, a pea plant may have a genotype of FF, Ff, or ff for the flower color gene.\nAn organism's phenotype for a trait is its observable version of that trait, which depends on the organism's combination of alleles. A pea plant may have a phenotype of purple flowers or white flowers for the flower color trait.\nSome traits, like flower color in pea plants, are controlled by a single gene. Most plants and animals have a genotype made up of two alleles for these traits. These two alleles determine whether an organism is homozygous or heterozygous for the gene.\nAn organism with two identical alleles for a gene is homozygous for that gene. A pea plant with the genotype FF or ff is homozygous for the flower color gene.\nAn organism with two different alleles for a gene is heterozygous for that gene. A pea plant with the genotype Ff is heterozygous for the flower color gene.\nThe types of alleles in an organism's genotype determine the organism's phenotype. Some alleles have types called dominant and recessive. These two types can cause different versions of a trait to appear as the organism's phenotype.\nA dominant allele causes its version of the trait to appear even when the organism also has a recessive allele for the gene. In pea plants, the F allele, which causes purple flowers, is dominant over the f allele. A pea plant with at least one F allele will have the F allele's version of the flower color trait. So, a plant with the genotype FF or Ff will have purple flowers.\nA recessive allele causes its version of the trait to appear only when the organism does not have any dominant alleles for the gene. In pea plants, the f allele, which causes white flowers, is recessive to the F allele. A pea plant with only f alleles will have the f allele's version of the flower color trait. So, a plant with the genotype ff will have white flowers.\nSOLUTION: You need to determine Squirt's phenotype for the tail spots trait. First, consider the alleles in Squirt's genotype for the tail spots gene. Then, decide whether these alleles are dominant or recessive.\nThe allele for a spotted tail (I) is dominant over the allele for an unspotted tail (i). This means I is a dominant allele, and i is a recessive allele.\nSquirt's genotype of Ii has one dominant allele and one recessive allele. An organism with at least one dominant allele for a gene will have the dominant allele's version of the trait. So, Squirt's phenotype for the tail spots trait must be a spotted tail.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "105",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Select the reptile.\nContext: N/A\nOptions: (A) eagle ray (B) dwarf crocodile (C) California newt (D) harbor seal"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Reptiles have scaly, waterproof skin. Most reptiles live on land.\nSOLUTION: An eagle ray is a fish. It lives underwater. It has fins, not limbs.\nRays have a different shape than many other fish. Rays are large and flat. They have wide, triangle-shaped fins that help them swim long distances.\nA harbor seal is a mammal. It has fur and feeds its young milk.\nSeals have flippers instead of arms! They use their flippers to swim underwater or to crawl on the beach.\nA dwarf crocodile is a reptile. It has scaly, waterproof skin.\nCrocodiles hunt their prey in or near water.\nA California newt is an amphibian. It has moist skin and begins its life in water.\nSome newts live in water. Other newts live on land but lay their eggs in water.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "107",
+    "image": "107/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which solution has a higher concentration of yellow particles?\nContext: The diagram below is a model of two solutions. Each yellow ball represents one particle of solute.\nOptions: (A) neither; their concentrations are the same (B) Solution B (C) Solution A\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A solution is made up of two or more substances that are completely mixed. In a solution, solute particles are mixed into a solvent. The solute cannot be separated from the solvent by a filter. For example, if you stir a spoonful of salt into a cup of water, the salt will mix into the water to make a saltwater solution. In this case, the salt is the solute. The water is the solvent.\nThe concentration of a solute in a solution is a measure of the ratio of solute to solvent. Concentration can be described in terms of particles of solute per volume of solvent.\nconcentration = particles of solute / volume of solvent\nSOLUTION: In Solution A and Solution B, the yellow particles represent the solute. To figure out which solution has a higher concentration of yellow particles, look at both the number of yellow particles and the volume of the solvent in each container.\nUse the concentration formula to find the number of yellow particles per milliliter.\nSolution B has more yellow particles per milliliter. So, Solution B has a higher concentration of yellow particles.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "108",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Would you find the word miracle on a dictionary page with the following guide words?\nmean - mumps\nContext: N/A\nOptions: (A) no (B) yes"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Guide words appear on each page of a dictionary. They tell you the first word and last word on the page. The other words on the page come between the guide words in alphabetical order.\nTo put words in alphabetical order, put them in order by their first letters. If the first letters are the same, look at the second letters. If the second letters are the same, look at the third letters, and so on.\nIf one word is shorter, and there are no more letters to compare, then the shorter word comes first in alphabetical order. For example, be comes before bed.\nSOLUTION: Put the words in alphabetical order.\nSince miracle is between the guide words mean - mumps, it would be found on that page.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "109",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which greeting is correct for a letter?\nContext: N/A\nOptions: (A) Dear ms. Allen, (B) Dear Ms. Allen,"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A letter starts with a greeting and ends with a closing. For each one, capitalize the first word and end with a comma. You should also capitalize proper nouns, such as Aunt Sue.\nDear Aunt Sue,\nI'm glad you could come to my party, and\nthank you for the birthday gift. I could not have\nasked for a better one! Every time I see it, I think\nof you.\nWith love,\nRory\nSOLUTION: The first greeting is correct:\nIts first word is capitalized, and it ends with a comma. Ms. Allen is capitalized because it is a proper noun.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "110",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Using only these supplies, which question can Stefan investigate with an experiment?\nContext: Stefan mixes oil and vinegar to make salad dressing. He notices that after a few minutes, the oil and vinegar separate. He wonders what factors affect how quickly liquids separate. So, he decides to design an experiment. He has the following supplies available:\nthree glass bottles\nolive oil\nvegetable oil\nvinegar\ncold water\nOptions: (A) Does vegetable oil separate faster when stirred together with vinegar or with water? (B) Does vegetable oil separate faster when stirred together with cold water or with hot water? (C) Does vinegar separate faster when stirred together with olive oil or with coconut oil?"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Experiments can be designed to answer specific questions. When designing an experiment, you must identify the supplies that are necessary to answer your question. In order to do this, you need to figure out what will be tested and what will be measured during the experiment.\nImagine that you are wondering if plants grow to different heights when planted in different types of soil. How might you decide what supplies are necessary to conduct this experiment?\nFirst, you need to identify the part of the experiment that will be tested, which is the independent variable. This is usually the part of the experiment that is different or changed. In this case, you would like to know how plants grow in different types of soil. So, you must have different types of soil available.\nNext, you need to identify the part of the experiment that will be measured or observed, which is the dependent variable. In this experiment, you would like to know if some plants grow taller than others. So, you must be able to compare the plants' heights. To do this, you can observe which plants are taller by looking at them, or you can measure their exact heights with a meterstick.\nSo, if you have different types of soil and can observe or measure the heights of your plants, then you have the supplies you need to investigate your question with an experiment!\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "112",
+    "image": "112/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which animal's feet are also adapted for swimming?\nContext: s spend much of their lives at sea. They eat mostly fish, which they catch while swimming and diving. The feet of the are adapted for swimming.\nFigure: Atlantic puffin.\nOptions: (A) blue-footed booby (B) tokay gecko\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: An adaptation is an inherited trait that helps an organism survive or reproduce. Adaptations can include both body parts and behaviors.\nThe shape of an animal's feet is one example of an adaptation. Animals' feet can be adapted in different ways. For example, webbed feet might help an animal swim. Feet with thick fur might help an animal walk on cold, snowy ground.\nSOLUTION: Look at the picture of the Atlantic puffin.\nThe Atlantic puffin has webbed feet. Its feet are adapted for swimming. As it swims, the Atlantic puffin uses its webbed feet to push itself through water.\nNow look at each animal. Figure out which animal has a similar adaptation.\nThe blue-footed booby has webbed feet. Its feet are adapted for swimming.\nThe tokay gecko has wide, sticky toes. Its feet are not adapted for swimming. The tokay gecko uses its feet to climb trees and walk on leaves.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "114",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which is a simple sentence?\nContext: N/A\nOptions: (A) In the early morning, I drank tea by a spice stall as the Turkish bazaar came to life. (B) The gutters were full of leaves and in need of cleaning."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A clause is a group of words that contains both a subject and a predicate.\nAn independent clause is a complete thought. It can stand alone as a sentence. A dependent clause is not a complete thought. It cannot stand alone as a sentence.\nthe oranges on our tree are ripe\nThe clause can stand alone. It is independent.\nafter we pick up Kevin from work\nThe clause cannot stand alone. It is dependent.\nA simple sentence is made up of a single independent clause.\nBen and I spent all day relaxing by the pool.\nSome simple sentences have introductory phrases, but the introductory phrase is part of the predicate.\nIn the winter, Ben usually wears his heavy coat.\nBen usually wears his heavy coat in the winter.\nA compound sentence is made up of two independent clauses joined by a coordinating conjunction such as and, but, or, or so.\nWe saw a flash of lightning, and seconds later we heard the rumble of thunder.\nA complex sentence is made up of an independent clause and a dependent clause. The dependent clause usually begins with a subordinating conjunction such as after, although, as, because, before, if, since, unless, until, when, or while.\nIf she ever gets the chance, Terri would love to visit the Egyptian pyramids.\nSOLUTION: The first sentence is the simple sentence. It is a single independent clause.\nThe gutters were full of leaves and in need of cleaning.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "115",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Assume all other forces on Tamir are balanced. Which statement describes the forces on Tamir?\nContext: Tamir is standing on a diving board at the pool. Earth's gravity is pulling down on Tamir with a force of 400N. The diving board is pushing up on Tamir with a force of 400N.\nOptions: (A) The forces are balanced, so there is no net force on Tamir. (B) The forces are unbalanced, so there is a net force on Tamir."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A force is a push or a pull that acts on an object. Every force has a direction and a magnitude, or strength. If two forces act on an object in opposite directions, the forces are called opposing forces.\nWhen opposing forces have the same magnitude, they are balanced. If all the forces on an object are balanced, there is no net force on the object.\nWhen opposing forces have different magnitudes, the forces are unbalanced. If any forces on an object are unbalanced, there is a net force on the object.\nSOLUTION: To determine if there is a net force on Tamir, look at the forces:\nEarth's gravity is pulling Tamir down with a force of 400 N.\nThe diving board is pushing Tamir up with a force of 400 N.\nThe forces are in opposite directions, and the forces have the same magnitude: 400 N. This means that the forces are balanced, so there is no net force on Tamir.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "116",
+    "image": "116/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which solution has a higher concentration of green particles?\nContext: The diagram below is a model of two solutions. Each green ball represents one particle of solute.\nOptions: (A) Solution A (B) Solution B (C) neither; their concentrations are the same\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A solution is made up of two or more substances that are completely mixed. In a solution, solute particles are mixed into a solvent. The solute cannot be separated from the solvent by a filter. For example, if you stir a spoonful of salt into a cup of water, the salt will mix into the water to make a saltwater solution. In this case, the salt is the solute. The water is the solvent.\nThe concentration of a solute in a solution is a measure of the ratio of solute to solvent. Concentration can be described in terms of particles of solute per volume of solvent.\nconcentration = particles of solute / volume of solvent\nSOLUTION: In Solution A and Solution B, the green particles represent the solute. To figure out which solution has a higher concentration of green particles, look at both the number of green particles and the volume of the solvent in each container.\nUse the concentration formula to find the number of green particles per milliliter.\nSolution A has more green particles per milliliter. So, Solution A has a higher concentration of green particles.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "117",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which sentence states a fact?\nContext: N/A\nOptions: (A) The giant anteater uses its sticky tongue to grab insects. (B) The eating habits of the giant anteater are disgusting."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A fact is something that can be proved to be true.\nThe month of July has more days than the month of June.\nThis is a fact. It can be proved by looking at a calendar and counting the number of days in each month.\nAn opinion is something that a person believes, thinks, or feels. An opinion cannot be proved true.\nJuly is a better month than June for camping.\nThis is an opinion. People may have different opinions about which month is \"better\" for camping.\nSOLUTION: The first sentence states a fact.\nThe giant anteater uses its sticky tongue to grab insects.\nIt can be proved by looking up information about anteaters.\nThe second sentence states an opinion.\nThe eating habits of the giant anteater are disgusting.\nDisgusting shows what a person believes, thinks, or feels. Another person might have a different opinion about what is disgusting.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "119",
+    "image": "119/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What is the capital of Washington?\nContext: N/A\nOptions: (A) Santa Fe (B) Seattle (C) New Orleans (D) Olympia\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "SOLUTION: Olympia is the capital of Washington.\n###\nANSWER: D."
+      }
+    ]
+  },
+  {
+    "id": "120",
+    "image": "120/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What is the capital of New York?\nContext: N/A\nOptions: (A) Albany (B) Lansing (C) Buffalo (D) Hartford\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "SOLUTION: Albany is the capital of New York.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "123",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which figure of speech is used in this text?\nRebecca's Bistro used to be a great place to go for a delicious and carefully prepared dinner, but nobody goes there anymore: it's too crowded.\nContext: N/A\nOptions: (A) apostrophe (B) paradox"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Figures of speech are words or phrases that use language in a nonliteral or unusual way. They can make writing more expressive.\nAnaphora is the repetition of the same word or words at the beginning of several phrases or clauses.\nWe are united. We are powerful. We are winners.\nAntithesis involves contrasting opposing ideas within a parallel grammatical structure.\nI want to help, not to hurt.\nApostrophe is a direct address to an absent person or a nonhuman entity.\nOh, little bird, what makes you sing so beautifully?\nAssonance is the repetition of a vowel sound in a series of nearby words.\nTry to light the fire.\nChiasmus is an expression in which the second half parallels the first but reverses the order of words.\nNever let a fool kiss you or a kiss fool you.\nA euphemism is a polite or indirect expression that is used to de-emphasize an unpleasant topic.\nThe head of Human Resources would never refer to firing people, only to laying them off.\nHyperbole is an obvious exaggeration that is not meant to be taken literally.\nI ate so much that I think I might explode!\nAn oxymoron is a joining of two seemingly contradictory terms.\nSome reviewers are calling this book a new classic.\nA paradox is a statement that might at first appear to be contradictory, but that may in fact contain some truth.\nAlways expect the unexpected.\nUnderstatement involves deliberately representing something as less serious or important than it really is.\nAs you know, it can get a little cold in the Antarctic.\nSOLUTION: The text uses a paradox, a statement that might at first appear to be contradictory, but that may in fact contain some truth.\nNobody goes there anymore: it's too crowded at first appears to be contradictory, because if no one goes to the restaurant, then the restaurant should be empty, not crowded. However, it contains some truth: if a restaurant is frequently perceived to be too crowded, many people will no longer want to go there.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "125",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Complete the sentence.\nIn this chemical reaction, glucose is a ().\nContext: This passage describes a chemical reaction. Read the passage. Then, follow the instructions below.\nPlants make glucose, a sugar they can use for food, through a process called photosynthesis. During photosynthesis, plants use energy from sunlight to make glucose from water and carbon dioxide. In the process of making glucose, plants also create most of the oxygen in the air we breathe.\nOptions: (A) reactant (B) product"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A chemical change occurs when new substances are formed from existing substances. This process is called a chemical reaction.\nIn a chemical reaction, one or more substances change into one or more different substances. During the reaction, the atoms of the original substances are rearranged to form other substances.\nThe original substances in a chemical reaction are called reactants. These substances react, or go through a chemical change.\nThe substances that are formed in a chemical reaction are called products. These substances are produced by the chemical reaction.\nSo, in a chemical reaction, reactants go through a chemical change to form products.\nSOLUTION: Read the underlined text carefully. Look for information about what happens to glucose in this chemical reaction.\nPlants make glucose, a sugar they can use for food, through a process called photosynthesis. During photosynthesis, plants use energy from sunlight to make glucose from water and carbon dioxide. In the process of making glucose, plants also create most of the oxygen in the air we breathe.\nThe underlined text tells you that glucose forms when water combines with carbon dioxide. Because glucose is produced by this chemical reaction, glucose is a product.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "129",
+    "image": "129/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which cones make pollen?\nContext: This diagram shows the life cycle of a pine tree.\nOptions: (A) pollinated cones (B) male cones\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Gymnosperms are plants that have seeds but not flowers. Conifers are a type of a gymnosperm. Instead of flowers, conifers have cones. Conifers use their cones for sexual reproduction.\nMost conifer trees have both male and female cones. The male cones produce pollen. The female cones produce eggs and a sticky substance on the edge of the cone.\nMale cones release pollen into the wind. Pollination happens when pollen lands on and sticks to the female cones. Self-pollination happens when pollen sticks to a female cone on the same tree. Cross-pollination happens when pollen sticks to a female cone on a different tree.\nAfter pollination, sperm from the pollen fuse with eggs at the base of the female cone's scales. This is called fertilization.\nThe fertilized eggs grow into seeds inside the female cone. Conifer seeds are released from the fertilized cones. Many conifer seeds have wing-like structures. They can be carried long distances by the wind. When a seed lands on the ground, it can germinate and grow into a new plant.\nThe new plant can grow cones and begin the conifer life cycle again.\nSOLUTION: Male cones make pollen.\nWhen pollen sticks to a female cone, the female cone becomes pollinated. Pollinated cones do not produce pollen.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "130",
+    "image": "130/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What can Debbie and Madelyn trade to each get what they want?\nContext: Trade happens when people agree to exchange goods and services. People give up something to get something else. Sometimes people barter, or directly exchange one good or service for another.\nDebbie and Madelyn open their lunch boxes in the school cafeteria. Both of them could be happier with their lunches. Debbie wanted broccoli in her lunch and Madelyn was hoping for tomatoes. Look at the images of their lunches. Then answer the question below.\nOptions: (A) Madelyn can trade her broccoli for Debbie's oranges. (B) Debbie can trade her tomatoes for Madelyn's broccoli. (C) Debbie can trade her tomatoes for Madelyn's sandwich. (D) Madelyn can trade her almonds for Debbie's tomatoes.\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "SOLUTION: Debbie wanted broccoli in her lunch and Madelyn was hoping for tomatoes. Look at the labeled part of the images.\nDebbie has tomatoes. Madelyn has broccoli. They can trade tomatoes for broccoli to both be happier. Trading other things would not help either person get more items they want.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "131",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which figure of speech is used in this text?\nAfter spending weeks in New York City, Florence was a bit unnerved by the deafening silence of her small hometown.\nContext: N/A\nOptions: (A) oxymoron (B) euphemism"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Figures of speech are words or phrases that use language in a nonliteral or unusual way. They can make writing more expressive.\nA euphemism is a polite or indirect expression that is used to de-emphasize an unpleasant topic.\nThe head of Human Resources would never refer to firing people, only to laying them off.\nHyperbole is an obvious exaggeration that is not meant to be taken literally.\nI ate so much that I think I might explode!\nAn oxymoron is a joining of two seemingly contradictory terms.\nSome reviewers are calling this book a new classic.\nA paradox is a statement that might at first appear to be contradictory, but that may in fact contain some truth.\nAlways expect the unexpected.\nSOLUTION: The text uses an oxymoron, a joining of two seemingly contradictory terms.\nDeafening silence is a contradiction, because deafening describes something extremely loud, and silence is the absence of sound.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "132",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Complete the statement. Assume that the sled's mass did not change.\nThe gravitational potential energy stored between the sled and Earth () as Michelle rode down the hill.\nContext: Read the text about an object in motion.\nOn a snowy day, Michelle rode her sled down a big hill.\nOptions: (A) stayed the same (B) decreased (C) increased"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Gravitational potential energy is stored between any two objects. So, for every object on or near Earth, there is gravitational potential energy stored between the object and Earth.\nThe amount of gravitational potential energy stored between an object and Earth depends on the mass of the object. The amount of gravitational potential energy also depends on the distance between the object and the center of Earth. This distance increases when the object moves higher and decreases when the object moves lower.\nIf the distance between an object and the center of Earth changes, the gravitational potential energy stored between the object and Earth will change. The table below shows how this change can happen.\nWhen an object's mass stays the same and its distance from the center of Earth... | Gravitational potential energy stored between the object and Earth...\nincreases | increases\ndecreases | decreases\nstays the same | stays the same\nSOLUTION: Think about how the distance between the sled and the center of Earth changed.\nThe bottom of the hill was lower than the point where Michelle started sledding. As Michelle rode toward the bottom of the hill, the distance between the sled and the center of Earth decreased. So, the gravitational potential energy stored between the sled and Earth decreased as Michelle rode down the hill.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "134",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which closing is correct for a letter?\nContext: N/A\nOptions: (A) your friend,\nCarla (B) Your friend,\nCarla"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A letter starts with a greeting and ends with a closing. For each one, capitalize the first word and end with a comma. You should also capitalize proper nouns, such as Aunt Sue.\nDear Aunt Sue,\nI'm glad you could come to my party, and\nthank you for the birthday gift. I could not have\nasked for a better one! Every time I see it, I think\nof you.\nWith love,\nRory\nSOLUTION: The second closing is correct:\nIts first word is capitalized, and it ends with a comma.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "135",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Based on this information, what is Zazu's phenotype for the cheek color trait?\nContext: In a group of cockatiels, some individuals have bright orange cheeks and others have pale orange cheeks. In this group, the gene for the cheek color trait has two alleles. The allele for pale orange cheeks (r) is recessive to the allele for bright orange cheeks (R).\nZazu is a cockatiel from this group. Zazu has the homozygous genotype RR for the cheek color gene.\nOptions: (A) pale orange cheeks (B) bright orange cheeks"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: All organisms have pieces of hereditary material called genes, which are passed from parents to offspring. Genes contain instructions for building the parts of an organism. An organism's genes affect its observable traits, including its appearance, its behavior, and which diseases it may have. Genes may have different alleles, or forms, that can cause different versions of a trait.\nFor example, flower color is a trait in pea plants. The gene for this trait has two possible alleles. Each allele is represented by an uppercase or lowercase letter. The allele F is for purple flowers, and the allele f is for white flowers. Each pea plant has two alleles for the flower color gene\u2014one allele inherited from each parent.\nAn organism's genotype for a gene is its combination of alleles for that gene. So, a pea plant may have a genotype of FF, Ff, or ff for the flower color gene.\nAn organism's phenotype for a trait is its observable version of that trait, which depends on the organism's combination of alleles. A pea plant may have a phenotype of purple flowers or white flowers for the flower color trait.\nSome traits, like flower color in pea plants, are controlled by a single gene. Most plants and animals have a genotype made up of two alleles for these traits. These two alleles determine whether an organism is homozygous or heterozygous for the gene.\nAn organism with two identical alleles for a gene is homozygous for that gene. A pea plant with the genotype FF or ff is homozygous for the flower color gene.\nAn organism with two different alleles for a gene is heterozygous for that gene. A pea plant with the genotype Ff is heterozygous for the flower color gene.\nThe types of alleles in an organism's genotype determine the organism's phenotype. Some alleles have types called dominant and recessive. These two types can cause different versions of a trait to appear as the organism's phenotype.\nA dominant allele causes its version of the trait to appear even when the organism also has a recessive allele for the gene. In pea plants, the F allele, which causes purple flowers, is dominant over the f allele. A pea plant with at least one F allele will have the F allele's version of the flower color trait. So, a plant with the genotype FF or Ff will have purple flowers.\nA recessive allele causes its version of the trait to appear only when the organism does not have any dominant alleles for the gene. In pea plants, the f allele, which causes white flowers, is recessive to the F allele. A pea plant with only f alleles will have the f allele's version of the flower color trait. So, a plant with the genotype ff will have white flowers.\nSOLUTION: Zazu's genotype for the cheek color gene is RR. Zazu's genotype of RR has only R allelles. The R allele is for bright orange cheeks. So, Zazu's phenotype for the cheek color trait must be bright orange cheeks.\nTo check this answer, consider whether Zazu's alleles are dominant or recessive. The allele for pale orange cheeks (r) is recessive to the allele for bright orange cheeks (R). This means R is a dominant allele, and r is a recessive allele.\nZazu's genotype of RR has two dominant alleles. An organism with at least one dominant allele for a gene will have the dominant allele's version of the trait. So, Zazu's phenotype for the cheek color trait must be bright orange cheeks.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "136",
+    "image": "136/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Complete the statement.\nPalladium is ().\nContext: The model below represents palladium. Palladium is a metal that reacts with the gases produced by car engines to make the gases less harmful.\nOptions: (A) a compound (B) an elementary substance\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: There are more than 100 different chemical elements, or types of atoms. Chemical elements make up all of the substances around you.\nA substance may be composed of one chemical element or multiple chemical elements. Substances that are composed of only one chemical element are elementary substances. Substances that are composed of multiple chemical elements bonded together are compounds.\nEvery chemical element is represented by its own atomic symbol. An atomic symbol may consist of one capital letter, or it may consist of a capital letter followed by a lowercase letter. For example, the atomic symbol for the chemical element fluorine is F, and the atomic symbol for the chemical element beryllium is Be.\nScientists use different types of models to represent substances whose atoms are bonded in different ways. One type of model is a space-filling model. The space-filling model below represents the elementary substance copper.\nIn a space-filling model, the balls represent atoms that are bonded together. The color of a ball represents a specific chemical element. The atomic symbol for that chemical element is shown in the legend.\nSOLUTION: Use the model to determine whether palladium is an elementary substance or a compound.\nStep 1: Interpret the model.\nIn the space-filling model shown above, all of the balls are the same color:\n. The legend shows that dark blue represents the chemical element with the atomic symbol Pd. So, the model shows you that palladium is composed of one chemical element.\nStep 2: Determine whether the substance is an elementary substance or a compound.\nYou know from Step 1 that palladium is composed of only one chemical element. So, palladium is an elementary substance.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "137",
+    "image": "137/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What is the probability that a Nile tilapia fish produced by this cross will have a greenish-brown body?\nContext: In a group of Nile tilapia fish, some individuals have a greenish-brown body and others have a pink body. In this group, the gene for the body color trait has two alleles. The allele for a pink body (b) is recessive to the allele for a greenish-brown body (B).\nThis Punnett square shows a cross between two Nile tilapia fish.\nOptions: (A) 2/4 (B) 3/4 (C) 1/4 (D) 0/4 (E) 4/4\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Offspring phenotypes: dominant or recessive?\nHow do you determine an organism's phenotype for a trait? Look at the combination of alleles in the organism's genotype for the gene that affects that trait. Some alleles have types called dominant and recessive. These two types can cause different versions of the trait to appear as the organism's phenotype.\nIf an organism's genotype has at least one dominant allele for a gene, the organism's phenotype will be the dominant allele's version of the gene's trait.\nIf an organism's genotype has only recessive alleles for a gene, the organism's phenotype will be the recessive allele's version of the gene's trait.\nIn a Punnett square, each box represents a different outcome, or result. Each of the four outcomes is equally likely to happen. Each box represents one way the parents' alleles can combine to form an offspring's genotype. Because there are four boxes in the Punnett square, there are four possible outcomes.\nAn event is a set of one or more outcomes. The probability of an event is a measure of how likely the event is to happen. This probability is a number between 0 and 1, and it can be written as a fraction:\nprobability of an event = number of ways the event can happen / number of equally likely outcomes\nYou can use a Punnett square to calculate the probability that a cross will produce certain offspring. For example, the Punnett square below has two boxes with the genotype Ff. It has one box with the genotype FF and one box with the genotype ff. This means there are two ways the parents' alleles can combine to form Ff. There is one way they can combine to form FF and one way they can combine to form ff.\n | F | f\nF | FF | Ff\nf | Ff | ff\nConsider an event in which this cross produces an offspring with the genotype ff. The probability of this event is given by the following fraction:\nnumber of ways the event can happen / number of equally likely outcomes = number of boxes with the genotype ff / total number of boxes = 1 / 4.\n###\nANSWER: E."
+      }
+    ]
+  },
+  {
+    "id": "138",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Select the vertebrate.\nContext: Hint: Mammals, birds, fish, reptiles, and amphibians are vertebrates.\nOptions: (A) redback spider (B) common octopus (C) birdwing butterfly (D) asp viper"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Vertebrates and invertebrates are both groups of animals.\nA vertebrate has a backbone. The backbone is made of many bones in an animal's back. A vertebrate's backbone helps connect the different parts of its body. In the drawings below, each vertebrate's backbone is colored orange.\nAn invertebrate does not have a backbone. In fact, invertebrates do not have any bones! Some invertebrates have an outer cover on their body called an exoskeleton. Other invertebrates have a soft body.\nSOLUTION: Like other octopuses, a common octopus is an invertebrate. It does not have a backbone. It has a soft body.\nLike other spiders, a redback spider is an invertebrate. It does not have a backbone. It has an exoskeleton.\nA birdwing butterfly is an insect. Like other insects, a birdwing butterfly is an invertebrate. It does not have a backbone. It has an exoskeleton.\nAn asp viper is a reptile. Like other reptiles, an asp viper is a vertebrate. It has a backbone.\n###\nANSWER: D."
+      }
+    ]
+  },
+  {
+    "id": "141",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which tense does the sentence use?\nMr. Norman signed his name on the letter.\nContext: N/A\nOptions: (A) past tense (B) present tense (C) future tense"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Present tense verbs tell you about something that is happening now.\nMost present-tense verbs are regular. They have no ending, or they end in -s or -es.\nTwo verbs are irregular in the present tense, to be and to have. You must remember their forms.\nPast tense verbs tell you about something that has already happened.\nMost past-tense verbs are regular. They end in -ed.\nSome verbs are irregular in the past tense. You must remember their past-tense forms.\nFuture tense verbs tell you about something that is going to happen.\nAll future-tense verbs use the word will.\nPresent | Past | Future\nwalk, walks | walked | will walk\ngo, goes | went | will go\nSOLUTION: The sentence is in past tense. You can tell because it uses a past-tense verb, signed. The verb ends in -ed and tells you about something that has already happened.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "143",
+    "image": "143/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "In this food chain, the Mojave yucca is a producer. Why?\nContext: This diagram shows a food chain from a desert ecosystem in Southern California.\nOptions: (A) It eats another living thing. (B) It makes its own food.\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Every living thing needs food to stay alive. Living things get their food in different ways. A food chain shows how living things in an ecosystem get their food.\nProducers make their own food. Many producers use carbon dioxide, water, and sunlight to make sugar. This sugar is food for the producer.\nConsumers eat other living things. Consumers cannot make their own food.\nSOLUTION: In this food chain, the Mojave yucca is a producer because it makes its own food. The Mojave yucca uses carbon dioxide, water, and sunlight to make its own food.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "144",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What do these two changes have in common?\na banana getting ripe on the counter\nnewly poured concrete becoming hard\nContext: N/A\nOptions: (A) Both are caused by heating. (B) Both are chemical changes. (C) Both are caused by cooling. (D) Both are only physical changes."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Matter is made of very small particles called atoms. Atoms can be linked together by chemical bonds. When two or more atoms link together, they form a molecule.\nIn a chemical change, the chemical bonds in the molecules break. The atoms then link together to form different molecules. The types of molecules in matter before and after a chemical change are always different.\nSome chemical changes are caused by heating or cooling. For example, burning a piece of paper is a chemical change caused by heating. As paper burns, paper molecules react with oxygen molecules in the air. This reaction breaks the chemical bonds in the molecules. The atoms then link together in a different way to form different molecules. For example, carbon dioxide molecules are formed when paper burns.\nIn a physical change, chemical bonds do not break. The types of molecules in matter before and after a physical change are always the same.\nA change of state is a type of physical change. Changes of state can be caused by heating or cooling. For example, water vaporizing is a physical change that can be caused by heating. Liquid water and water vapor are made of the same type of matter: water.\nThe law of conservation of mass says that all physical and chemical changes conserve mass. Conserve means to keep the same. So, the total mass before a physical or chemical change is equal to the total mass after the change.\nSOLUTION: Step 1: Think about each change.\nA banana getting ripe on the counter is a chemical change. As a banana ripens, the type of matter in it changes. The peel changes color and the inside becomes softer and sweeter.\nConcrete hardening is a chemical change. The chemicals in the concrete react with each other to form a different type of matter. The new matter is hard and strong.\nStep 2: Look at each answer choice.\nBoth are only physical changes.\nBoth changes are chemical changes. They are not physical changes.\nBoth are chemical changes.\nBoth changes are chemical changes. The type of matter before and after each change is different.\nBoth are caused by heating.\nNeither change is caused by heating.\nBoth are caused by cooling.\nNeither change is caused by cooling.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "146",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which text uses the word literally in its traditional sense?\nContext: N/A\nOptions: (A) Cara adores the classic Renaissance style of the Rialto Bridge in Venice. She was surprised to learn that the bridge remains functional even though it is literally a million years old. (B) Cara adores the classic Renaissance style of the Rialto Bridge in Venice. She was surprised to learn that the bridge remains functional even though it is literally hundreds of years old."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Words change in meaning when speakers begin using them in new ways. For example, the word peruse once only meant to examine in detail, but it's now also commonly used to mean to look through in a casual manner.\nWhen a word changes in meaning, its correct usage is often debated. Although a newer sense of the word may be more commonly used, many people consider a word's traditional definition to be the correct usage. Being able to distinguish the different uses of a word can help you use it appropriately for different audiences.\nBritney perused her notes, carefully preparing for her exam.\nThe traditional usage above is considered more standard.\nDavid perused the magazine, absentmindedly flipping through the pages.\nThe nontraditional usage above is now commonly used, but traditional style guides generally advise against it.\nSOLUTION: The second text uses literally in its traditional sense: in a factual, non-exaggerated way.\nCara adores the classic Renaissance style of the Rialto Bridge in Venice. She was surprised to learn that the bridge remains functional even though it is literally hundreds of years old.\nThe first text uses literally in its nontraditional sense: nearly or in effect (often exaggerated). The bridge is old, but it is not actually a million years old.\nCara adores the classic Renaissance style of the Rialto Bridge in Venice. She was surprised to learn that the bridge remains functional even though it is literally a million years old.\nMost style guides recommend to avoid using the nontraditional sense of the word literally because it is generally considered incorrect.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "151",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Compare the motion of two fish. Which fish was moving at a higher speed?\nContext: N/A\nOptions: (A) a fish that moved 50kilometers in 10hours (B) a fish that moved 85kilometers in 10hours"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: An object's speed tells you how fast the object is moving. Speed depends on both distance and time.\nDistance tells you how far the object has moved. One unit used to measure distance is the kilometer.\nTime tells you how long the object has spent moving. One unit used to measure time is the hour.\nThink about two objects moving for the same amount of time. The object that is moving faster will go a farther distance in that time. It is moving at a higher speed.\nSOLUTION: Look at the distance each fish moved and the time it took to move that distance.\nOne fish moved 85 kilometers in 10 hours.\nThe other fish moved 50 kilometers in 10 hours.\nNotice that each fish spent the same amount of time moving. The fish that moved 85 kilometers moved a farther distance in that time. So, that fish must have moved at a higher speed.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "152",
+    "image": "152/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which of these states is farthest east?\nContext: N/A\nOptions: (A) Montana (B) New Mexico (C) Arkansas (D) Nebraska\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Maps have four cardinal directions, or main directions. Those directions are north, south, east, and west.\nA compass rose is a set of arrows that point to the cardinal directions. A compass rose usually shows only the first letter of each cardinal direction.\nThe north arrow points to the North Pole. On most maps, north is at the top of the map.\nSOLUTION: To find the answer, look at the compass rose. Look at which way the east arrow is pointing. Arkansas is farthest east.\n###\nANSWER: C."
+      }
+    ]
+  },
+  {
+    "id": "154",
+    "image": "154/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Will these magnets attract or repel each other?\nContext: Two magnets are placed as shown.\n\nHint: Magnets that attract pull together. Magnets that repel push apart.\nOptions: (A) repel (B) attract\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Magnets can pull or push on each other without touching. When magnets attract, they pull together. When magnets repel, they push apart.\nWhether a magnet attracts or repels other magnets depends on the positions of its poles, or ends. Every magnet has two poles, called north and south.\nHere are some examples of magnets. The north pole of each magnet is marked N, and the south pole is marked S.\nIf different poles are closest to each other, the magnets attract. The magnets in the pair below attract.\nIf the same poles are closest to each other, the magnets repel. The magnets in both pairs below repel.\n\nSOLUTION: Will these magnets attract or repel? To find out, look at which poles are closest to each other.\nThe north pole of one magnet is closest to the south pole of the other magnet. Poles that are different attract. So, these magnets will attract each other.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "157",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which sentence is more formal?\nContext: N/A\nOptions: (A) People who did not grow up playing or watching cricket often find it difficult to understand the rules of the sport. (B) People who didn't grow up playing or watching cricket often can't understand the rules of the sport."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Formal writing is used for essays, business letters, and reports. The following types of informal language should be avoided in formal writing:\nType | Examples\nslang | cool, awesome\nidioms | knock your socks off\nconversational language | gonna, kinda, yeah\nabbreviated language | ASAP, FYI\noverly simple or imprecise language | he got some stuff at the store\ncontractions | can't, won't\nContractions are not as informal as the other types, but they should be used sparingly in formal writing.\nCompare the following sentences. The first is informal. The second is formal.\nInformal: Yeah, ostriches can't fly, but they're awesome runners.\nFormal: Though ostriches are flightless, they are remarkably adept runners.\n\nSOLUTION: The first sentence is less formal. You can tell because it uses contractions (don't, can't).\nThe second sentence does not use contractions, so it is more formal.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "159",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Would you find the word pig on a dictionary page with the following guide words?\npardon - polish\nContext: N/A\nOptions: (A) no (B) yes"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Guide words appear on each page of a dictionary. They tell you the first word and last word on the page. The other words on the page come between the guide words in alphabetical order.\nTo put words in alphabetical order, put them in order by their first letters. If the first letters are the same, look at the second letters. If the second letters are the same, look at the third letters, and so on.\nIf one word is shorter, and there are no more letters to compare, then the shorter word comes first in alphabetical order. For example, be comes before bed.\nSOLUTION: Put the words in alphabetical order.\nSince pig is between the guide words pardon - polish, it would be found on that page.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "162",
+    "image": "162/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which country is highlighted?\nContext: N/A\nOptions: (A) Saint Lucia (B) Grenada (C) Haiti (D) Cuba\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "SOLUTION: This country is Haiti.\nDoes Haiti have any territorial disputes?\nHaiti claims to own Navassa Island, which is a disputed territory. In other words, multiple countries or groups claim that the area rightfully belongs to them.\nNavassa Island is also claimed by the United States. The United States claimed the island in 1857 and has controlled it since then. But Haiti considers the island part of its territory and has protested the United States' claim since this time. No one lives on the island. Today, it is a nature preserve.\n###\nANSWER: C."
+      }
+    ]
+  },
+  {
+    "id": "166",
+    "image": "166/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What is the name of the colony shown?\nContext: N/A\nOptions: (A) New Jersey (B) Virginia (C) West Virginia (D) Indiana\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "SOLUTION: The colony is Virginia.\nThe Virginia Colony included land that would later become part of the state of West Virginia. West Virginia was never its own colony.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "168",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What does the verbal irony in this text suggest?\n\"This is the best day of my life,\" Mr. Hogan mumbled after his car broke down on the way to an important job interview.\nContext: N/A\nOptions: (A) Mr. Hogan was having a bad day. (B) Mr. Hogan liked fixing cars."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Figures of speech are words or phrases that use language in a nonliteral or unusual way. They can make writing more expressive.\nVerbal irony involves saying one thing but implying something very different. People often use verbal irony when they are being sarcastic.\nOlivia seems thrilled that her car keeps breaking down.\nEach breakdown is as enjoyable as a punch to the face.\nSOLUTION: The text uses verbal irony, which involves saying one thing but implying something very different.\nThe best day of my life ironically suggests that Mr. Hogan was having a bad day. He was having the opposite of a good day because his car broke down when he needed to be on time.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "171",
+    "image": "171/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which of the following could Cody's test show?\nContext: People can use the engineering-design process to develop solutions to problems. One step in the process is testing if a potential solution meets the requirements of the design.\nThe passage below describes how the engineering-design process was used to test a solution to a problem. Read the passage. Then answer the question below.\n\nCody was a mechanical engineer who was designing to record temperature, precipitation, and wind speed. The weather station would be used in a town where the highest recorded temperature was 40\u00b0C. Cody wanted to make sure the weather station would work even in unusually warm weather.\nSo, he set an indoor test chamber to 50\u00b0C with low moisture and no wind. He left the weather station in the chamber overnight. The next day, he checked to see if the weather station displayed accurate measurements after 24 hours at 50\u00b0C.\nFigure: a weather station.\nOptions: (A) how well the weather station would work when it was windy (B) if the weather station would work when the temperature was 50\u00b0C\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: People can use the engineering-design process to develop solutions to problems. One step in the process is testing if a potential solution meets the requirements of the design. How can you determine what a test can show? You need to figure out what was tested and what was measured.\nImagine an engineer needs to design a bridge for a windy location. She wants to make sure the bridge will not move too much in high wind. So, she builds a smaller prototype, or model, of a bridge. Then, she exposes the prototype to high winds and measures how much the bridge moves.\nFirst, identify what was tested. A test can examine one design, or it may compare multiple prototypes to each other. In the test described above, the engineer tested a prototype of a bridge in high wind.\nThen, identify what the test measured. One of the criteria for the bridge was that it not move too much in high winds. The test measured how much the prototype bridge moved.\nTests can show how well one or more designs meet the criteria. The test described above can show whether the bridge would move too much in high winds.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "174",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which is a complete sentence?\nContext: N/A\nOptions: (A) In summer, insects always fly around the pond. (B) A bag of beans."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A sentence is a group of words that forms a complete thought. It has both a subject and a verb.\nMy friends walk along the path.\nA sentence fragment is a group of words that does not express a complete thought. It is usually missing a subject or a verb.\nKnows the answer.\nThis is a sentence fragment. It is missing a subject.\nWho knows the answer? She knows the answer.\nThe bright red car.\nThis is a sentence fragment. It is missing a verb.\nWhat did the bright red car do? The bright red car stopped.\nA run-on sentence is made up of two sentences that are joined without end punctuation or with just a comma.\nI knocked on the door it opened.\nIt started raining, we ran inside.\nTo fix a run-on sentence, separate it into two sentences. Add end punctuation after the first sentence, and capitalize the second sentence.\nI knocked on the door. It opened.\nIt started raining. We ran inside.\nYou can also fix a run-on sentence by rewriting it as a compound sentence. A compound sentence is two sentences joined by a comma and a conjunction such as and, but, or, or so.\nI knocked on the door, and it opened.\nIt started raining, so we ran inside.\nSOLUTION: In summer, insects always fly around the pond is a complete sentence. The subject is insects, and the verb is fly.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "175",
+    "image": "175/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Select the chemical formula for this molecule.\nContext: N/A\nOptions: (A) H2F (B) H2F2 (C) HF (D) HF2\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Every substance around you is made up of atoms. Atoms can link together to form molecules. The links between atoms in a molecule are called chemical bonds. Different molecules are made up of different chemical elements, or types of atoms, bonded together.\nScientists use both ball-and-stick models and chemical formulas to represent molecules.\nA ball-and-stick model of a molecule is shown below.\nThe balls represent atoms. The sticks represent the chemical bonds between the atoms. Balls that are different colors represent atoms of different elements. The element that each color represents is shown in the legend.\nEvery element has its own abbreviation, called its atomic symbol. Every chemical element is represented by its own symbol. For some elements, that symbol is one capital letter. For other elements, it is one capital letter followed by one lowercase letter. For example, the symbol for the element boron is B and the symbol for the element chlorine is Cl.\nThe molecule shown above has one boron atom and three chlorine atoms. A chemical bond links each chlorine atom to the boron atom.\nThe chemical formula for a substance contains the atomic symbol for each element in the substance. Many chemical formulas also contain subscripts. A subscript is small text placed lower than the normal line of text. Each subscript in a chemical formula is placed after the symbol for an element and tells you how many atoms of that element that symbol represents. If there is no subscript after a symbol, that symbol represents one atom.\nSo, the chemical formula for a substance tells you which elements make up that substance. It also tells you the ratio of the atoms of those elements in the substance. For example, the chemical formula below tells you that there are three chlorine atoms for every one boron atom in the substance. This chemical formula represents the same substance as the ball-and-stick model shown above.\nSOLUTION: H is the symbol for hydrogen. According to the legend, hydrogen atoms are shown in light gray. F is the symbol for fluorine. According to the legend, fluorine atoms are shown in light green. This ball-and-stick model shows a molecule with one hydrogen atom and one fluorine atom. The chemical formula will contain the symbols H and F. There is one hydrogen atom, so H will not have a subscript. There is one fluorine atom, so F will not have a subscript. The correct formula is HF. The diagram below shows how each part of the chemical formula matches with each part of the model above.\n###\nANSWER: C."
+      }
+    ]
+  },
+  {
+    "id": "177",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which metal paper clip has less thermal energy?\nContext: Two metal paper clips are identical except for their temperatures.\nOptions: (A) the colder metal paper clip (B) the hotter metal paper clip"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Matter is made of tiny particles called atoms. Atoms are always moving.\nThe energy of moving atoms is called thermal energy. The total amount of thermal energy in matter depends on three things: the type of matter, the amount of matter, and how fast the atoms are moving.\nTemperature measures how hot or cold matter is. If the atoms in matter slow down, the temperature goes down. The matter now has both less thermal energy and a lower temperature.\nWhat happens if the amount of matter changes? A 2-kilogram brick at 70\u00b0F has twice as much thermal energy as a 1-kilogram brick at 70\u00b0F. The two bricks have the same temperature, but the larger brick has twice as many atoms. So, it has twice as much thermal energy.\nSOLUTION: The two metal paper clips are made of the same material and have the same mass. So, the colder metal paper clip has less thermal energy.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "179",
+    "image": "179/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "During this time, thermal energy was transferred from () to ().\nContext: Two identical aquariums were next to an open window. One aquarium had a plastic cover on it, and the other was uncovered. This table shows how the temperature of each aquarium changed over 1.5hours.\nOptions: (A) each aquarium . . . the surroundings (B) the surroundings . . . each aquarium\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A change in an object's temperature indicates a change in the object's thermal energy:\nAn increase in temperature shows that the object's thermal energy increased. So, thermal energy was transferred into the object from its surroundings.\nA decrease in temperature shows that the object's thermal energy decreased. So, thermal energy was transferred out of the object to its surroundings.\nSOLUTION: The temperature of each aquarium decreased, which means that the thermal energy of each aquarium decreased. So, thermal energy was transferred from each aquarium to the surroundings.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "181",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Complete the sentence so that it uses personification.\n\"You might think you'll always be young,\" Mrs. Hensley counseled, \"but time ()\".\nContext: N/A\nOptions: (A) creeps up on you (B) affects everyone"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Personification is giving human characteristics to nonhuman things. It is a figure of speech that can be used to make writing more interesting or to emphasize a point.\nThe trees danced in the wind.\nThe word danced describes the trees as if they were people. Unlike people, however, trees can't actually dance. Instead, the personification suggests that the trees are moving.\nSOLUTION: Complete the sentence with the phrase creeps up on you. It describes time as if it were a sneaky person.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "185",
+    "image": "185/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What is the capital of Texas?\nContext: N/A\nOptions: (A) Dallas (B) Atlanta (C) Salem (D) Austin\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "SOLUTION: Austin is the capital of Texas.\n###\nANSWER: D."
+      }
+    ]
+  },
+  {
+    "id": "186",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which tense does the sentence use?\nScientists will measure the rainfall in Greenville.\nContext: N/A\nOptions: (A) present tense (B) past tense (C) future tense"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Present tense verbs tell you about something that is happening now.\nMost present-tense verbs are regular. They have no ending, or they end in -s or -es.\nTwo verbs are irregular in the present tense, to be and to have. You must remember their forms.\nPast tense verbs tell you about something that has already happened.\nMost past-tense verbs are regular. They end in -ed.\nSome verbs are irregular in the past tense. You must remember their past-tense forms.\nFuture tense verbs tell you about something that is going to happen.\nAll future-tense verbs use the word will.\nPresent | Past | Future\nwalk, walks | walked | will walk\ngo, goes | went | will go\nSOLUTION: The sentence is in future tense. You can tell because it uses will before the main verb, measure. The verb tells you about something that is going to happen.\n###\nANSWER: C."
+      }
+    ]
+  },
+  {
+    "id": "187",
+    "image": "187/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which of these cities is marked on the map?\nContext: N/A\nOptions: (A) New York City (B) Philadelphia (C) Pittsburgh (D) Washington, D.C.\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "SOLUTION: The city is Washington, D.C. Pittsburgh, New York City, and Philadelphia are marked with gray circles on the map below.\n###\nANSWER: D."
+      }
+    ]
+  },
+  {
+    "id": "189",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which tense does the sentence use?\nReba chops onions for the tomato sauce.\nContext: N/A\nOptions: (A) future tense (B) past tense (C) present tense"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Present tense verbs tell you about something that is happening now.\nMost present-tense verbs are regular. They have no ending, or they end in -s or -es.\nTwo verbs are irregular in the present tense, to be and to have. You must remember their forms.\nPast tense verbs tell you about something that has already happened.\nMost past-tense verbs are regular. They end in -ed.\nSome verbs are irregular in the past tense. You must remember their past-tense forms.\nFuture tense verbs tell you about something that is going to happen.\nAll future-tense verbs use the word will.\nPresent | Past | Future\nwalk, walks | walked | will walk\ngo, goes | went | will go\nSOLUTION: The sentence is in present tense. You can tell because it uses a present-tense verb, chops. The verb ends in -s and tells you about something that is true or happening now.\n###\nANSWER: C."
+      }
+    ]
+  },
+  {
+    "id": "190",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What do these two changes have in common?\na slice of banana turning brown\ngrilling a hamburger\nContext: N/A\nOptions: (A) Both are chemical changes. (B) Both are caused by heating. (C) Both are caused by cooling. (D) Both are only physical changes."
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Matter is made of very small particles called atoms. Atoms can be linked together by chemical bonds. When two or more atoms link together, they form a molecule.\nIn a chemical change, the chemical bonds in the molecules break. The atoms then link together to form different molecules. The types of molecules in matter before and after a chemical change are always different.\nSome chemical changes are caused by heating or cooling. For example, burning a piece of paper is a chemical change caused by heating. As paper burns, paper molecules react with oxygen molecules in the air. This reaction breaks the chemical bonds in the molecules. The atoms then link together in a different way to form different molecules. For example, carbon dioxide molecules are formed when paper burns.\nIn a physical change, chemical bonds do not break. The types of molecules in matter before and after a physical change are always the same.\nA change of state is a type of physical change. Changes of state can be caused by heating or cooling. For example, water vaporizing is a physical change that can be caused by heating. Liquid water and water vapor are made of the same type of matter: water.\nThe law of conservation of mass says that all physical and chemical changes conserve mass. Conserve means to keep the same. So, the total mass before a physical or chemical change is equal to the total mass after the change.\nSOLUTION: Step 1: Think about each change.\nA slice of banana turning brown is a chemical change. The part of the banana in contact with the air reacts with oxygen and turns into a different type of matter.\nGrilling a hamburger is a chemical change. Heat from the grill causes the matter in the meat to change. Cooked meat and raw meat are different types of matter.\nStep 2: Look at each answer choice.\nBoth are only physical changes.\nBoth changes are chemical changes. They are not physical changes.\nBoth are chemical changes.\nBoth changes are chemical changes. The type of matter before and after each change is different.\nBoth are caused by heating.\nCooking a hamburger is caused by heating. But a slice of banana turning brown is not.\nBoth are caused by cooling.\nNeither change is caused by cooling.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "191",
+    "image": "191/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Select the organism in the same genus as the crystal jellyfish.\nContext: This organism is a crystal jellyfish. Its scientific name is Aequorea victoria.\nOptions: (A) Goura victoria (B) Larus occidentalis (C) Aequorea victoria\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Scientists use scientific names to identify organisms. Scientific names are made of two words.\nThe first word in an organism's scientific name tells you the organism's genus. A genus is a group of organisms that share many traits.\nA genus is made up of one or more species. A species is a group of very similar organisms. The second word in an organism's scientific name tells you its species within its genus.\nTogether, the two parts of an organism's scientific name identify its species. For example Ursus maritimus and Ursus americanus are two species of bears. They are part of the same genus, Ursus. But they are different species within the genus. Ursus maritimus has the species name maritimus. Ursus americanus has the species name americanus.\nBoth bears have small round ears and sharp claws. But Ursus maritimus has white fur and Ursus americanus has black fur.\n\nSOLUTION: A crystal jellyfish's scientific name is Aequorea victoria. The first word of its scientific name is Aequorea.\nThis organism and the crystal jellyfish are in the same genus and the same species! Both organisms have the same scientific name, Aequorea victoria.\nGoura victoria and Aequorea victoria are not in the same genus.\nThese organisms are not in the same genus, but part of their scientific names is the same. Goura victoria and Aequorea victoria have the same species name within their genus, victoria. But the first words of their scientific names are different. Goura victoria is in the genus Goura, and Aequorea victoria is in the genus Aequorea.\nLarus occidentalis is in the genus Larus. The first word of its scientific name is Larus. So, Larus occidentalis and Aequorea victoria are not in the same genus.\n###\nANSWER: C."
+      }
+    ]
+  },
+  {
+    "id": "192",
+    "image": "192/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which solution has a higher concentration of green particles?\nContext: The diagram below is a model of two solutions. Each green ball represents one particle of solute.\nOptions: (A) Solution A (B) neither; their concentrations are the same (C) Solution B\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A solution is made up of two or more substances that are completely mixed. In a solution, solute particles are mixed into a solvent. The solute cannot be separated from the solvent by a filter. For example, if you stir a spoonful of salt into a cup of water, the salt will mix into the water to make a saltwater solution. In this case, the salt is the solute. The water is the solvent.\nThe concentration of a solute in a solution is a measure of the ratio of solute to solvent. Concentration can be described in terms of particles of solute per volume of solvent.\nconcentration = particles of solute / volume of solvent\nSOLUTION: In Solution A and Solution B, the green particles represent the solute. To figure out which solution has a higher concentration of green particles, look at both the number of green particles and the volume of the solvent in each container.\nUse the concentration formula to find the number of green particles per milliliter.\nSolution A has more green particles per milliliter. So, Solution A has a higher concentration of green particles.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "194",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "What is the volume of a bowl of soup?\nContext: Select the best estimate.\nOptions: (A) 11 cups (B) 11 gallons (C) 11 fluid ounces"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Measurements are written with both a number and a unit. The unit comes after the number. The unit shows what the number means.\nVolume is a measurement of how much space something takes up.\nThere are many different units of volume. When you are using customary units, volume may be written in units of fluid ounces, cups, or gallons.\nAs the diagram shows, there are 8 fluid ounces in 1 cup and 16 cups in 1 gallon. So, 1 fluid ounce is less than 1 cup and much less than 1 gallon.\nA glass of milk has a volume of about 8 fluid ounces, or 1 cup. A jug of milk has a volume of 1 gallon.\nSOLUTION: The best estimate for the volume of a bowl of soup is 11 fluid ounces.\n11 cups and 11 gallons are both too much.\n###\nANSWER: C."
+      }
+    ]
+  },
+  {
+    "id": "195",
+    "image": "195/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Think about the magnetic force between the magnets in each pair. Which of the following statements is true?\nContext: The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material.\nOptions: (A) The magnetic force is stronger in Pair 1. (B) The magnetic force is stronger in Pair 2. (C) The strength of the magnetic force is the same in both pairs.\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Magnets can pull or push on each other without touching. When magnets attract, they pull together. When magnets repel, they push apart.\nThese pulls and pushes between magnets are called magnetic forces. The stronger the magnetic force between two magnets, the more strongly the magnets attract or repel each other.\nYou can change the strength of a magnetic force between two magnets by changing the distance between them. The magnetic force is stronger when the magnets are closer together.\nSOLUTION: Distance affects the strength of the magnetic force. When magnets are closer together, the magnetic force between them is stronger.\nThe magnets in Pair 1 are closer together than the magnets in Pair 2. So, the magnetic force is stronger in Pair 1 than in Pair 2.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "197",
+    "image": "197/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which property do these four objects have in common?\nContext: Select the best answer.\nOptions: (A) translucent (B) sweet (C) fuzzy\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: An object has different properties. A property of an object can tell you how it looks, feels, tastes, or smells. Properties can also tell you how an object will behave when something happens to it.\nDifferent objects can have properties in common. You can use these properties to put objects into groups. Grouping objects by their properties is called classification.\nSOLUTION: Look at each object.\nFor each object, decide if it has that property.\nSugar has a sweet taste. All four objects are sweet.\nA translucent object lets light through. But you cannot see clearly through a translucent object. The apple juice is translucent, but the chocolate bar and the peach are not.\nA fuzzy object is covered in soft hair. The chocolate bar and the jam are not fuzzy.\nThe property that all four objects have in common is sweet.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "199",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which figure of speech is used in this text?\n\"This mattress is as soft as concrete,\" Tyler complained as he tested the bed in his hotel room.\nContext: N/A\nOptions: (A) verbal irony (B) personification"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Figures of speech are words or phrases that use language in a nonliteral or unusual way. They can make writing more expressive.\nAlliteration is the repetition of sounds at the beginning of nearby words.\nWhat a lucky little lady you are!\nAn allusion is a brief reference to something or someone well known, often from history or literature.\n\"I'd better get home before I turn into a pumpkin!\" Lila remarked.\nAn idiom is an expression that cannot be understood literally. Its meaning must be learned.\nThe assignment was a piece of cake.\nA simile uses like or as to compare two things that are not actually alike.\nThe cat's fur was as dark as the night.\nA metaphor compares two things that are not actually alike without using like or as.\nThe snow formed a blanket over the town.\nOnomatopoeia involves using a word that expresses a sound.\nThe scrambled eggs hit the floor with a splat.\nPersonification is giving human characteristics to nonhuman things.\nThe trees danced in the wind.\nA pun involves using a word or phrase in a humorous way that suggests more than one meaning.\nA great new broom is sweeping the nation.\nVerbal irony involves saying one thing but implying something very different. People often use verbal irony when they are being sarcastic.\nOlivia seems thrilled that her car keeps breaking down.\nEach breakdown is as enjoyable as a punch to the face.\nSOLUTION: The text uses verbal irony, which involves saying one thing but implying something very different.\nAs soft as concrete shows verbal irony because concrete is not soft.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "200",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Ken starts to pull the wagon across the yard. To move the wagon at the same speed each time, which friend does Ken need to pull with a larger force?\nContext: Ken gives two friends a ride in his wagon. One friend sits in the wagon at a time.\nOptions: (A) a friend who weighs 32 pounds (B) a friend who weighs 25 pounds"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A force is a push or a pull.\nA force can make an object start moving or stop an object that is moving. A force can also make an object speed up, slow down, or change direction.\nForces can be different sizes.\nThink about trying to move a heavy object and a light object. Imagine you want to move them at the same speed. You will need to use a larger force to move the heavy object.\nSOLUTION: Look for the friend who is heavier.\nA friend who weighs 32 pounds is heavier than a friend who weighs 25 pounds. So, to move the wagon at the same speed each time, Ken needs to use a larger force to start moving the wagon with a friend who weighs 32 pounds.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "201",
+    "image": "201/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which type of force from the girl opens the window?\nContext: A girl applies a force to a window. She uses the force to open the window.\nOptions: (A) pull (B) push\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: A force is a push or a pull that one object applies to a second object.\nThe direction of a push is away from the object that is pushing.\nThe direction of a pull is toward the object that is pulling.\nSOLUTION: The girl applies a force to the window panes. This force opens the window. The direction of this force is away from the girl. This force is a push.\n###\nANSWER: B."
+      }
+    ]
+  },
+  {
+    "id": "202",
+    "image": "202/image.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Which statement describes the Tallgrass Prairie National Preserve ecosystem?\nContext: Figure: Tallgrass Prairie National Preserve.\nTallgrass Prairie National Preserve is a prairie grassland ecosystem in eastern Kansas. The preserve is named for its grass, which can grow over five feet tall. This type of grass once covered large parts of North America, but it is now rare. Most of the tallgrass in North America was destroyed to create farmland.\nOptions: (A) It has a medium amount of rain. (B) It has soil that is poor in nutrients. (C) It has cold winters and cool summers.\n<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: An environment includes all of the biotic, or living, and abiotic, or nonliving, things in an area. An ecosystem is created by the relationships that form among the biotic and abiotic parts of an environment.\nThere are many different types of terrestrial, or land-based, ecosystems. Here are some ways in which terrestrial ecosystems can differ from each other:\nthe pattern of weather, or climate\nthe type of soil\nthe organisms that live there\nSOLUTION: A prairie grassland is a type of ecosystem. Prairie grasslands have the following features: hot summers and cool winters, a medium amount of rain, and soil that is rich in nutrients. So, the following statement describes the Tallgrass Prairie National Preserve ecosystem: hot summers and cool winters, a medium amount of rain, and soil that is rich in nutrients. It has a medium amount of rain. The following statements do not describe Tallgrass Prairie National Preserve: hot summers and cool winters, a medium amount of rain, and soil that is rich in nutrients. It has soil that is poor in nutrients. It has cold winters and cool summers.\n###\nANSWER: A."
+      }
+    ]
+  },
+  {
+    "id": "203",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "Is a travel bag a good or a service?\nContext: N/A\nOptions: (A) a good (B) a service"
+      },
+      {
+        "from": "gpt",
+        "value": "LECTURE: Everything you can buy is either a good or a service.\nA good is something you can touch or hold in your hands. For example, a hammer is a good.\nA service is a job you pay someone else to do. For example, cooking food in a restaurant is a service.\nSOLUTION: To decide whether a travel bag is a good or a service, ask these questions:\nIs a travel bag something you can touch? Yes.\nIs a travel bag a job you might pay someone else to do? No.\nSo, a travel bag is a good.\n###\nANSWER: A."
+      }
+    ]
+  }
+]
