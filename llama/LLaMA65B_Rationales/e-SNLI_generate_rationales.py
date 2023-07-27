@@ -48,9 +48,6 @@ examples = [
 ]
 
 
-
-
-
 # Open the output file
 with open(args.output_path, 'w') as file:
 
@@ -61,30 +58,30 @@ with open(args.output_path, 'w') as file:
         label = example['gold_label']  # Convert the label to its corresponding relation
 
         # Combine the premise, hypothesis, and label in a question-answer format
-        #prompt = f"Given the two sentences: '{Sentence1}' '{Sentence2}', their relationship is"
-        prompt = "Write me two more unique examples following the previous format"
+        replace_prompt = f"Given the two sentences: '{Sentence1}', and '{Sentence2}', what is their relationship to each other? Think step by step and justify your steps. "
         few_shot_prompt = ""
         # Prepend the prompt with a few examples
         for ex in examples:
             ex_Sentence1 = ex['Sentence1']
             ex_Sentence2 = ex['Sentence2']
             ex_label = ex['gold_label']
+            ex_explaination = ex['Explanation_1']
 
-            few_shot_prompt = few_shot_prompt + (f"Given the two sentences: '{ex_Sentence1}' '{ex_Sentence2}', "
-                      f"their relationship is '{ex_label}'. ")
-        prompt = few_shot_prompt + prompt
+            few_shot_prompt = few_shot_prompt + (f"Given the two sentences: '{Sentence1}', and '{Sentence2}', what is their relationship to each other? Think step by step and justify your steps. '{ex_explaination}' Therefore their relationship is '{ex_label}' ")
+        
+        prompt = few_shot_prompt + replace_prompt
         # Tokenize the prompt
         inputs = tokenizer.encode(prompt, return_tensors='pt')
         inputs = inputs.to(device)
         
         # Generate a response
-        outputs = model.generate(inputs, max_new_tokens = 75)
+        outputs = model.generate(inputs, max_new_tokens = 50)
 
         # Decode the output tokens to text
         model_answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-        model_answer = model_answer[len(few_shot_prompt):]
-        
+        model_answer = model_answer.replace(few_shot_prompt, '')
+        model_answer = model_answer.replace(replace_prompt, '')
         # Convert the example to a dictionary and add the rationale
         example_dict = example.to_dict()
         example_dict['model_answer'] = model_answer
@@ -93,8 +90,3 @@ with open(args.output_path, 'w') as file:
         with open(args.output_path, 'a') as writer:
             writer.write(json.dumps(example_dict) + '\n')
 
-        # Print a status update
-        if (i + 1) % 100 == 0:
-            print(f"Processed {i + 1} examples")
-
-print("Processing complete!")
