@@ -38,8 +38,9 @@ examples = [
         'rationale': 'Linguistics involves an analysis of language form, language meaning, and language in context, so context is also a crucial aspect.'
     }
     ]
+# In the few-shot examples
 few_shot_prompt = "\n\n".join([
-        f"Given the context: '{example['context']}', the hypothesis: '{example['hypothesis']}', it is a '{label_mapping[example['label']]}'. "
+        f"Given the context: '{example['context']}', the hypothesis: '{example['hypothesis']}', what is their relationship? Think step by step and justify your answer. '{example['rationale']}' Therefore the relationship is'{label_mapping[example['label']]}'. "
         for example in examples
     ])
 
@@ -203,7 +204,7 @@ def eval_model(args):
 
 
         # Combine the context, hypothesis, and answer in a question-answer format
-        qs = f"{few_shot_prompt}\n\nGiven the context: '{context}', the hypothesis: '{hypothesis}', it is a  "
+        qs = f"{few_shot_prompt} Given the context: '{context}', the hypothesis: '{hypothesis}', what is their relationship?  Think step by step and justify your answer. "
         cur_prompt = qs
 
 
@@ -242,7 +243,7 @@ def eval_model(args):
                 images=images,
                 do_sample=True,
                 temperature=0.7,
-                max_new_tokens=2048,
+                max_new_tokens=125,
                 stopping_criteria=[stopping_criteria])
 
         # TODO: new implementation
@@ -321,6 +322,7 @@ def eval_model(args):
 
 
         ans_id = shortuuid.uuid()
+        outputs = outputs.replace(few_shot_prompt, '')
         data["rationale"] = outputs
         # write out the adjusted data structure
         ans_file.write(json.dumps(data) + "\n")
