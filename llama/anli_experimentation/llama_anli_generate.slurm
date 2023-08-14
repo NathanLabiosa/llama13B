@@ -40,8 +40,8 @@ ulimit -l >> $benchmark_logs
 ### Running the program ###
 
 ## Select python File to run
-source llava
-python llama_anli_generate.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/llama13B/llama/anli/data/anli_v1.0/R1/test.jsonl" --output_path "anli_rationales.jsonl"
+source activate llava
+python llama_anli_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/llama13B/llama/anli/data/anli_v1.0/R1/test.jsonl" --output_path "test_rationales.jsonl"
 
 
 sleep 3

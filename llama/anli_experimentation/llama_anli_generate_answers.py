@@ -49,16 +49,16 @@ examples = [
         'context': 'Almost Sunrise is a 2016 American documentary film directed by Michael Collins. It recounts the story of two Iraq veterans, Tom Voss and Anthony Anderson, who, in an attempt to put their combat experience behind them, embark on a 2,700-mile trek on foot across America. It made its world premiere on the opening night of the Telluride Mountainfilm Festival on 27 May, 2016.',
         'hypothesis': 'Tom and Anthony have both killed someone.',
         'label': 'n',
-        'rationale': "The prompt references combat experience, but is vague, so you don't know if that entailed killing anyone."
+        'rationale': "The prompt references combat experience, but isn't specific, so you don't know if that entailed killing anyone."
     }
 
 ]
 
 # In the few-shot examples
 few_shot_prompt = "\n\n".join([
-    f"Given the context: '{example['context']}', the hypothesis: '{example['hypothesis']}', it is a '{label_mapping[example['label']]}'. "
-    for example in examples
-])
+        f"Given the context: '{example['context']}', the hypothesis: '{example['hypothesis']}', what is their relationship? Think step by step and justify your answer. '{example['rationale']}' Therefore the relationship is'{label_mapping[example['label']]}'. "
+        for example in examples
+    ])
 
 
 
@@ -73,8 +73,8 @@ with jsonlines.open(args.data_path, mode='r') as reader, open(args.output_path, 
 
 
         # Combine the context, hypothesis, and answer in a question-answer format
-        prompt = f"{few_shot_prompt}\n\nGiven the context: '{context}', the hypothesis: '{hypothesis}', it is a  "
-
+        prompt = f"{few_shot_prompt} Given the context: '{context}', the hypothesis: '{hypothesis}', what is their relationship?  Think step by step and justify your answer. "
+        replace_text = f"Given the context: '{context}', the hypothesis: '{hypothesis}', what is their relationship?  Think step by step and justify your answer. "
 
         # Tokenize the prompt
         inputs = tokenizer.encode(prompt, return_tensors='pt')
@@ -83,13 +83,14 @@ with jsonlines.open(args.data_path, mode='r') as reader, open(args.output_path, 
 
         # Generate a response
         #with torch.inference_mode():
-        outputs = model.generate(inputs, max_length=600)
+        outputs = model.generate(inputs, max_new_tokens=75)
 
         # Decode the output tokens to text
         output_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
         # Remove the few-shot examples from the output
         output_text = output_text.replace(few_shot_prompt, '')
+        output_text = output_text.replace(replace_text, '')
 
         # Split the output into the predicted relation and the rationale
         #predicted_relation, rationale = output_text.split(" because ")
@@ -100,8 +101,4 @@ with jsonlines.open(args.data_path, mode='r') as reader, open(args.output_path, 
 
         with open(args.output_path, 'a') as writer:
             writer.write(json.dumps(example) + '\n')
-        # Print a status update
-        if (i + 1) % 100 == 0:
-            print(f"Processed {i + 1} examples")
 
-print("Processing complete!")

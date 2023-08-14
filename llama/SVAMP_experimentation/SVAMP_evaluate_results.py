@@ -4,12 +4,13 @@ import re
 correct_count = 0
 incorrect_count = 0
 invalid_count = 0
-
-with open("SVAMP_llava13B.jsonl", "r") as f:
+#
+#
+with open("/home/nlabiosa/llama13B/llama/generated_answers/SVAMP_llava13B_rerun.jsonl", "r") as f:
     for line in f:
         item = json.loads(line)
         model_answer = item["model_answer"]
-        true_answer = item["Answer"]
+        true_answer = float(item["Answer"])
         # Look for the pattern "the answer is: .." in the model_answer string
         match = re.search(r"(\d+)", model_answer)
         if match:

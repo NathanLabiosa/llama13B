@@ -41,7 +41,8 @@ ulimit -l >> $benchmark_logs
 
 ## Select python File to run
 source activate llava
-python SVAMP_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/llama13B/llama/SVAMP/data/cv_asdiv-a/fold0/train.csv" --output_path "SVAMP_rationales_fulltest.jsonl"
+python SVAMP_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-7b-hf" --data_path "/home/nlabiosa/llama13B/llama/SVAMP/data/cv_asdiv-a/fold0/train.csv" --output_path "7B_nobatch_processing.jsonl"
+#python SVAMP_generate_answers_batch.py --model_path "/home/nlabiosa/llama13B/llama/llama-7b-hf" --data_path "/home/nlabiosa/llama13B/llama/SVAMP/data/cv_asdiv-a/fold0/train.csv" --output_path "7B_batch_processing.jsonl" --batch_size 5
 
 
 sleep 3

@@ -74,7 +74,7 @@ with jsonlines.open(args.data_path, mode='r') as reader, jsonlines.open(args.out
         inputs = inputs.to(device)
 
         # Generate a response
-        outputs = model.generate(inputs, max_length=400)
+        outputs = model.generate(inputs, max_new_tokens=50)
 
         # Decode the output tokens to text
         rationale = tokenizer.decode(outputs[0], skip_special_tokens=True)

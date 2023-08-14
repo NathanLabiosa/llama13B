@@ -41,8 +41,8 @@ ulimit -l >> $benchmark_logs
 
 ## Select python File to run
 source activate llava
-python anli_generate_rationales.py
-#python test_generate.py
+python comparison.py
+python cosine_eval.py
 
 sleep 3
 

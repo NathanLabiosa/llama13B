@@ -87,7 +87,7 @@ with open(args.output_path, 'w') as file:
         inputs = inputs.to(device)
 
         # Generate a response
-        outputs = model.generate(inputs, max_length=250)
+        outputs = model.generate(inputs, max_length=300)
 
         # Decode the output tokens to text
         model_answer = tokenizer.decode(outputs[0], skip_special_tokens=True)

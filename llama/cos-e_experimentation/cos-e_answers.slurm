@@ -4,7 +4,7 @@
 #SBATCH -p gpu
 #SBATCH --cpus-per-task=4
 #SBATCH --ntasks-per-node=2
-#SBATCH --gres=gpu:2
+#SBATCH --gres=gpu:1
 #SBATCH --constraint=gmem48
 #SBATCH --job-name=llama_rationales
 
@@ -41,8 +41,9 @@ ulimit -l >> $benchmark_logs
 
 ## Select python File to run
 source activate llava
-python cos-e_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/llama13B/llama/cos-e/data/v1.0/train_rand_split.jsonl" --output_path "cos-e_answers.jsonl"
-
+#python cos-e_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/llama13B/llama/cos-e/data/v1.0/train_rand_split.jsonl" --output_path "cos-e_answers.jsonl"
+python cos-e_evaluate_results.py
+python cosine_eval.py
 
 sleep 3
 

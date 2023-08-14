@@ -41,8 +41,9 @@ ulimit -l >> $benchmark_logs
 
 ## Select python File to run
 source activate /home/nlabiosa/.conda/envs/llava
-python llama-ScienceQA.py --model_path "/home/nlabiosa/llama13B/llama/llama-7b-hf" --data_path "/home/nlabiosa/LLaVA/ScienceQA/data/scienceqa/llava_minitest_QCM-LEPA.json" --output_path "llama-ScienceQA_7B_answers.jsonl"
-
+#python llama-ScienceQA.py --model_path "/home/nlabiosa/llama13B/llama/llama-7b-hf" --data_path "/home/nlabiosa/LLaVA/ScienceQA/data/scienceqa/llava_minitest_QCM-LEPA.json" --output_path "llama-ScienceQA_7B_answers.jsonl"
+python eval.py
+python sentence_eval.py
 
 sleep 3
 

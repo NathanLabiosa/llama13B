@@ -39,7 +39,7 @@ def eval_model(model_name, input_file, output_file):
 
 ]
     few_shot_prompt = "\n\n".join([
-        f"Given the context: '{example['context']}', the hypothesis: '{example['hypothesis']}', it is a '{label_mapping[example['label']]}'. "
+        f"Given the context: '{example['context']}', the hypothesis: '{example['hypothesis']}', what is their relationship? Think step by step and justify your answer. '{examples['rationale']}' Therefore the relationship is'{label_mapping[example['label']]}'. "
         for example in examples
     ])
 
@@ -50,13 +50,13 @@ def eval_model(model_name, input_file, output_file):
             answer = label_mapping[example["label"]]
 
             # Combine the context, hypothesis, and answer in a question-answer format
-            prompt = f"{few_shot_prompt}\n\nGiven the context: '{context}', the hypothesis: '{hypothesis}', it is a  "
+            prompt = f"{few_shot_prompt}\n\nGiven the context: '{context}', the hypothesis: '{hypothesis}', what is their relationship?  Think step by step and justify your answer. "
 
             # Tokenize the prompt
             inputs = tokenizer(prompt, return_tensors='pt').input_ids.cuda()
 
             # Generate a response
-            outputs = model.generate(inputs, max_length=600)
+            outputs = model.generate(inputs, max_new_tokens=150)
             output_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
             # Remove the few-shot examples from the output

@@ -41,11 +41,22 @@ ulimit -l >> $benchmark_logs
 
 ## Select python File to run
 source activate /home/nlabiosa/.conda/envs/llava
-python anli_experimentation/llama_anli_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-7b-hf" --data_path "/home/nlabiosa/llama13B/llama/anli/data/anli_v1.0/R1/test.jsonl" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/anli_llama7B.jsonl"
-#python cos-e_experimentation/cos-e_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-7b-hf" --data_path "/home/nlabiosa/llama13B/llama/cos-e/data/v1.0/train_rand_split.jsonl" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/cos-e_llama7B.jsonl"
-#python e-SNLI_experimentation/e-SNLI_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-7b-hf" --data_path "/home/nlabiosa/llama13B/llama/e-SNLI/dataset/esnli_test.csv" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/e-snli_llama7B.jsonl"
-#python SVAMP_experimentation/SVAMP_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-7b-hf" --data_path "/home/nlabiosa/llama13B/llama/SVAMP/data/cv_asdiv-a/fold0/train.csv" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/SVAMP_llama7B.jsonl"
+#python anli_experimentation/llama_anli_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/vicuna-7b-v1.1" --data_path "/home/nlabiosa/llama13B/llama/anli/data/anli_v1.0/R1/test.jsonl" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/anli_vicuna7B.jsonl"
+#python cos-e_experimentation/cos-e_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/vicuna-7b-v1.1" --data_path "/home/nlabiosa/llama13B/llama/cos-e/data/v1.0/mini_test.jsonl" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/cos-e_vicuna7B.jsonl"
+#python e-SNLI_experimentation/e-SNLI_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/vicuna-7b-v1.1" --data_path "/home/nlabiosa/llama13B/llama/e-SNLI/dataset/mini_test.csv" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/e-snli_vicuna7B_v2.jsonl"
+# python SVAMP_experimentation/SVAMP_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/vicuna-7b-v1.1" --data_path "/home/nlabiosa/llama13B/llama/SVAMP/data/cv_asdiv-a/fold0/train.csv" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/SVAMP_vicuna7B.jsonl"
+# python ScienceQA_experimentation/llama-ScienceQA.py --model_path "/home/nlabiosa/llama13B/llama/vicuna-7b-v1.1" --data_path "/home/nlabiosa/LLaVA/ScienceQA/data/scienceqa/llava_minitest_QCM-LEPA.json" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/ScienceQA_vicuna7B.jsonl"
 
+# python anli_experimentation/llama_anli_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/vicuna-13b-v1.1" --data_path "/home/nlabiosa/llama13B/llama/anli/data/anli_v1.0/R1/test.jsonl" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/anli_vicuna13B.jsonl"
+#python cos-e_experimentation/cos-e_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/vicuna-13b-v1.1" --data_path "/home/nlabiosa/llama13B/llama/cos-e/data/v1.0/mini_test.jsonl" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/cos-e_vicuna13B.jsonl"
+# python e-SNLI_experimentation/e-SNLI_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/vicuna-13b-v1.1" --data_path "/home/nlabiosa/llama13B/llama/e-SNLI/dataset/mini_test.csv" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/e-snli_vicuna13B_v2.jsonl"
+# python SVAMP_experimentation/SVAMP_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/vicuna-13b-v1.1" --data_path "/home/nlabiosa/llama13B/llama/SVAMP/data/cv_asdiv-a/fold0/train.csv" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/SVAMP_vicuna13B.jsonl"
+# python ScienceQA_experimentation/llama-ScienceQA.py --model_path "/home/nlabiosa/llama13B/llama/vicuna-13b-v1.1" --data_path "/home/nlabiosa/LLaVA/ScienceQA/data/scienceqa/llava_minitest_QCM-LEPA.json" --output_path "/home/nlabiosa/llama13B/llama/generated_answers/ScienceQA_vicuna13B.jsonl"
+
+#python CommonsenseQA/common_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-7b-hf" --data_path "/home/nlabiosa/llama13B/llama/CommonsenseQA/train_rand_split.jsonl" --output_path "/home/nlabiosa/llama13B/llama/CommonsenseQA/llama7B.jsonl"
+#python CommonsenseQA/common_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/llama13B/llama/CommonsenseQA/train_rand_split.jsonl" --output_path "/home/nlabiosa/llama13B/llama/CommonsenseQA/llama13B.jsonl"
+#python CommonsenseQA/common_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/vicuna-7b-v1.1" --data_path "/home/nlabiosa/llama13B/llama/CommonsenseQA/train_rand_split.jsonl" --output_path "/home/nlabiosa/llama13B/llama/CommonsenseQA/vicuna7B.jsonl"
+#python CommonsenseQA/common_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/vicuna-13b-v1.1" --data_path "/home/nlabiosa/llama13B/llama/CommonsenseQA/train_rand_split.jsonl" --output_path "/home/nlabiosa/llama13B/llama/CommonsenseQA/vicuna13B.jsonl"
 
 sleep 3
 
