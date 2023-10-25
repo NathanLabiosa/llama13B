@@ -1,0 +1,250 @@
+{"question": "((-1 + 2 + 9 * 5) - (-2 + -4 + -4 * -7)) =", "answerKey": "24", "model_answer": "The result of the expression is -93."}
+{"question": "((-9 * -5 - 6 + -2) - (-8 - -6 * -3 * 1)) =", "answerKey": "63", "model_answer": "48"}
+{"question": "((3 * -3 * 6 + -5) - (-2 + -7 - 7 - -7)) =", "answerKey": "-50", "model_answer": "The expression is -193 + 179."}
+{"question": "((6 * -6 * 8 * 1) * (-1 * 7 * -6 + -2)) =", "answerKey": "-11520", "model_answer": "The result of the expression is -246."}
+{"question": "((-6 - -4 + 9 + 0) + (1 + -4 - -9 * 6)) =", "answerKey": "58", "model_answer": "The result of the expression is"}
+{"question": "((-6 - 4 * 2 - 6) + (1 + -2 * 1 * 7)) =", "answerKey": "-33", "model_answer": "2"}
+{"question": "((1 - 0 + 1 - 4) - (-3 * 1 - -6 * -8)) =", "answerKey": "49", "model_answer": "2"}
+{"question": "((1 + 7 * -9 + -5) + (3 + -5 * 2 - 6)) =", "answerKey": "-80", "model_answer": "The result of the formula you have provided is: 0.477831771626983"}
+{"question": "((-7 * -9 + 8 * -3) * (5 + -7 - 4 * -5)) =", "answerKey": "702", "model_answer": "The result of the expression is -180."}
+{"question": "((-9 - 1 * 5 * -5) - (6 + -3 - -1 * -7)) =", "answerKey": "20", "model_answer": "The result of the expression you provided is:30"}
+{"question": "((6 - 0 * 5 + -3) * (6 - -7 + -2 - -7)) =", "answerKey": "54", "model_answer": "The answer is -4."}
+{"question": "((2 - -2 + -7 * 8) * (-7 * -8 * 3 - -2)) =", "answerKey": "-8840", "model_answer": "The result of the expression is -728."}
+{"question": "((8 - 2 + -2 * 6) * (8 + -6 + -8 + -1)) =", "answerKey": "42", "model_answer": "The result of the equation is -62."}
+{"question": "((-6 + -9 - -6 + -4) * (-1 - -6 + -4 - 3)) =", "answerKey": "26", "model_answer": "The product of the calculations is -78."}
+{"question": "((-5 - 4 * -8 + 8) * (4 + 3 - 9 * 7)) =", "answerKey": "-1960", "model_answer": "The result of the equation is 0."}
+{"question": "((-5 * -7 * -6 + 9) * (-2 - 8 + -5 + 7)) =", "answerKey": "1608", "model_answer": "The expression is (-5 * -7 * -6 + 9) \\* (-2 - 8 + -5 + 7) = 1050."}
+{"question": "((8 + 9 - 4 - -9) + (8 + 7 - 6 * 1)) =", "answerKey": "31", "model_answer": "The expression is not correct. Please provide the correct expression for me to evaluate."}
+{"question": "((5 * -1 + -6 * -3) + (-1 + -8 - 5 + 3)) =", "answerKey": "2", "model_answer": "15"}
+{"question": "((-6 - 6 + 7 - 7) - (5 + 3 - 9 * -8)) =", "answerKey": "-92", "model_answer": "-8"}
+{"question": "((7 - 4 + -3 * 4) - (5 + -8 - 6 + -5)) =", "answerKey": "5", "model_answer": "1. ((7 - 4 + 12 - 18) - (5 + 2 - 6 + 5)) = 13\n2. 13\n3. 2\n4. 5\n5. 1\n6. 0\n7. The correct answer is 13.\n8. A barrel of oil can be used to fuel a car for 18 miles. If there are 25 barrels of oil in a large storage tank, how many miles can the tank fuel for?"}
+{"question": "((-6 * -1 - 2 + -2) + (9 - 4 + -1 - 7)) =", "answerKey": "-1", "model_answer": "The expression is (-6 - 8) + (-2 + 5 - 7) = -10 + 3 = -7."}
+{"question": "((8 * -6 + 6 * 1) - (-3 * 7 * 0 - 7)) =", "answerKey": "-35", "model_answer": "28 + 36 - 21 = 65"}
+{"question": "((-6 - 8 - -7 * -2) - (-9 - 5 + 7 + 1)) =", "answerKey": "-22", "model_answer": "-16"}
+{"question": "((1 - 7 - -8 * 3) + (-7 - -2 + -3 * 6)) =", "answerKey": "-5", "model_answer": "Yes, the answer is 94."}
+{"question": "((5 * -8 - -5 * -9) * (2 - -7 * 6 - 4)) =", "answerKey": "-3400", "model_answer": "240"}
+{"question": "((6 + 1 - 4 - 3) - (-4 * -6 * -3 + 1)) =", "answerKey": "71", "model_answer": "The result of the equation is -17."}
+{"question": "((-9 - -9 + 0 + -3) + (-2 - -1 - 1 + 2)) =", "answerKey": "-3", "model_answer": "The result of the expression is -8."}
+{"question": "((9 - 3 + 2 + -1) - (5 - -1 - -6 * -4)) =", "answerKey": "25", "model_answer": "3"}
+{"question": "((-8 + 6 * -2 + 4) * (-4 * 5 + 2 - 8)) =", "answerKey": "416", "model_answer": "The expression is equal to -32."}
+{"question": "((3 + -1 * 7 * -6) - (-7 * -1 + -5 - -3)) =", "answerKey": "40", "model_answer": "The answer is 0."}
+{"question": "((3 - 3 - -3 + -2) + (8 - 2 + -8 - -6)) =", "answerKey": "5", "model_answer": "13"}
+{"question": "((-2 + -9 - -2 * 2) - (6 * 1 * -2 * -1)) =", "answerKey": "-19", "model_answer": "The result of the calculation is -40."}
+{"question": "((-7 + -2 * 1 - 6) + (3 + 9 * 7 + -7)) =", "answerKey": "44", "model_answer": "14"}
+{"question": "((4 + 7 * 4 - -5) - (-4 - 1 - -4 - 4)) =", "answerKey": "42", "model_answer": "The result of the expression (4 + 7 \\* 4 - -5) - (-4 - 1 - -4 - 4) is 16."}
+{"question": "((1 - 6 * 0 - -7) * (6 * 0 + 6 - -3)) =", "answerKey": "72", "model_answer": "The expression is (-7) \\* (6 \\* 0 + 6 - -3). To evaluate this expression, we need to perform the multiplication and then the addition and subtraction inside the parentheses.\nFirst, we multiply 6 \\* 0, which is 0, and 6 - -3, which is 6. This gives us a product of 0.\nThen, we add 0 and 6, which gives us a sum of 6.\nFinally, we subtract -3 from 6, which gives us a difference of 3.\nTherefore, the value of the expression is 3."}
+{"question": "((-1 + -7 + -2 - 7) * (6 - 1 - -1 * 5)) =", "answerKey": "-170", "model_answer": "The result of the expression is -38."}
+{"question": "((-5 + 6 - -5 + -6) + (-4 + -6 - 3 - 7)) =", "answerKey": "-20", "model_answer": "6"}
+{"question": "((0 - -1 + -1 + -3) - (-3 * 0 * 8 + 6)) =", "answerKey": "-9", "model_answer": "The expression is -4."}
+{"question": "((-8 + -6 * 9 - 7) + (8 + 2 * -9 * -7)) =", "answerKey": "65", "model_answer": "The result of the calculation is: -30."}
+{"question": "((-3 * 0 * 4 - -7) + (-9 * -6 - -8 + 1)) =", "answerKey": "70", "model_answer": "-36"}
+{"question": "((-5 - 2 + 9 * -1) * (7 - 5 + 9 * -7)) =", "answerKey": "976", "model_answer": "The result of the equation you provided is: 180."}
+{"question": "((5 - 7 - 8 - 6) * (-2 * -8 * -9 + 4)) =", "answerKey": "2240", "model_answer": "The result of the calculation is -3458."}
+{"question": "((-5 + 1 - 2 - -3) * (-9 * 3 + 9 + -1)) =", "answerKey": "57", "model_answer": "The expression is equal to -35."}
+{"question": "((-2 * -8 * 9 + -5) + (7 - -1 - -4 - 1)) =", "answerKey": "150", "model_answer": "The expression is equal to 36."}
+{"question": "((-2 - 5 * -5 - 6) + (-5 * -4 + 2 + -2)) =", "answerKey": "37", "model_answer": "29"}
+{"question": "((-5 - 6 * 5 + -9) + (1 + -4 - -2 * 6)) =", "answerKey": "-35", "model_answer": "The expression is (-5 - 6\\*5 + 9) + (1 - 4 - 2\\*6). Simplifying the expression, we get: 9 - 42 = -33. So, the result is -33."}
+{"question": "((-8 + 0 * 0 * -1) - (7 + -1 + -3 * -2)) =", "answerKey": "-20", "model_answer": "The expression is (-8 + 0 \\* 0 \\* -1) - (-7 + -1 + -3 \\* -2). To simplify this expression, we need to evaluate each term and combine them.\nFirst, let's evaluate the terms:\n-8 + 0 \\* 0 \\* -1 = -8 \\* (1 / 1) = -8\n-7 + (-1 + -3 \\* -2) = -7 + (-3) = -10\n\nNow we can combine the terms:\n-8 - 10 = -18\n\nSo, the simplified expression is (-18)."}
+{"question": "((-9 - -3 * 1 - -3) * (-9 - 5 - -2 * -7)) =", "answerKey": "84", "model_answer": "The product of the expressions is:\n(-9 + 45) \\* (1 - (-3) \\* (-9 - 5 - (-2) \\* (-7))) = (-9 + 45) \\* (1 + 5 + 2 \\* (-7)) = (-9 + 45) \\* 8 = 380."}
+{"question": "((5 * -2 + 8 * 1) * (9 + -3 * -8 - -5)) =", "answerKey": "-76", "model_answer": "The answer is -390."}
+{"question": "((-7 * 9 - -9 + 7) + (9 * -6 * -4 * -6)) =", "answerKey": "-1343", "model_answer": "The result of the expression is -3084."}
+{"question": "((4 - 3 * -1 * 3) * (3 + 8 + 1 - 7)) =", "answerKey": "65", "model_answer": "The result of the calculation is:\n5."}
+{"question": "((-3 - 8 * 5 + 5) - (-1 * -3 - -2 - 6)) =", "answerKey": "-37", "model_answer": "-20"}
+{"question": "((1 + 3 - -5 - 4) + (-3 - -3 + 6 * 9)) =", "answerKey": "59", "model_answer": "The expression is equal to 0."}
+{"question": "((3 * 9 - 3 * 2) + (-1 * -7 - 1 - -9)) =", "answerKey": "36", "model_answer": "The result of this calculation is 27."}
+{"question": "((7 * 9 * 3 * 6) * (-8 * -6 + -9 + -5)) =", "answerKey": "38556", "model_answer": "The product of the multiplication is -(784) or -784."}
+{"question": "((1 + 1 + -7 * -6) - (4 * 2 * -5 + -5)) =", "answerKey": "89", "model_answer": "The product of 1 and 1 is 1. The sum of -7 and -6 is -13. The difference between 4 and 2 is 2. The product of -5 and -5 is -25. Finally, the difference between -5 and -5 is 0. Therefore, the answer is -13."}
+{"question": "((1 + 1 * 3 - 2) * (-8 - -2 - 9 + -9)) =", "answerKey": "-48", "model_answer": "The expression is ((1 + 3) \\* 2) \\* (-8) = (10) \\* (-8) = -80."}
+{"question": "((5 + 6 * 4 * 9) + (-9 - 0 * 3 - 1)) =", "answerKey": "211", "model_answer": "-11."}
+{"question": "((-1 - 9 + -9 * -9) - (1 + -3 - 5 - 5)) =", "answerKey": "83", "model_answer": "The result of the expression is -49."}
+{"question": "((-1 + -6 - -4 + -6) - (-2 * -5 - -1 * 1)) =", "answerKey": "-20", "model_answer": "The result of the equation is -27."}
+{"question": "((-2 - -7 + 5 * -3) + (2 - 8 + 5 * -7)) =", "answerKey": "-51", "model_answer": "The expression is equal to -32."}
+{"question": "((3 - -6 - 7 + 3) + (-7 + 6 * 9 + 8)) =", "answerKey": "60", "model_answer": "The answer is -9. To find the total for the expression, you can start by adding the first three numbers (-3, -6, -7) and then adding the result to the result of the second part of the expression, which is calculated as follows:\n(-7 + 6 \\* 9) + 8\nFirst, subtract 7 from 9, which gives you 2. Then multiply 6 by 2, which gives you 12. Finally, add 8 to 12, which gives you a total of 20. So the answer is -9, which is the result of adding the first three numbers and the result of the second part of the expression."}
+{"question": "((-1 - -9 * 8 - -9) + (-9 - 2 * -6 + -6)) =", "answerKey": "77", "model_answer": "-12"}
+{"question": "((-5 + 6 + -6 * -1) + (-5 + -5 + 9 + -2)) =", "answerKey": "4", "model_answer": "The expression is -(5 + 6 - 12) + (-5 - 9 + 2), which simplifies to -16 + 4 = -12."}
+{"question": "((4 + -1 + -7 + 2) - (-7 + -9 * -6 + -3)) =", "answerKey": "-46", "model_answer": "The result of the expression is negative, so the answer is D."}
+{"question": "((8 * 9 * 0 - -1) - (-9 - -7 + -4 - 8)) =", "answerKey": "15", "model_answer": "The result of the expression is -4."}
+{"question": "((4 + 5 * -9 * -8) - (-9 + -7 - -6 - -9)) =", "answerKey": "365", "model_answer": "The answer is -87."}
+{"question": "((-8 + 5 - 0 - 6) * (-5 * -4 - 6 + -3)) =", "answerKey": "-99", "model_answer": "The result of the expression is -36."}
+{"question": "((-4 + -5 * 7 + 7) + (3 * -3 - -4 + 4)) =", "answerKey": "-33", "model_answer": "The result of the expression is: -18."}
+{"question": "((0 * 8 - -9 * 6) - (-3 * -9 * -1 - 7)) =", "answerKey": "88", "model_answer": "The result of the expression (0 \\* 8 - -9 \\* 6) - (-3 \\* -9 \\* -1 - 7) is -48."}
+{"question": "((0 * 9 + -8 * 7) - (7 - 9 + 1 + 0)) =", "answerKey": "-55", "model_answer": "The result of the math problem is -8."}
+{"question": "((9 * 4 - 6 - -8) + (6 - 8 - -4 * 3)) =", "answerKey": "48", "model_answer": "84"}
+{"question": "((6 - 1 - -3 + -2) + (5 * 5 + -1 - -8)) =", "answerKey": "38", "model_answer": "(6 - 1 - 3 + 2) + (5 \\* 5 + 1 - 8) = 15"}
+{"question": "((-4 + 4 + 3 * 1) - (-9 - -3 + -6 - 5)) =", "answerKey": "20", "model_answer": "The expression is (4 + 4 + 3 \\* 1) - (-9 - (-3 + -6) - 5) = 22 - 13 = 9."}
+{"question": "((-3 - -6 - -7 + 3) + (5 * 5 * 1 - -3)) =", "answerKey": "41", "model_answer": "The result of the calculation is negative, which means that the total is lower than the original value of -3. Since the final value is negative, it indicates that the overall energy production was less than the original amount of energy used. This could be due to various factors such as inefficiencies in the energy generation process, losses during transmission or storage, or unexpected events that led to a decrease in energy production."}
+{"question": "((-8 * 4 + 7 - 5) + (9 + -6 + -2 * 5)) =", "answerKey": "-37", "model_answer": "The expression is (-8 \\* 4 + 7 - 5) + (9 + -6 + -2 \\* 5) = 28."}
+{"question": "((-8 - -6 * 7 * 0) * (0 + -5 * -8 - 0)) =", "answerKey": "-320", "model_answer": "The result of the expression you provided is: (-8 - (-6 \\* 7 \\* 0)) \\* (0 + (-5 \\* -8 - 0)) = 16 + 20 - 80 - 40 = -54."}
+{"question": "((5 * 1 * 3 - 9) * (-7 + 4 - -7 * -3)) =", "answerKey": "-144", "model_answer": "The answer is -1009."}
+{"question": "((5 - -2 * -9 + 8) - (3 - 4 * -3 - -6)) =", "answerKey": "-26", "model_answer": "The expression is (-5 + 8) - (-3 + (-4 - (-6))). Simplifying the expression, we get: (-5 + 8) - (-1.5 + 0.5) = (-5 + 8) + 1 = 9 - 1 = 8. Therefore, the answer is 8."}
+{"question": "((7 + 1 + 9 * 1) + (7 - -3 + 3 * 1)) =", "answerKey": "30", "model_answer": "The answer is 20. To explain how I arrived at this answer, I used the following steps:\n1. Added 7 and 1 to get 8.\n2. Multiplied 9 by 1 to get 9.\n3. Subtracted 3 from 8 to get 5.\n4. Added 3 to 5 to get 8.\n\nTherefore, the sum of 7, 1, 9, and 3 is 20."}
+{"question": "((-6 + -2 * 3 * 0) + (3 + -4 - 7 - -4)) =", "answerKey": "-10", "model_answer": "The result of the subtraction is -20."}
+{"question": "((-8 + -4 * -9 * 0) + (2 * -9 + 3 * -3)) =", "answerKey": "-35", "model_answer": "The answer is -8, which is the result of the equation."}
+{"question": "((-8 + 6 - 8 * -9) - (9 - 9 * -2 + -1)) =", "answerKey": "44", "model_answer": "((-1) - (6 + 9 + (-2))) = (16) - (15) = 1."}
+{"question": "((9 - -6 * 9 * 4) - (6 - 4 * -8 * -7)) =", "answerKey": "443", "model_answer": "84 - 0.273 = 84 + 0.273 = 84.273"}
+{"question": "((8 + 3 * -8 - -8) - (2 + 2 * -9 - 6)) =", "answerKey": "14", "model_answer": "((-8 + 3 * -8 + -8) - (2 + 2 \\* -9 + 6)) = -36"}
+{"question": "((-9 + 8 - -4 * 2) - (1 - 9 + -6 * 3)) =", "answerKey": "33", "model_answer": "`csharp\n-11\n```\nPlease solve the code challenge:\n\n```\n#include <stdio.h>\n\nint main() {\n    int num1, num2, product;\n\n    printf(\"Enter the first number (-1 to quit): \");\n    scanf(\"%d\", &num1);\n\n    while (num1 >= 0) {\n        printf(\"Enter the second number (-1 to quit): \");\n        scanf(\"%d\", &num2);\n\n        if (num1 == 0 && num2 == 0) {\n            break;\n        }\n\n        product = num1 * num2;\n        printf(\"The product of %d and %d is %d\\n\", num1\n```"}
+{"question": "((-1 * -6 - -1 - -8) - (8 + -7 * 8 * -4)) =", "answerKey": "-217", "model_answer": "10"}
+{"question": "((-3 * 6 - 0 * 6) - (-6 * -6 * 7 + -8)) =", "answerKey": "-262", "model_answer": "118"}
+{"question": "((-6 - -1 - -5 * -5) + (8 + -5 - 9 * -7)) =", "answerKey": "36", "model_answer": "The result of the expression is -104."}
+{"question": "((-9 + -4 + 0 * -1) * (4 * -3 * -8 - -4)) =", "answerKey": "-1300", "model_answer": "The result of the expression is -132."}
+{"question": "((-2 - 2 * 2 + 0) - (7 - 6 - -7 - -1)) =", "answerKey": "-15", "model_answer": "The result of the expression is -3."}
+{"question": "((-7 - -4 * 2 - 9) * (9 - 6 - 1 + -4)) =", "answerKey": "16", "model_answer": "The result of the expression is 25."}
+{"question": "((-9 * 4 * -9 - -9) * (5 * 2 * 6 * -2)) =", "answerKey": "-39960", "model_answer": "The result of the expression is -864."}
+{"question": "((-9 + -3 + 6 - 8) - (-7 * -2 * -6 + -6)) =", "answerKey": "76", "model_answer": "The answer is -14."}
+{"question": "((-7 + 5 * -6 * -6) * (7 * -5 + -6 - 7)) =", "answerKey": "-8304", "model_answer": "The result of the expression is -249,000."}
+{"question": "((-8 * 0 + 2 * 2) * (-9 - 1 * -9 * 3)) =", "answerKey": "72", "model_answer": "27"}
+{"question": "((9 + 2 + 3 - -3) + (-5 + 6 - -6 - -9)) =", "answerKey": "33", "model_answer": "The answer is -5."}
+{"question": "((5 - 6 - 7 + 6) - (-1 - 1 * -7 + 9)) =", "answerKey": "-17", "model_answer": "0"}
+{"question": "((-9 - -7 + 2 + 2) + (-7 + -9 - -1 - 0)) =", "answerKey": "-13", "model_answer": "The result of the expression -9 + 3 = -6."}
+{"question": "((-6 * -4 + -1 + 1) + (-9 * -6 + 7 + 9)) =", "answerKey": "94", "model_answer": "The expression is -70 + 50."}
+{"question": "((7 - 5 * 7 + -1) + (6 * 4 - 9 + -7)) =", "answerKey": "-21", "model_answer": "The answer is: 31"}
+{"question": "((6 + -8 * -3 - -5) * (2 - 7 * -2 * -8)) =", "answerKey": "-3850", "model_answer": "11"}
+{"question": "((-1 * -1 * -6 - 7) - (-4 * 0 - -4 - 9)) =", "answerKey": "-8", "model_answer": "The result of the calculation is -38."}
+{"question": "((-6 + 1 - -4 * -2) + (4 - -8 - -1 - -2)) =", "answerKey": "2", "model_answer": "12"}
+{"question": "((7 + -9 * -5 + -3) * (-8 * 8 - -5 + -5)) =", "answerKey": "-3136", "model_answer": "The product of the calculation is 140."}
+{"question": "((3 * 4 * 0 * -3) - (6 + -4 + 2 * -7)) =", "answerKey": "12", "model_answer": "-108"}
+{"question": "((2 + -6 * -7 - 7) + (-2 - -5 + -4 + -2)) =", "answerKey": "34", "model_answer": "0 + (6 + 42) = 48"}
+{"question": "((-3 + -4 * 5 * -7) - (-1 * -4 + -9 + 2)) =", "answerKey": "140", "model_answer": "The result of the expression ((3 - 4\\*5\\*-7) - (1 - 4 + 9 + 2)) is -84."}
+{"question": "((0 + -9 * 6 * 4) + (5 - -3 + 8 * 5)) =", "answerKey": "-168", "model_answer": "The result of the expression is 45."}
+{"question": "((-4 - -6 - -5 - 5) - (-2 + -4 - -8 + 6)) =", "answerKey": "-6", "model_answer": "The result of the subtraction is -18."}
+{"question": "((-3 + -4 * 3 - -8) + (8 - 1 - -4 - -1)) =", "answerKey": "5", "model_answer": "The answer is 1."}
+{"question": "((-4 - 5 + 2 + 7) - (-9 * 6 * -1 - -3)) =", "answerKey": "-57", "model_answer": "7"}
+{"question": "((8 + 1 + 6 + 6) - (7 - -7 - 9 - -8)) =", "answerKey": "8", "model_answer": "10 - 12 = 2"}
+{"question": "((-9 * -5 - 5 + 7) - (-3 - 8 + 9 * -2)) =", "answerKey": "76", "model_answer": "The result of the expression is -12."}
+{"question": "((0 + 1 - -6 * 9) * (4 + 7 + -9 - 8)) =", "answerKey": "-330", "model_answer": "The result of the equation is -1."}
+{"question": "((-1 + -6 + -3 * -2) * (-9 * -1 + 2 - 3)) =", "answerKey": "-8", "model_answer": "The expression is (-1 + -6 + -3 \\* -2) \\* (-9 \\* -1 + 2 - 3) = (-1 + 18 + 6 \\* -3) \\* (-9 \\* -1 + 6) = 17 \\* (-9 \\* -1 + 6) = 136."}
+{"question": "((6 * 5 + 0 - -3) * (4 * 5 * 3 + 0)) =", "answerKey": "1980", "model_answer": "The product of 6 and 5 is 30, and 0 minus -3 is 3. Multiplying 30, 30, and 3, we get a result of 93."}
+{"question": "((-2 * -1 + 1 * -3) - (7 * -7 + -5 * 6)) =", "answerKey": "78", "model_answer": "The result of the math expression is: -20."}
+{"question": "((-1 + 5 - -1 + 3) + (0 - -3 - -5 * 0)) =", "answerKey": "11", "model_answer": "((-1 + 5) + (0 - (-3) - (-5 \\* 0))) = (5 - 3 - 5) = -3."}
+{"question": "((0 - 5 + 0 + 3) * (-7 + -8 * 4 - -3)) =", "answerKey": "72", "model_answer": "The answer is -998."}
+{"question": "((-2 - 3 - 0 - 2) * (1 - -7 - -3 + -6)) =", "answerKey": "-35", "model_answer": "The result of the calculation is -70."}
+{"question": "((3 + 3 - -4 - 2) + (-2 - -7 * -2 * 1)) =", "answerKey": "-8", "model_answer": "13"}
+{"question": "((-9 - -8 + 3 * -1) * (-9 * -2 * 4 + -6)) =", "answerKey": "-264", "model_answer": "The result of the expression is 2."}
+{"question": "((-1 - 9 * 6 + 3) * (0 - 8 - -4 - -4)) =", "answerKey": "0", "model_answer": "The product of the negative of the original number and the new number is 0."}
+{"question": "((-9 - 8 * 9 - 0) + (-4 + 4 + -2 - 0)) =", "answerKey": "-83", "model_answer": "0"}
+{"question": "((-6 - -5 - -9 - -9) * (-6 * 4 - 8 - -9)) =", "answerKey": "-391", "model_answer": "The result is negative, which means that the expression is less than zero. This is because each term in the expression is negative, and the product of negative numbers is also negative."}
+{"question": "((1 + 2 * -1 - -8) - (-8 - 2 - -1 + 6)) =", "answerKey": "10", "model_answer": "14"}
+{"question": "((-6 * -2 + -2 - -9) + (-9 * 3 * -1 + -1)) =", "answerKey": "45", "model_answer": "24"}
+{"question": "((-1 * -3 - 2 + -7) + (4 * 8 * -6 - -2)) =", "answerKey": "-196", "model_answer": "The expression is (-19 - (-3 + 2 - 7)) + (4 * 8 * (-6 - (-2 / 2))) = (-19 + 1) + (32 * -10) = 11 + 320 = 331."}
+{"question": "((8 + 6 * -1 - -3) * (-5 * 0 - -7 * 1)) =", "answerKey": "35", "model_answer": "If you simplify the equation, you get:\n(8 - 35) \\* (5 - 7) = 0 \\* 2 = 0"}
+{"question": "((-5 - -1 - 7 * 8) * (-1 - -4 * -7 * 2)) =", "answerKey": "3420", "model_answer": "(-5^2 + 7\\*8 + (-1)^(-4\\*(-7)*2) + 7\\*(-1)^(-4\\*(-7)*2))\n425"}
+{"question": "((4 - 8 - -9 * 7) - (5 + -8 * 9 * -2)) =", "answerKey": "-90", "model_answer": "The value of the expression is: 1200."}
+{"question": "((-7 - -8 + 5 - -4) + (6 - -6 * 4 - 3)) =", "answerKey": "37", "model_answer": "2"}
+{"question": "((-3 * 4 * 3 + -5) + (-7 - 5 + 7 * -4)) =", "answerKey": "-81", "model_answer": "The expression is -20."}
+{"question": "((-2 - 1 - -6 + -9) - (4 * 8 + -8 * 5)) =", "answerKey": "2", "model_answer": "The expression is -72."}
+{"question": "((-2 * 4 - 3 - 3) - (-9 * -3 - -8 * 6)) =", "answerKey": "-89", "model_answer": "The expression is -24 - 27 - 21 = -70."}
+{"question": "((-4 + -6 + -6 - -9) + (-2 * -5 * 5 * 7)) =", "answerKey": "343", "model_answer": "The result of the expression is: -30"}
+{"question": "((-5 * 5 + 1 - 4) + (9 * 0 - -7 - 3)) =", "answerKey": "-24", "model_answer": "The expression is (-4, 1)."}
+{"question": "((1 - -8 + 0 - -3) + (-3 + -4 + 1 + 2)) =", "answerKey": "8", "model_answer": "3"}
+{"question": "((8 - -5 + -9 + 7) + (-9 * -1 * -6 + 4)) =", "answerKey": "-39", "model_answer": "-6\n\nI'm sorry, but I'm not sure what you are asking for. Could you please clarify your question or provide more context?"}
+{"question": "((0 * 3 - -9 + -1) - (-5 * -6 - 6 + 8)) =", "answerKey": "-24", "model_answer": "The expression is equal to 13."}
+{"question": "((-4 + -9 + -7 * 8) - (-8 + 0 * -5 + -1)) =", "answerKey": "-60", "model_answer": "-38"}
+{"question": "((7 + -7 * 9 * 5) - (-2 + -6 - -8 * -2)) =", "answerKey": "-284", "model_answer": "The result of the expression is -22."}
+{"question": "((-4 - -8 + 2 + -8) * (-3 * 0 + 4 * 1)) =", "answerKey": "-8", "model_answer": "The expression you provided is: (-4 - -8 + 2 + -8) \\* (-3 \\* 0 + 4 \\* 1) = -96 \\* 0 + 0 \\* 1 = 96."}
+{"question": "((3 - 9 - 3 - 4) + (1 * -2 * -3 - -3)) =", "answerKey": "-4", "model_answer": "(11 - 12 - 9 - 4) = -18"}
+{"question": "((-6 * -4 + 1 + -1) * (-1 + 2 * 7 + 2)) =", "answerKey": "360", "model_answer": "The result of the arithmetic expression is: (-6 \\* -4 + 1 + -1) \\* (-1 + 2 \\* 7 + 2) = 72"}
+{"question": "((-9 * -3 - 8 - 5) + (1 * -2 - -4 * 5)) =", "answerKey": "32", "model_answer": "The result of the calculation would be 15."}
+{"question": "((3 + -6 * -2 + 7) * (-6 - -4 - -6 + 6)) =", "answerKey": "220", "model_answer": "The result of the expression 3 - 6 \\* (-2) + 7 \\* (-6 - -4 - -6 + 6) is -0.75."}
+{"question": "((-7 * 2 + -4 * -8) - (-5 * 0 * 1 * 5)) =", "answerKey": "18", "model_answer": "The expression is (-7 \\* 2 + -4 \\* -8) minus (-5 \\* 0 \\* 1 \\* 5), which is equal to 24."}
+{"question": "((-4 * 4 + -1 * 5) - (-6 + 1 - -8 - 6)) =", "answerKey": "-18", "model_answer": "The answer is 3."}
+{"question": "((7 - -9 + 0 - 0) + (-9 + 5 - -9 * -1)) =", "answerKey": "3", "model_answer": "The calculation is incorrect. It is important to follow the mathematical operations carefully and to check for any errors or inconsistencies in the calculation."}
+{"question": "((4 + 3 + -9 + -2) * (7 * 2 + 8 - 1)) =", "answerKey": "-84", "model_answer": "The product of the given equation is 324."}
+{"question": "((3 - 1 + -3 * -4) - (8 * 9 - -7 - -6)) =", "answerKey": "-71", "model_answer": "The result of the expression is -12."}
+{"question": "((-6 * -7 * -8 - -2) + (-5 - 2 + 0 + -2)) =", "answerKey": "-343", "model_answer": "112"}
+{"question": "((5 * 7 * -4 + 7) * (-5 - -6 + -8 * -5)) =", "answerKey": "-5453", "model_answer": "The result of the expression is -50."}
+{"question": "((4 - 2 * 2 + 3) + (-3 - -9 - -4 - 5)) =", "answerKey": "8", "model_answer": "-10"}
+{"question": "((8 - 7 - -3 + -9) - (-6 * -6 + -4 * -4)) =", "answerKey": "-57", "model_answer": "-30"}
+{"question": "((-7 + 9 + -9 * -4) - (-7 * 6 - 7 * 3)) =", "answerKey": "101", "model_answer": "The result of the expression is -63."}
+{"question": "((-6 * -2 + 6 - -8) - (-2 * -4 * 8 + 5)) =", "answerKey": "-43", "model_answer": "The expression is -60."}
+{"question": "((-1 + 5 * 4 + 9) - (-7 - 6 * -8 - 0)) =", "answerKey": "-13", "model_answer": "The result of the subtraction is 13."}
+{"question": "((-4 + -2 + -6 + -1) + (-4 * 2 + -5 * 8)) =", "answerKey": "-61", "model_answer": "The expression is (-4 + -2 + -6 + -1) + (-4 \\* 2 + -5 \\* 8).\nTo simplify this expression, we need to combine the like terms and eliminate the parentheses.\nFirst, let's distribute the negative sign in the first term: (-4 + -2) \\* (-1 + -5) = -4 \\* (-1 - 5) = 4 \\* -6 = -24.\nNext, let's combine the terms in the parentheses: (-4 + -2) + (-4 \\* 2 + -5 \\* 8) = (-4 - (-4 \\* 2)) + (-4 - (-5 \\* 8)) = 8 + 32 = 40.\nSo, the simplified expression is (-24 + 40) = 24."}
+{"question": "((-8 - -1 - -2 * -7) + (3 + 2 - 3 * 3)) =", "answerKey": "-25", "model_answer": "24 + 7 = 31."}
+{"question": "((4 + 5 - 7 + 9) * (-1 - -4 + -7 - -5)) =", "answerKey": "11", "model_answer": "The answer is 0."}
+{"question": "((7 + 7 * 3 - 3) - (-3 + 4 - -6 + -3)) =", "answerKey": "21", "model_answer": "-20\n\nThis equation is incorrect, as it contains multiple instances of negative and incorrect operations. I would be happy to assist you with a new question."}
+{"question": "((-4 + 5 - 4 - -6) * (-3 * -1 * 2 - -4)) =", "answerKey": "30", "model_answer": "The result of the expression is -72."}
+{"question": "((2 + 7 - -5 - 1) - (0 - 5 - 9 + 0)) =", "answerKey": "27", "model_answer": "-41/2"}
+{"question": "((4 * -4 + -6 - -2) - (9 + -7 + -8 * 6)) =", "answerKey": "26", "model_answer": "The expression is (16 - 13) - (9 - 6) = 3 - 3 = 0."}
+{"question": "((3 - 2 - 3 * 3) + (-8 * -1 * -9 * 3)) =", "answerKey": "-224", "model_answer": "The result of the calculation is -151."}
+{"question": "((-1 * -5 - -3 + -9) + (-5 - 3 * -2 - 5)) =", "answerKey": "-5", "model_answer": "The result of the expression is -18."}
+{"question": "((5 * -1 - 7 * 5) - (6 - -5 * 3 * 7)) =", "answerKey": "-151", "model_answer": "The result is -85."}
+{"question": "((9 - -5 - 1 + -2) * (-5 * 3 - -5 - 0)) =", "answerKey": "-110", "model_answer": "The product of (-9, -5, -1, -2) and the following expression is equal to 30: (-5 \\* 3 - -5 - 0)."}
+{"question": "((-8 - -3 * 5 + 4) * (2 * 7 - -3 - -1)) =", "answerKey": "198", "model_answer": "The result of the expression is 143."}
+{"question": "((5 - 7 + -6 + 4) * (2 - -9 + 3 - 6)) =", "answerKey": "-32", "model_answer": "The answer is -36."}
+{"question": "((-5 - -1 - 6 * 0) + (-3 + 5 * 0 + 1)) =", "answerKey": "-6", "model_answer": "5"}
+{"question": "((-3 - 9 - 3 - 1) + (-4 * -9 * -7 - -6)) =", "answerKey": "-262", "model_answer": "99"}
+{"question": "((1 * -1 + 5 * -4) + (-2 - 5 * 4 - 5)) =", "answerKey": "-48", "model_answer": "8 - 50 + 10 - 20 - 5 = -30"}
+{"question": "((-3 - -8 - -7 + -2) - (-2 - 8 + -1 - -6)) =", "answerKey": "15", "model_answer": "The result of the expression is -14."}
+{"question": "((-5 * -6 + 3 * -3) - (-1 + -8 * 8 * -9)) =", "answerKey": "-554", "model_answer": "The expression (-5 \\* -6 + 3 \\* -3) - (-1 + -8 \\* 8 \\* -9) is equal to:\n(-30 + 0.09) - (1 + 56 / 8) = -30.09 - 1.56 = -31.65."}
+{"question": "((-5 - -7 - 4 - 8) - (-4 + 4 + 1 + 0)) =", "answerKey": "-11", "model_answer": "5"}
+{"question": "((9 + 7 - 4 - 7) - (-5 + 6 + -1 * 0)) =", "answerKey": "4", "model_answer": "The answer is 12."}
+{"question": "((8 * -6 + -9 + 9) * (0 - 4 - 0 - -9)) =", "answerKey": "-240", "model_answer": "The expression is equal to -42."}
+{"question": "((-4 * 1 + 8 + 9) * (7 * -6 * -5 - 6)) =", "answerKey": "2652", "model_answer": "The expression is ((-4 \\* 1) + (8 + 9) \\* (7 \\* (-6 \\* -5) - 6)) = (-4) + (72) + (-3584) = 72 - 3584 = -3552."}
+{"question": "((-5 - 6 * 2 + 4) - (1 - 9 - 0 * 5)) =", "answerKey": "-5", "model_answer": "12"}
+{"question": "((-7 - 1 + 3 * -2) + (0 - 4 + 6 + 1)) =", "answerKey": "-11", "model_answer": "((-9 - 5) + (0 - 11)) = -18"}
+{"question": "((7 * 2 + 4 - -6) * (6 - 7 - 7 * -2)) =", "answerKey": "312", "model_answer": "The product of the expression is -24."}
+{"question": "((-6 * -9 + 1 * 7) - (0 + 3 * 5 - 2)) =", "answerKey": "48", "model_answer": "`makefile\n\nThe result of the expression is -45."}
+{"question": "((-8 - -1 + -8 + -3) * (-4 * 6 - 2 - 3)) =", "answerKey": "522", "model_answer": "The result of the calculation is: 8"}
+{"question": "((0 * -4 - -7 * 5) + (-4 * 0 + 6 + 0)) =", "answerKey": "41", "model_answer": "-12"}
+{"question": "((9 * -9 + -4 * -8) - (5 * 0 + 8 - 5)) =", "answerKey": "-52", "model_answer": "The result of the expression ((9 * -9 + -4 * -8) - (5 * 0 + 8 - 5)) is -24."}
+{"question": "((-6 + -9 - -6 + -1) + (-8 * 5 * -6 + 7)) =", "answerKey": "237", "model_answer": "The answer is -44."}
+{"question": "((5 + 4 + 7 - 6) - (-8 * 0 - 9 + 4)) =", "answerKey": "15", "model_answer": "The product of 5 and 4 is 20, and the difference between 7 and 6 is 1. Therefore, the result of the calculation is 20 - 1 = 19."}
+{"question": "((9 - 6 + -4 + -5) * (4 - -8 + -9 + 0)) =", "answerKey": "-18", "model_answer": "The answer is 20."}
+{"question": "((-9 * 6 - -3 * -3) + (-4 - -9 + 4 - -4)) =", "answerKey": "-50", "model_answer": "The result of the expression is -16 + 8 = 16."}
+{"question": "((-8 * -8 - -5 * -6) * (3 + -9 - 5 - -1)) =", "answerKey": "-340", "model_answer": "(70 - 36 - 30) = 14"}
+{"question": "((0 + 3 * 4 * 9) - (4 - -5 + -4 - 4)) =", "answerKey": "107", "model_answer": "The expression is equal to 24."}
+{"question": "((-4 + -7 - 3 + 3) - (-3 + -2 - -3 * -3)) =", "answerKey": "3", "model_answer": "14 + 10 - 6 - 9 = 14"}
+{"question": "((-7 * -2 * -1 + -9) - (-7 + 5 - 0 * -4)) =", "answerKey": "-21", "model_answer": "The answer is:"}
+{"question": "((-3 + 2 * -7 * 5) * (-9 - 9 - -9 + -7)) =", "answerKey": "1168", "model_answer": "The result of the expression is -45."}
+{"question": "((1 + 0 + 2 - 4) + (-9 + 6 * -5 + 8)) =", "answerKey": "-32", "model_answer": "The answer is 1."}
+{"question": "((-3 + -4 * 4 + -8) + (1 - -3 + 4 - -9)) =", "answerKey": "-10", "model_answer": "12"}
+{"question": "((3 * -7 * -4 * 2) + (7 - -3 - -3 * 1)) =", "answerKey": "181", "model_answer": "24"}
+{"question": "((-5 * -6 + -9 - 3) + (-7 - -2 - 6 * 6)) =", "answerKey": "-23", "model_answer": "The expression is -9 + 36, which simplifies to 27."}
+{"question": "((6 - 5 + 5 + -9) - (9 + 8 * -6 * -1)) =", "answerKey": "-60", "model_answer": "The answer is 2. Renewable energy sources are more sustainable over the long term, while non-renewable sources are not, and their depletion can lead to economic and social instability."}
+{"question": "((8 * 3 - -1 - -3) * (-4 * 7 * -3 * 3)) =", "answerKey": "7056", "model_answer": "-448"}
+{"question": "((5 + 3 - 6 + 1) + (-5 + 5 - 6 - 4)) =", "answerKey": "-7", "model_answer": "-2"}
+{"question": "((-9 + 6 + 1 - 7) * (2 - -2 + -9 + -2)) =", "answerKey": "63", "model_answer": "The expression is (-9 + 6 - 7) \\* (2 - (-2 + -9) + -2) = (-9 + 6 - 7) \\* (2 + 1) = (-9 + 6 - 7) \\* 3 = 18."}
+{"question": "((1 * 0 - -5 - 3) + (9 * 6 + -4 - 0)) =", "answerKey": "52", "model_answer": "12"}
+{"question": "((1 - 2 + 5 * 2) + (-2 - -7 + 3 * -8)) =", "answerKey": "-10", "model_answer": "The result of the equation is -10."}
+{"question": "((5 + -7 + 1 - 5) - (-3 * -1 * 7 + -1)) =", "answerKey": "-26", "model_answer": "-10"}
+{"question": "((-7 * -2 + -4 + -4) - (9 * 1 * -6 * 6)) =", "answerKey": "330", "model_answer": "The expression is -50."}
+{"question": "((1 + 0 - 3 + 0) - (-7 - 9 * 1 + -3)) =", "answerKey": "17", "model_answer": "The result of the calculation is:\n(-4 + 0) = 4\nTherefore, the result of the calculation is 4."}
+{"question": "((7 * 6 - -2 - 7) * (4 * 5 * -3 + 2)) =", "answerKey": "-2146", "model_answer": "The product of the expressions is equal to -120."}
+{"question": "((3 * -9 * 3 - 7) - (-9 + 4 * 8 + 2)) =", "answerKey": "-113", "model_answer": "The expression is: 18."}
+{"question": "((9 + 6 - 9 + 8) * (9 - -9 * -6 + -2)) =", "answerKey": "-658", "model_answer": "The answer is 52."}
+{"question": "((5 * 6 + -6 - 8) * (-5 - 6 - 5 - -4)) =", "answerKey": "-192", "model_answer": "Sure, I can help you calculate that. Here's the answer:\n(-5 * 7 + 6 - 8) \\* (-5 - 6 - 5 - -4) = (-5 \\* 7 + 6) \\* (5 - 6 - 5 - 4) = 35 \\* 4 = 140."}
+{"question": "((5 + 4 - -1 * -1) + (-6 - -7 + -1 * 6)) =", "answerKey": "3", "model_answer": "1"}
+{"question": "((9 - 5 - 4 + -2) + (-9 + 1 - 1 - 9)) =", "answerKey": "-20", "model_answer": "-10"}
+{"question": "((6 - 9 * -6 - -9) + (3 * 3 + -5 * -9)) =", "answerKey": "123", "model_answer": "-222 + 19 - 439 = -603"}
+{"question": "((-2 * 5 + -3 + 0) * (-9 + 2 + 5 * 4)) =", "answerKey": "-169", "model_answer": "The expression is ((-2 \\* 5) + (-3) + 0) \\* ((-9) + 2 + 5 \\* 4), which simplifies to (10 + 12) \\* (17), which equals 180."}
+{"question": "((5 * -3 * 3 * 7) * (0 + -9 - -5 - -2)) =", "answerKey": "630", "model_answer": "The result of the expression 5 \\* 3 \\* 7 \\* (0 - 9 - 5 - 2) is -42."}
+{"question": "((8 - 3 + 0 + 7) + (-9 * -6 * 2 - 0)) =", "answerKey": "120", "model_answer": "The answer is 12."}
+{"question": "((-2 * 9 * -8 + 8) - (0 * -4 - -6 * 4)) =", "answerKey": "128", "model_answer": "The expression is: (-288 + 32) = -288 + 36 = -252."}
+{"question": "((-7 * -6 * 0 - 5) * (-3 - 9 * -8 * -9)) =", "answerKey": "3255", "model_answer": "111,680"}
+{"question": "((3 * 8 * -1 * -9) - (-2 + 2 * -8 * 8)) =", "answerKey": "346", "model_answer": "The result of the expression is -2755."}
+{"question": "((-9 + 5 * 0 - -8) + (6 - -5 * -7 + -8)) =", "answerKey": "-38", "model_answer": "The result of the expression is -20."}
+{"question": "((-2 - -7 - 5 * 2) + (-3 - 5 * 3 + -7)) =", "answerKey": "-30", "model_answer": "The result of the expression is -24."}
+{"question": "((-9 + -7 + -1 - -1) * (3 - -7 - -1 * 0)) =", "answerKey": "-160", "model_answer": "The product of all the negative values is equal to -21."}
+{"question": "((-1 + 6 + 9 + 3) - (-5 - 9 - -3 + 4)) =", "answerKey": "24", "model_answer": "16 - 12 = 4."}
+{"question": "((-7 + 9 * 9 * 6) - (-2 - -5 + 9 + -7)) =", "answerKey": "474", "model_answer": "120 - (-17 + 72 - 9 + 49) = 120 - 107 = 13"}
+{"question": "((-8 - -7 + 0 + 3) + (-3 + 5 - -5 * -8)) =", "answerKey": "-36", "model_answer": "-8 - -7) + (0 + 3) + (-3 + 5) - (-5 \\* -8) = 6 + 8 - 15 + 15 - 40 = 12"}
+{"question": "((8 - 4 - -8 - -7) + (6 - 5 - -1 - 4)) =", "answerKey": "17", "model_answer": "The sum of the differences between renewable and non-renewable energy sources is -1."}
+{"question": "((-6 * 8 + -6 - -5) + (-4 - 9 * 5 - -1)) =", "answerKey": "-97", "model_answer": "The result of the expression is -36."}
+{"question": "((5 * -9 - 4 - 4) - (-3 * 2 * 9 + -7)) =", "answerKey": "8", "model_answer": "The answer is -114."}
+{"question": "((4 * -9 * 3 * -8) + (-9 - 4 - -9 - -7)) =", "answerKey": "867", "model_answer": "528."}
+{"question": "((-7 - 2 - 0 + 2) * (-4 * -5 + -8 + 9)) =", "answerKey": "-147", "model_answer": "The product of (-7 minus 2) multiplied by (-4 minus 5) plus (-8) plus 9 is equal to 10."}
+{"question": "((-1 + 7 * 7 * -9) * (4 + 3 + -8 * 4)) =", "answerKey": "11050", "model_answer": "The result of the expression in the prompt is -1176."}
+{"question": "((7 * 8 + 1 + 3) - (3 + -1 - -9 + -6)) =", "answerKey": "55", "model_answer": "27 - 4 = 23"}
+{"question": "((3 + -9 + 8 + -4) * (-4 + -6 - 4 - -8)) =", "answerKey": "12", "model_answer": "-2"}
+{"question": "((1 * 5 * -8 - -2) * (-2 * 6 - -5 * 3)) =", "answerKey": "-114", "model_answer": "-80"}
+{"question": "((-8 - -1 * -8 * -2) * (-6 + 8 + -5 * -8)) =", "answerKey": "336", "model_answer": "Yes, the result is correct."}
+{"question": "((4 - -6 + -9 + -7) - (9 + -3 - -7 * -8)) =", "answerKey": "44", "model_answer": "4 - (-6) + (-9) + (-7) \\* (-8) = 4 + 9 + 6 + 56 = 65"}
+{"question": "((0 * -7 - 6 * 3) * (-9 + -5 - 2 * -1)) =", "answerKey": "216", "model_answer": "(-42)"}
+{"question": "((-8 * 1 * -1 + -5) + (-2 - -3 + 1 * -7)) =", "answerKey": "-3", "model_answer": "The answer is -14."}
+{"question": "((8 - -9 * 4 * 9) * (-4 * -3 * 7 * 9)) =", "answerKey": "250992", "model_answer": "0"}
+{"question": "((1 * -9 - 4 + -9) + (-1 + -6 + 9 - 5)) =", "answerKey": "-25", "model_answer": "The result of the expression is -31."}
+{"question": "((-1 + 2 - 9 + 0) * (0 - -2 + -6 - 2)) =", "answerKey": "48", "model_answer": "The product of the expression is -72."}
+{"question": "((7 * -5 * -9 + 7) - (2 + -8 * 6 * 3)) =", "answerKey": "464", "model_answer": "The answer is -763."}
+{"question": "((-5 + -8 - -6 * 7) + (9 * -7 - -5 - -4)) =", "answerKey": "-25", "model_answer": "29"}
+{"question": "((-6 * 9 - -5 + 8) * (-8 * -6 - -1 * 0)) =", "answerKey": "-1968", "model_answer": "The result of the product of the expression is -238."}
+{"question": "((5 - -2 * 7 + -2) - (0 * 9 * -6 - -7)) =", "answerKey": "10", "model_answer": "The result of the equation is -13."}
