@@ -8,7 +8,7 @@ model = SentenceTransformer('all-MiniLM-L6-v2')
 correct_count = 0
 incorrect_count = 0
 
-with open("/home/nlabiosa/llama13B/llama/generated_answers/cos-e_vicuna13B.jsonl", "r") as f:
+with open("/home/nlabiosa/llama13B/llama/cos-e_experimentation/blip.jsonl", "r") as f:
     for line in f:
         item = json.loads(line)
         model_answer = item["model_answer"]

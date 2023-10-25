@@ -77,12 +77,11 @@ data = [
     ("What place is named in the title of the 1979 live album by rock legends Cheap Trick?", "Budapest", "Budokan", "Bhutan", "Britain", "B"),
     ("Who is the shortest man to ever win an NBA slam dunk competition?", "Anthony 'Spud' Webb", "Michael 'Air' Jordan", "Tyrone 'Muggsy' Bogues", "Julius 'Dr J' Erving", "A"),
     ("What is produced during photosynthesis?", "hydrogen", "nylon", "oxygen", "light", "C"),
-    ("Which of these songs was a Top 10 hit for the rock band The Police?", "'Radio Ga-Ga'", "'Ob-la-di Ob-la-da'", "'In-a-Gadda-Da-Vida'", "'De Do Do Do De Da Da Da'",  "D"),
-    ("According to Moore’s “ideal utilitarianism,” the right action is the one that brings about the greatest amount of", "pleasure", "happiness", "good", "virtue", "C")
-]
+    ("Which of these songs was a Top 10 hit for the rock band The Police?", "'Radio Ga-Ga'", "'Ob-la-di Ob-la-da'", "'In-a-Gadda-Da-Vida'", "'De Do Do Do De Da Da Da'",  "D")
+    ]
 
 few_shot_prompt = "\n\n".join([
-    f"Given the question: '{question}', the choices: (A) {choiceA}, (B) {choiceB}, (C) {choiceC}, (D) {choiceD}, the correct answer is ({correct_answer}) {locals()[f'choice{correct_answer}']}."
+    f"'{question}', Options: (A) {choiceA}, (B) {choiceB}, (C) {choiceC}, (D) {choiceD}, The correct answer is ({correct_answer}) {locals()[f'choice{correct_answer}']}."
     for question, choiceA, choiceB, choiceC, choiceD, correct_answer in data
 ])
 
@@ -125,22 +124,23 @@ for filename in os.listdir(args.data_path):
                 answerKey = row[5]
 
                 # Format the choices text
-                choices_text = ', '.join([f'({choice["label"]}) {choice["text"]}' for choice in choices])
+                choices_text = ' '.join([f'({choice["label"]}) {choice["text"]}' for choice in choices])
 
                 # Combine the stem and answer in a question-answer format
-                prompt = f"Given the question: '{stem}', the choices: {choices_text}, the correct answer is"
-                prompt = few_shot_prompt + prompt
+                prompt = f"'{stem}', Options: {choices_text}. The correct answer is "
+                #prompt = few_shot_prompt + prompt
                 # Tokenize the prompt
                 inputs = tokenizer.encode(prompt, return_tensors='pt')
                 inputs = inputs.to(device)
 
                 # Generate a response
-                outputs = model.generate(inputs, max_new_tokens=50)
+                outputs = model.generate(inputs, max_new_tokens=256)
 
                 # Decode the output tokens to text
                 rationale = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
-                rationale = rationale.replace(few_shot_prompt, "")
+                #rationale = rationale.replace(few_shot_prompt, "")
+                rationale = rationale.replace(prompt, "")
                 # Create the output example
                 example = {
                     'question': stem,

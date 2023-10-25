@@ -42,7 +42,7 @@ ulimit -l >> $benchmark_logs
 ## Select python File to run
 source activate llava
 python cosine.py
-
+#python blip_generate.py
 sleep 3
 
 echo "Ending time: $(date)" >> $benchmark_logs

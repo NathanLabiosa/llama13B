@@ -1,8 +1,0 @@
-Currently Loaded Modulefiles:
- 1) cuda/11.0   2) anaconda3/2022.05  
-Traceback (most recent call last):
-  File "/home/nlabiosa/llama/test_generate.py", line 8, in <module>
-    tokenizer = PreTrainedTokenizerFast(tokenizer_file='llama-13b-hf/tokenizer.model')
-  File "/home/nlabiosa/.conda/envs/llava/lib/python3.10/site-packages/transformers/tokenization_utils_fast.py", line 111, in __init__
-    fast_tokenizer = TokenizerFast.from_file(fast_tokenizer_file)
-Exception: stream did not contain valid UTF-8

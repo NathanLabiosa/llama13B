@@ -45,7 +45,8 @@ source activate llava
 #python openbook_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/llama13B/llama/Openbook/data.jsonl" --output_path "/home/nlabiosa/llama13B/llama/Openbook/llama13B_answers.jsonl"
 #python openbook_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/vicuna-7b-v1.1" --data_path "/home/nlabiosa/llama13B/llama/Openbook/data.jsonl" --output_path "/home/nlabiosa/llama13B/llama/Openbook/vicuna7B_answers.jsonl"
 #python openbook_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/vicuna-13b-v1.1" --data_path "/home/nlabiosa/llama13B/llama/Openbook/data.jsonl" --output_path "/home/nlabiosa/llama13B/llama/Openbook/vicuna13B_answers.jsonl"
-python eval.py
+#python blip_generate.py
+#python eval.py
 python cosine.py
 
 sleep 3

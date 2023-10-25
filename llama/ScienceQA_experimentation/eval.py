@@ -1,60 +1,58 @@
 import json
 import re
+import argparse
 
-#Load the data from the JSON file
-# with open('/home/nlabiosa/LLaVA/vqa_answers/minitest/specialized_output.jsonl') as f:
-#     data = json.load(f)
+def get_answer_from_text(text):
+    """
+    Extract the answer (e.g., 'A', 'B', ...) from the model's output text.
+    """
+    # pattern = re.compile(r'answer is \(?[A-E]\)?')
+    # pattern = re.compile(r'The answer is \(?\w*[A-E]\w*\)?')
+    pattern = re.compile(r'\(?(\w*[A-E]\w*)\)?')
 
-with open('/home/nlabiosa/llama13B/llama/science_output.json') as f:
-     data = json.load(f)
-# # with open('rationale_testingoutput.json') as f:
-# #      data = json.load(f)
+
+    matches = pattern.findall(text)
+    return matches[0] if matches else None
+
+parser = argparse.ArgumentParser(description="Load data from a JSON file.")
+parser.add_argument("--data_path", type=str, required=True, help="Path to the JSON file to be loaded.")
+parser.add_argument("--ground_truth_path", type=str, required=True, help="Path to the ground truth JSONL file.")
+args = parser.parse_args()
+
+# Load the ground truth data from a JSONL file
+ground_truth_data = [json.loads(line.strip()) for line in open(args.ground_truth_path, 'r')]
+ground_truth_map = {item["question_id"]: item["ground_truth"] for item in ground_truth_data}
 
 # Initialize counters
 total_correct_predictions = 0
 total_incorrect_predictions = 0
-total_invalid_predictions = 0
-invalid = []
-# Process "correct" and "incorrect" sections
-for key in ["correct", "incorrect"]:
-    for item in data[key]:
-        ground_truth = item['ground_truth']
-        pred_text = item['pred']
+total_correct_predictions_with_images = 0
+total_correct_predictions_without_images = 0
+none_type_count = 0
 
-        # Extract the predicted answer from the 'pred' text, works best for LLaMA
-        # idx = pred_text.find('The answer is')
-        # if idx != -1:
-        #     sub_string = pred_text[idx + len('The answer is'):].strip() # Removes whitespaces and newline characters
-        #     if sub_string: # Make sure the string is not empty
-        #         predicted_answer = sub_string.split()[0] # Split at first whitespace and take the first element
-        #         predicted_answer = predicted_answer.rstrip('.')
-        #         if ground_truth == predicted_answer:
-        #             total_correct_predictions += 1
-        #         else:
-        #             total_incorrect_predictions += 1
-        #     else:
-        #         total_invalid_predictions += 1
-        #         #invalid.append(item['pred'])
-        # else:
-        #     total_invalid_predictions += 1
-            #invalid.append(item['pred'])
+data = [json.loads(line.strip()) for line in open(args.data_path, 'r')]
+print(args.data_path, flush=True)
 
-        # Works best for LLaVA
-        #pattern = re.compile(r'\(([A-E])\)')
-        # pattern = re.compile(r'The answer is \(?([A-E])\)?')
-        pattern = re.compile(r'The answer is ([A-E])\.')
-        match = pattern.search(pred_text)
-        if match is not None:
-            predicted_answer = match.group(1)
+for item in data:
+    ground_truth = ground_truth_map.get(item['question_id'], None)
+    predicted_answer = get_answer_from_text(item['text'])
+    # print(type(ground_truth))
+    # print(type(predicted_answer))
+    if predicted_answer is None:
+        none_type_count += 1
 
-            if ground_truth == predicted_answer:
-                total_correct_predictions += 1
-            else:
-                total_incorrect_predictions += 1
+    if ground_truth == predicted_answer:
+        total_correct_predictions += 1
+        if 'image' in item:
+            total_correct_predictions_with_images += 1
         else:
-            total_invalid_predictions += 1
+            total_correct_predictions_without_images += 1
+    else:
+        total_incorrect_predictions += 1
 
-print(f"Total correct predictions: {total_correct_predictions}")
-print(f"Total incorrect predictions: {total_incorrect_predictions}")
-print(f"Total invalid predictions: {total_invalid_predictions}")
-#print(invalid[:3])
+print(f"Total correct predictions: {total_correct_predictions}", flush=True)
+print(f"    Total correct predictions with images: {total_correct_predictions_with_images}")
+print(f"    Total correct predictions without images: {total_correct_predictions_without_images}")
+print(f"Total incorrect predictions: {total_incorrect_predictions}", flush=True)
+print(f"Total NoneType values encountered: {none_type_count}")
+print("", flush=True)

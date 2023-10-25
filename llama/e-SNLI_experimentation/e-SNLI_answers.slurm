@@ -42,8 +42,10 @@ ulimit -l >> $benchmark_logs
 ## Select python File to run
 source activate llava
 # python e-SNLI_generate_answers.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/llama13B/llama/e-SNLI_experimentation/esnli_minitest.csv" --output_path "experimentation.jsonl"
-python e-SNLI_evaluate_results.py
+#python e-SNLI_evaluate_results.py
 python cosine_eval.py
+#python blip_generate.py
+
 
 sleep 3
 

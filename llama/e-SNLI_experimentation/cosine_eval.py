@@ -10,7 +10,7 @@ correct_count = 0
 incorrect_count = 0
 label_counts = {"entailment": 0, "neutral": 0, "contradiction": 0}
 
-with open("/home/nlabiosa/llama13B/llama/generated_answers/e-snli_vicuna13B_v2.jsonl", "r") as f:
+with open("/home/nlabiosa/llama13B/llama/e-SNLI_experimentation/blip_esnli.jsonl", "r") as f:
     # Compute sentence embeddings for labels
     label_embeddings = model.encode(list(label_counts.keys()))
 

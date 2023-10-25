@@ -6,7 +6,7 @@ incorrect_count = 0
 invalid_count = 0
 #
 #
-with open("/home/nlabiosa/llama13B/llama/generated_answers/SVAMP_llava13B_rerun.jsonl", "r") as f:
+with open("/home/nlabiosa/llama13B/llama/SVAMP_experimentation/blip_svamp.jsonl", "r") as f:
     for line in f:
         item = json.loads(line)
         model_answer = item["model_answer"]

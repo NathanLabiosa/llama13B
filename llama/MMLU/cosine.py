@@ -2,6 +2,7 @@ import json
 import os
 from scipy.spatial.distance import cosine
 from sentence_transformers import SentenceTransformer
+import argparse
 
 # Load the sentence transformer model
 model = SentenceTransformer('all-MiniLM-L6-v2')
@@ -13,7 +14,12 @@ categories = [
     "other (business, health, misc.)",
 ]
 
-base_path = "/home/nlabiosa/llama13B/llama/MMLU/llava13B"
+parser = argparse.ArgumentParser()
+parser.add_argument('--data_path', type=str, required=True, help='Path to the test folder')
+args = parser.parse_args()
+
+base_path = args.data_path
+print(args.data_path, flush=True)
 
 # Dictionary to store the counts for each category
 category_counts = {category: {"correct": 0, "incorrect": 0} for category in categories}
@@ -32,13 +38,22 @@ for category in categories:
                 model_answer = item["model_answer"]
                 true_answer = item["answerKey"]
                 choices = item["choices"]
+                question = item['question']
 
+                
+                choices_text = ', '.join([f'({choice["label"]}) {choice["text"]}' for choice in choices])
+
+                # Combine the stem and answer in a question-answer format
+                remove_string = f"Given the question: '{question}', the choices: {choices_text}, the correct answer is"
+                model_answer = model_answer.replace(remove_string, "").strip()
+                
                 # Compute sentence embedding for model answer
                 model_answer_emb = model.encode([model_answer])[0]
 
                 # Compute sentence embeddings for each choice and calculate cosine similarity
                 similarities = []
                 for choice in choices:
+                    choice_text_with_label = f"({choice['label']}) {choice['text']}"
                     choice_emb = model.encode([choice["text"]])[0]
                     similarity = 1 - cosine(model_answer_emb, choice_emb)
                     similarities.append(similarity)

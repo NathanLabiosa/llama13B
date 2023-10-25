@@ -5,7 +5,6 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --ntasks-per-node=2
 #SBATCH --gres=gpu:1
-#SBATCH --constraint=gmem48
 #SBATCH --job-name=llama_ScienceQA
 
 #SBATCH --error=llama_ScienceQA.%J.err
@@ -41,9 +40,34 @@ ulimit -l >> $benchmark_logs
 
 ## Select python File to run
 source activate /home/nlabiosa/.conda/envs/llava
-#python llama-ScienceQA.py --model_path "/home/nlabiosa/llama13B/llama/llama-7b-hf" --data_path "/home/nlabiosa/LLaVA/ScienceQA/data/scienceqa/llava_minitest_QCM-LEPA.json" --output_path "llama-ScienceQA_7B_answers.jsonl"
-python eval.py
-python sentence_eval.py
+# python llama-ScienceQA.py --model_path "/home/nlabiosa/llama13B/llama/llama-7b-hf" --data_path "/home/nlabiosa/LLaVA/ScienceQA/data/scienceqa/llava_test_QCM-LEPA.json" --output_path "/home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest4/new_llama7B.jsonl"
+# python llama-ScienceQA.py --model_path "/home/nlabiosa/llama13B/llama/llama-13b-hf" --data_path "/home/nlabiosa/LLaVA/ScienceQA/data/scienceqa/llava_test_QCM-LEPA.json" --output_path "/home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest4/new_llama13B.jsonl"
+#python blip_noimage.py
+# python blip_image.py --model_path /home/nlabiosa/llama13B/llama/blip --data_path "/home/nlabiosa/LLaVA/ScienceQA/data/scienceqa/llava_test_QCM-LEPA.json" --output_path "/home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest4/blip_noimage.jsonl"
+
+# python eval.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest2/llava7B_image.jsonl --split test
+# python eval.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest2/llava7B_noimage.jsonl --split test
+# python eval.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/llava13B_image.jsonl --split filtered
+# python eval.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/llava13B_noimage.jsonl --split filtered
+# python eval.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest4/llava7B_image.jsonl --ground_truth_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/groundtruth_full.jsonl
+# python eval.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest4/llava7B_noimage.jsonl  --ground_truth_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/groundtruth_full.jsonl
+# python eval.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest4/llava13B_image.jsonl --ground_truth_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/groundtruth_full.jsonl
+# python eval.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest4/llava13B_noimage.jsonl  --ground_truth_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/groundtruth_full.jsonl
+
+# python eval.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest3/llava7B_image.jsonl --ground_truth_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/groundtruth_full.jsonl
+# python eval.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest3/llava7B_noimage.jsonl  --ground_truth_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/groundtruth_full.jsonl
+# python eval.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest3/llava13B_image.jsonl --ground_truth_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/groundtruth_full.jsonl
+# python eval.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest3/llava13B_noimage.jsonl  --ground_truth_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/groundtruth_full.jsonl
+
+python cosine.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest4/llama_llava.jsonl --ground_truth_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/groundtruth_full.jsonl
+#python cosine.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest4/control2.jsonl --ground_truth_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/groundtruth_full.jsonl
+#python cosine.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest4/onlytext_output --ground_truth_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/groundtruth_full.jsonl
+#python cosine.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest4/onlyimages_output --ground_truth_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/groundtruth_full.jsonl
+# python eval.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest2/llava7B_noimage.jsonl  --ground_truth_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/groundtruth_full.jsonl
+# python eval.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest2/llava13B_image.jsonl --ground_truth_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/groundtruth_full.jsonl
+# python eval.py --data_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/fulltest2/llava13B_noimage.jsonl  --ground_truth_path /home/nlabiosa/llama13B/llama/ScienceQA_experimentation/groundtruth_full.jsonl
+
+# python VisualBERT.py --data_path "/home/nlabiosa/LLaVA/ScienceQA/data/scienceqa/llava_test_QCM-LEPA.json" --output_path "/home/nlabiosa/llama13B/llama/ScienceQA_experimentation/VisualBERT/VisualBERT_images.jsonl" --image_folder /home/nlabiosa/LLaVA/ScienceQA/data/scienceqa/test
 
 sleep 3
 

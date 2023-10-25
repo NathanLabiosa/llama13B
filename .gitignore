@@ -6,4 +6,10 @@ llama/SVAMP/
 llama-7b-hf/
 llama-13b-hf/
 cos-e_experimentation/core
-
+llama/winoground/
+vicuna-7b-v1.1
+vicuna-13b-v1.1
+llama/MMLU/test/
+llama/IMDB/dataset
+llama/BBH/BIG-Bench-Hard
+llama/MMLU/test

@@ -8,10 +8,10 @@ model = SentenceTransformer('all-MiniLM-L6-v2')
 correct_count = 0
 incorrect_count = 0
 
-with open("/home/nlabiosa/llama13B/llama/Openbook/llava13B_answers.jsonl", "r") as f:
+with open("/home/nlabiosa/llama13B/llama/Openbook/blip_open.jsonl", "r") as f:
     for line in f:
         item = json.loads(line)
-        model_answer = item["model_answer"]
+        model_answer = item["rationale"]
         true_answer = item["answerKey"]
         choices = item["question"]["choices"]
 

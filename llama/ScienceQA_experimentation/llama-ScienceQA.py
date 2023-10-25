@@ -2,6 +2,7 @@ import json
 import torch
 from transformers import LlamaForCausalLM, LlamaTokenizer
 import argparse
+import re
 
 
 # Command-line arguments
@@ -14,6 +15,9 @@ args = parser.parse_args()
 # Load the LLMa model and tokenizer
 tokenizer = LlamaTokenizer.from_pretrained(args.model_path)
 model = LlamaForCausalLM.from_pretrained(args.model_path, torch_dtype=torch.float16, use_cache=True).cuda()
+
+choice_tokens = ["A", "B", "C", "D", "E"]
+choice_token_ids = tokenizer.convert_tokens_to_ids(choice_tokens)
 
 # Check if a GPU is available and if not, use a CPU
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -34,7 +38,7 @@ examples = [
     },
     {
         'question': "What does the simile in this text suggest?\nTara rubbed coconut oil on her hands, which were like the parched earth during a drought.\nContext: N/A\nOptions: (A) Tara was baking something. (B) Tara's hands were dry and cracked.",
-        'answer': "B",
+        'answer': "A",
         'lecture': 'Figures of speech are words or phrases that use language in a nonliteral or unusual way. They can make writing more expressive.\nA simile uses like or as to compare two things that are not actually alike.\nThe cat\'s fur was as dark as the night.\nSOLUTION: The text includes a simile, using like or as to compare two things that are not actually alike.\nThe simile like the parched earth during a drought suggests that Tara\'s hands were dry and cracked. A drought is a period without rain; the ground during a drought can become hard and cracked.'
     }
 ]
@@ -47,17 +51,20 @@ with open(args.data_path, 'r') as f:
 with open(args.output_path, 'a') as writer:
     # Iterate over each example in the dataset
     for i, example in enumerate(data):
+        idx = example["id"]
         question = example['conversations'][0]
         qs = question['value']
         qs = qs.replace('<image>', '').strip()
 
+
         few_shot_prompt = ""
 
         for ex in examples:
-            few_shot_prompt += f"{ex['question']} Think step by step and justify your steps. {ex['lecture']} The answer is {ex['answer']} \n"
-
+            few_shot_prompt += f"{ex['question']} Think step by step and justify your steps. The answer is {ex['answer']} \n"
+        # print(qs)
         # Concatenate the question and answer in a question-answer format
-        prompt = few_shot_prompt + qs + " . Think step by step and justify your steps."
+        prompt = few_shot_prompt + qs + " . Think step by step and justify your steps. "
+        # prompt = few_shot_prompt + qs + " . Think step by step and justify your steps. "
 
         # Tokenize the prompt
         inputs = tokenizer.encode(prompt, return_tensors='pt')
@@ -66,21 +73,26 @@ with open(args.output_path, 'a') as writer:
         inputs = inputs.to(device)
 
         # Generate a response
-        outputs = model.generate(inputs, max_new_tokens = 150)
+        outputs = model.generate(inputs, max_new_tokens = 128)
 
         # Decode the output tokens to text
         output_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 
         # Remove the original prompt from the output
-        output_text = output_text.replace(few_shot_prompt, '')
-        output_text = output_text.replace(qs, '')
-        output_text = output_text.replace(" . Think step by step and justify your steps.", '')
+        output_text = output_text.replace(prompt, '')
+        prompt = prompt.replace(few_shot_prompt, '')
+        
+        # output_text = output_text.replace(qs, '')
+        # output_text = output_text.replace(cur_prompt, '')
+        # output_text = output_text.replace(". Think step by step and justify your steps.", '')
 
         # Add the generated response to the example
-        example['model_answer'] = output_text
+        # example['text'] = output_text
 
         # Write the example back to the JSONL file
         with open(args.output_path, 'a') as writer:
             #riter.write(json.dumps(output_text) + '\n')
-            writer.write(json.dumps(example) + '\n')
+            writer.write(json.dumps({"question_id": idx,
+                                   "prompt": prompt,
+                                   "text": output_text}) + "\n")
 
